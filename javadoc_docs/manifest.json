@@ -1,0 +1,1250 @@
+{
+  "source": "https://api.fluig.com/old/sdk",
+  "api_version": "2.0.0",
+  "total_classes": 187,
+  "failed_classes": 0,
+  "scraped_at": "2026-02-26T16:46:40.637Z",
+  "packages": [
+    {
+      "name": "com.fluig.sdk.api",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.alert",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.authorizeclient",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.cardindex",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.customappkey",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.document",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.ecm",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.enums",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.group",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.holiday",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.job",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.local",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.log",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.oauth",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.permission",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.search",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.social",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.task",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.workflow",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.api.workflow.enums",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.document",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.exception",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.filter",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.identity",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.page",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.service",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.tenant",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.user",
+      "description": ""
+    },
+    {
+      "name": "com.fluig.sdk.web",
+      "description": ""
+    }
+  ],
+  "classes": [
+    {
+      "name": "AdminUserVO",
+      "packageName": "com.fluig.sdk.tenant",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/AdminUserVO.html",
+      "file": "com.fluig.sdk.tenant/AdminUserVO.md"
+    },
+    {
+      "name": "AlertActionVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertActionVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertActionVO.md"
+    },
+    {
+      "name": "AlertConfigVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertConfigVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertConfigVO.md"
+    },
+    {
+      "name": "AlertEventVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertEventVO.md"
+    },
+    {
+      "name": "AlertModuleVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertModuleVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertModuleVO.md"
+    },
+    {
+      "name": "AlertObjectVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertObjectVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertObjectVO.md"
+    },
+    {
+      "name": "AlertSenderVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertSenderVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertSenderVO.md"
+    },
+    {
+      "name": "AlertService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/AlertService.html",
+      "file": "com.fluig.sdk.service/AlertService.md"
+    },
+    {
+      "name": "AlertUserVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertUserVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertUserVO.md"
+    },
+    {
+      "name": "AlertVO",
+      "packageName": "com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertVO.html",
+      "file": "com.fluig.sdk.api.alert/AlertVO.md"
+    },
+    {
+      "name": "AllocatedDocumentVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/AllocatedDocumentVO.html",
+      "file": "com.fluig.sdk.api.document/AllocatedDocumentVO.md"
+    },
+    {
+      "name": "ApplicationKeyCreationException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/ApplicationKeyCreationException.html",
+      "file": "com.fluig.sdk.exception/ApplicationKeyCreationException.md"
+    },
+    {
+      "name": "ApplicationKeyNotFoundException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/ApplicationKeyNotFoundException.html",
+      "file": "com.fluig.sdk.exception/ApplicationKeyNotFoundException.md"
+    },
+    {
+      "name": "ApplicationUserDataService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ApplicationUserDataService.html",
+      "file": "com.fluig.sdk.service/ApplicationUserDataService.md"
+    },
+    {
+      "name": "ArrayMapDeserializer",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ArrayMapDeserializer.html",
+      "file": "com.fluig.sdk.api/ArrayMapDeserializer.md"
+    },
+    {
+      "name": "ArticleCoverVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleCoverVO.html",
+      "file": "com.fluig.sdk.api.social/ArticleCoverVO.md"
+    },
+    {
+      "name": "ArticleService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ArticleService.html",
+      "file": "com.fluig.sdk.service/ArticleService.md"
+    },
+    {
+      "name": "ArticleUtils",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleUtils.html",
+      "file": "com.fluig.sdk.api.social/ArticleUtils.md"
+    },
+    {
+      "name": "ArticleVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleVO.html",
+      "file": "com.fluig.sdk.api.social/ArticleVO.md"
+    },
+    {
+      "name": "AssumeProcessTaskResultVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskResultVO.html",
+      "file": "com.fluig.sdk.api.workflow/AssumeProcessTaskResultVO.md"
+    },
+    {
+      "name": "AssumeProcessTasksResultVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksResultVO.html",
+      "file": "com.fluig.sdk.api.workflow/AssumeProcessTasksResultVO.md"
+    },
+    {
+      "name": "AssumeProcessTaskStatus",
+      "packageName": "com.fluig.sdk.api.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/AssumeProcessTaskStatus.html",
+      "file": "com.fluig.sdk.api.enums/AssumeProcessTaskStatus.md"
+    },
+    {
+      "name": "AssumeProcessTasksVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksVO.html",
+      "file": "com.fluig.sdk.api.workflow/AssumeProcessTasksVO.md"
+    },
+    {
+      "name": "AssumeProcessTaskVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskVO.html",
+      "file": "com.fluig.sdk.api.workflow/AssumeProcessTaskVO.md"
+    },
+    {
+      "name": "AttachmentVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/AttachmentVO.html",
+      "file": "com.fluig.sdk.api.cardindex/AttachmentVO.md"
+    },
+    {
+      "name": "AttachmentVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AttachmentVO.html",
+      "file": "com.fluig.sdk.api.workflow/AttachmentVO.md"
+    },
+    {
+      "name": "AuthorizeClientSdkService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/AuthorizeClientSdkService.html",
+      "file": "com.fluig.sdk.service/AuthorizeClientSdkService.md"
+    },
+    {
+      "name": "AuthorizeClientSdkServiceVO",
+      "packageName": "com.fluig.sdk.api.authorizeclient",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/AuthorizeClientSdkServiceVO.html",
+      "file": "com.fluig.sdk.api.authorizeclient/AuthorizeClientSdkServiceVO.md"
+    },
+    {
+      "name": "BaseAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/BaseAPIService.html",
+      "file": "com.fluig.sdk.service/BaseAPIService.md"
+    },
+    {
+      "name": "BPMAssignmentConfigurationVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentConfigurationVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMAssignmentConfigurationVO.md"
+    },
+    {
+      "name": "BPMAssignmentVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMAssignmentVO.md"
+    },
+    {
+      "name": "BPMCardIndexAttachmentNotDefinedException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMCardIndexAttachmentNotDefinedException.html",
+      "file": "com.fluig.sdk.exception/BPMCardIndexAttachmentNotDefinedException.md"
+    },
+    {
+      "name": "BPMDeadlineSpecificationVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMDeadlineSpecificationVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMDeadlineSpecificationVO.md"
+    },
+    {
+      "name": "BPMDocumentSecurityNotDefinedException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMDocumentSecurityNotDefinedException.html",
+      "file": "com.fluig.sdk.exception/BPMDocumentSecurityNotDefinedException.md"
+    },
+    {
+      "name": "BPMFileNotFoundException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMFileNotFoundException.html",
+      "file": "com.fluig.sdk.exception/BPMFileNotFoundException.md"
+    },
+    {
+      "name": "BPMFormFieldVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMFormFieldVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMFormFieldVO.md"
+    },
+    {
+      "name": "BPMFormRecordVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMFormRecordVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMFormRecordVO.md"
+    },
+    {
+      "name": "BPMLocalVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMLocalVO.md"
+    },
+    {
+      "name": "BPMProcessActivityTaskInfoVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityTaskInfoVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessActivityTaskInfoVO.md"
+    },
+    {
+      "name": "BPMProcessActivityVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessActivityVO.md"
+    },
+    {
+      "name": "BPMProcessAttachmentSecurityConfigurationVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityConfigurationVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessAttachmentSecurityConfigurationVO.md"
+    },
+    {
+      "name": "BPMProcessAttachmentSecurityVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessAttachmentSecurityVO.md"
+    },
+    {
+      "name": "BPMProcessStateVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessStateVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessStateVO.md"
+    },
+    {
+      "name": "BPMProcessTaskVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessTaskVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessTaskVO.md"
+    },
+    {
+      "name": "BPMProcessVersionVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessVersionVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMProcessVersionVO.md"
+    },
+    {
+      "name": "BPMRenameAttachmentFileFailedException",
+      "packageName": "com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMRenameAttachmentFileFailedException.html",
+      "file": "com.fluig.sdk.exception/BPMRenameAttachmentFileFailedException.md"
+    },
+    {
+      "name": "BPMRequestVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMRequestVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMRequestVO.md"
+    },
+    {
+      "name": "BPMUserVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMUserVO.html",
+      "file": "com.fluig.sdk.api.workflow/BPMUserVO.md"
+    },
+    {
+      "name": "CancelInstanceResultVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstanceResultVO.html",
+      "file": "com.fluig.sdk.api.workflow/CancelInstanceResultVO.md"
+    },
+    {
+      "name": "CancelInstancesResultVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstancesResultVO.html",
+      "file": "com.fluig.sdk.api.workflow/CancelInstancesResultVO.md"
+    },
+    {
+      "name": "CancelInstanceStatus",
+      "packageName": "com.fluig.sdk.api.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/CancelInstanceStatus.html",
+      "file": "com.fluig.sdk.api.enums/CancelInstanceStatus.md"
+    },
+    {
+      "name": "CancelInstancesVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstancesVO.html",
+      "file": "com.fluig.sdk.api.workflow/CancelInstancesVO.md"
+    },
+    {
+      "name": "CancelInstanceVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstanceVO.html",
+      "file": "com.fluig.sdk.api.workflow/CancelInstanceVO.md"
+    },
+    {
+      "name": "CardAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardAPIService.html",
+      "file": "com.fluig.sdk.service/CardAPIService.md"
+    },
+    {
+      "name": "CardChildrenVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardChildrenVO.html",
+      "file": "com.fluig.sdk.api.cardindex/CardChildrenVO.md"
+    },
+    {
+      "name": "CardFieldFilterVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFieldFilterVO.html",
+      "file": "com.fluig.sdk.api.cardindex/CardFieldFilterVO.md"
+    },
+    {
+      "name": "CardFieldVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFieldVO.html",
+      "file": "com.fluig.sdk.api.cardindex/CardFieldVO.md"
+    },
+    {
+      "name": "CardFindFieldVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFindFieldVO.html",
+      "file": "com.fluig.sdk.api.cardindex/CardFindFieldVO.md"
+    },
+    {
+      "name": "CardIndexAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardIndexAPIService.html",
+      "file": "com.fluig.sdk.service/CardIndexAPIService.md"
+    },
+    {
+      "name": "CardIndexAPIVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAPIVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardIndexAPIVO.md"
+    },
+    {
+      "name": "CardIndexAttachmentCreateVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentCreateVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardIndexAttachmentCreateVO.md"
+    },
+    {
+      "name": "CardIndexAttachmentVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardIndexAttachmentVO.md"
+    },
+    {
+      "name": "CardIndexCreateVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexCreateVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardIndexCreateVO.md"
+    },
+    {
+      "name": "CardIndexFindAPIVO",
+      "packageName": "com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardIndexFindAPIVO.html",
+      "file": "com.fluig.sdk.api.cardindex/CardIndexFindAPIVO.md"
+    },
+    {
+      "name": "CardIndexService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardIndexService.html",
+      "file": "com.fluig.sdk.service/CardIndexService.md"
+    },
+    {
+      "name": "CardIndexVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardIndexVO.md"
+    },
+    {
+      "name": "CardItemVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardItemVO.html",
+      "file": "com.fluig.sdk.api.workflow/CardItemVO.md"
+    },
+    {
+      "name": "CardService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardService.html",
+      "file": "com.fluig.sdk.service/CardService.md"
+    },
+    {
+      "name": "CollaborationAppVO",
+      "packageName": "com.fluig.sdk.api.ecm",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/CollaborationAppVO.html",
+      "file": "com.fluig.sdk.api.ecm/CollaborationAppVO.md"
+    },
+    {
+      "name": "CollaborationSDKService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CollaborationSDKService.html",
+      "file": "com.fluig.sdk.service/CollaborationSDKService.md"
+    },
+    {
+      "name": "CollaborationVO",
+      "packageName": "com.fluig.sdk.api.ecm",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/CollaborationVO.html",
+      "file": "com.fluig.sdk.api.ecm/CollaborationVO.md"
+    },
+    {
+      "name": "ColleagueVO",
+      "packageName": "com.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/ColleagueVO.html",
+      "file": "com.fluig.sdk.user/ColleagueVO.md"
+    },
+    {
+      "name": "CommentService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CommentService.html",
+      "file": "com.fluig.sdk.service/CommentService.md"
+    },
+    {
+      "name": "CommentVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CommentVO.html",
+      "file": "com.fluig.sdk.api.social/CommentVO.md"
+    },
+    {
+      "name": "CommunityService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CommunityService.html",
+      "file": "com.fluig.sdk.service/CommunityService.md"
+    },
+    {
+      "name": "CommunityVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CommunityVO.html",
+      "file": "com.fluig.sdk.api.social/CommunityVO.md"
+    },
+    {
+      "name": "ContentFilesService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ContentFilesService.html",
+      "file": "com.fluig.sdk.service/ContentFilesService.md"
+    },
+    {
+      "name": "CropVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CropVO.html",
+      "file": "com.fluig.sdk.api.social/CropVO.md"
+    },
+    {
+      "name": "CustomAppKeyService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CustomAppKeyService.html",
+      "file": "com.fluig.sdk.service/CustomAppKeyService.md"
+    },
+    {
+      "name": "DatasetOfflineMobileRestVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/DatasetOfflineMobileRestVO.html",
+      "file": "com.fluig.sdk.api.workflow/DatasetOfflineMobileRestVO.md"
+    },
+    {
+      "name": "DefaultSearchRequest",
+      "packageName": "com.fluig.sdk.api.search",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/DefaultSearchRequest.html",
+      "file": "com.fluig.sdk.api.search/DefaultSearchRequest.md"
+    },
+    {
+      "name": "DefaultSearchResponse",
+      "packageName": "com.fluig.sdk.api.search",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/DefaultSearchResponse.html",
+      "file": "com.fluig.sdk.api.search/DefaultSearchResponse.md"
+    },
+    {
+      "name": "DocumentApprovementHistoryVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentApprovementHistoryVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentApprovementHistoryVO.md"
+    },
+    {
+      "name": "DocumentApproverVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentApproverVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentApproverVO.md"
+    },
+    {
+      "name": "DocumentationProxyServiceService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/DocumentationProxyServiceService.html",
+      "file": "com.fluig.sdk.service/DocumentationProxyServiceService.md"
+    },
+    {
+      "name": "DocumentPermissionVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentPermissionVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentPermissionVO.md"
+    },
+    {
+      "name": "DocumentRestrictionVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentRestrictionVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentRestrictionVO.md"
+    },
+    {
+      "name": "DocumentSecurityConfigVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentSecurityConfigVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentSecurityConfigVO.md"
+    },
+    {
+      "name": "DocumentSecurityVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentSecurityVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentSecurityVO.md"
+    },
+    {
+      "name": "DocumentService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/DocumentService.html",
+      "file": "com.fluig.sdk.service/DocumentService.md"
+    },
+    {
+      "name": "DocumentTaskVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentTaskVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentTaskVO.md"
+    },
+    {
+      "name": "DocumentVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentVO.html",
+      "file": "com.fluig.sdk.api.document/DocumentVO.md"
+    },
+    {
+      "name": "FavoritesService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FavoritesService.html",
+      "file": "com.fluig.sdk.service/FavoritesService.md"
+    },
+    {
+      "name": "FileUploadVO",
+      "packageName": "com.fluig.sdk.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/FileUploadVO.html",
+      "file": "com.fluig.sdk.document/FileUploadVO.md"
+    },
+    {
+      "name": "FilterAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FilterAPIService.html",
+      "file": "com.fluig.sdk.service/FilterAPIService.md"
+    },
+    {
+      "name": "FilterFieldVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterFieldVO.html",
+      "file": "com.fluig.sdk.filter/FilterFieldVO.md"
+    },
+    {
+      "name": "FilterGroupResultVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterGroupResultVO.html",
+      "file": "com.fluig.sdk.filter/FilterGroupResultVO.md"
+    },
+    {
+      "name": "FilterGroupVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterGroupVO.html",
+      "file": "com.fluig.sdk.filter/FilterGroupVO.md"
+    },
+    {
+      "name": "FilterOrderVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterOrderVO.html",
+      "file": "com.fluig.sdk.filter/FilterOrderVO.md"
+    },
+    {
+      "name": "FilterResultVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterResultVO.html",
+      "file": "com.fluig.sdk.filter/FilterResultVO.md"
+    },
+    {
+      "name": "FilterSearchVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterSearchVO.html",
+      "file": "com.fluig.sdk.filter/FilterSearchVO.md"
+    },
+    {
+      "name": "FilterUpdateNameVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterUpdateNameVO.html",
+      "file": "com.fluig.sdk.filter/FilterUpdateNameVO.md"
+    },
+    {
+      "name": "FilterVO",
+      "packageName": "com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html",
+      "file": "com.fluig.sdk.filter/FilterVO.md"
+    },
+    {
+      "name": "FluigAPI",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigAPI.html",
+      "file": "com.fluig.sdk.api/FluigAPI.md"
+    },
+    {
+      "name": "FluigMessage",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigMessage.html",
+      "file": "com.fluig.sdk.api/FluigMessage.md"
+    },
+    {
+      "name": "FluigMessageType",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigMessageType.html",
+      "file": "com.fluig.sdk.api/FluigMessageType.md"
+    },
+    {
+      "name": "FluigRest",
+      "packageName": "com.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRest.html",
+      "file": "com.fluig.sdk.web/FluigRest.md"
+    },
+    {
+      "name": "FluigRestConvertDateZone",
+      "packageName": "com.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRestConvertDateZone.html",
+      "file": "com.fluig.sdk.web/FluigRestConvertDateZone.md"
+    },
+    {
+      "name": "FluigRestResult",
+      "packageName": "com.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRestResult.html",
+      "file": "com.fluig.sdk.web/FluigRestResult.md"
+    },
+    {
+      "name": "FolderDocumentService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FolderDocumentService.html",
+      "file": "com.fluig.sdk.service/FolderDocumentService.md"
+    },
+    {
+      "name": "FolderVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/FolderVO.html",
+      "file": "com.fluig.sdk.api.document/FolderVO.md"
+    },
+    {
+      "name": "FormRecordVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/FormRecordVO.html",
+      "file": "com.fluig.sdk.api.workflow/FormRecordVO.md"
+    },
+    {
+      "name": "GlobalParameterService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/GlobalParameterService.html",
+      "file": "com.fluig.sdk.service/GlobalParameterService.md"
+    },
+    {
+      "name": "GroupService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/GroupService.html",
+      "file": "com.fluig.sdk.service/GroupService.md"
+    },
+    {
+      "name": "GroupVO",
+      "packageName": "com.fluig.sdk.api.group",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/GroupVO.html",
+      "file": "com.fluig.sdk.api.group/GroupVO.md"
+    },
+    {
+      "name": "HolidayAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/HolidayAPIService.html",
+      "file": "com.fluig.sdk.service/HolidayAPIService.md"
+    },
+    {
+      "name": "HolidayVO",
+      "packageName": "com.fluig.sdk.api.holiday",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/HolidayVO.html",
+      "file": "com.fluig.sdk.api.holiday/HolidayVO.md"
+    },
+    {
+      "name": "I18NService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/I18NService.html",
+      "file": "com.fluig.sdk.service/I18NService.md"
+    },
+    {
+      "name": "IdentityService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/IdentityService.html",
+      "file": "com.fluig.sdk.service/IdentityService.md"
+    },
+    {
+      "name": "JobService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/JobService.html",
+      "file": "com.fluig.sdk.service/JobService.md"
+    },
+    {
+      "name": "JobVO",
+      "packageName": "com.fluig.sdk.api.job",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/JobVO.html",
+      "file": "com.fluig.sdk.api.job/JobVO.md"
+    },
+    {
+      "name": "JobVO.IntervalType",
+      "packageName": "com.fluig.sdk.api.job",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/JobVO.IntervalType.html",
+      "file": "com.fluig.sdk.api.job/JobVO.IntervalType.md"
+    },
+    {
+      "name": "KeyVO",
+      "packageName": "com.fluig.sdk.api.customappkey",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/KeyVO.html",
+      "file": "com.fluig.sdk.api.customappkey/KeyVO.md"
+    },
+    {
+      "name": "LocalAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/LocalAPIService.html",
+      "file": "com.fluig.sdk.service/LocalAPIService.md"
+    },
+    {
+      "name": "LocalUserVO",
+      "packageName": "com.fluig.sdk.api.local",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/LocalUserVO.html",
+      "file": "com.fluig.sdk.api.local/LocalUserVO.md"
+    },
+    {
+      "name": "LocalVO",
+      "packageName": "com.fluig.sdk.api.local",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/LocalVO.html",
+      "file": "com.fluig.sdk.api.local/LocalVO.md"
+    },
+    {
+      "name": "ManagerDefinitionVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ManagerDefinitionVO.html",
+      "file": "com.fluig.sdk.api.workflow/ManagerDefinitionVO.md"
+    },
+    {
+      "name": "MediaVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html",
+      "file": "com.fluig.sdk.api.social/MediaVO.md"
+    },
+    {
+      "name": "MentionService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/MentionService.html",
+      "file": "com.fluig.sdk.service/MentionService.md"
+    },
+    {
+      "name": "OAuthSdkVO",
+      "packageName": "com.fluig.sdk.api.oauth",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/OAuthSdkVO.html",
+      "file": "com.fluig.sdk.api.oauth/OAuthSdkVO.md"
+    },
+    {
+      "name": "OAuthUserService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/OAuthUserService.html",
+      "file": "com.fluig.sdk.service/OAuthUserService.md"
+    },
+    {
+      "name": "PageMobileApiVO",
+      "packageName": "com.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PageMobileApiVO.html",
+      "file": "com.fluig.sdk.page/PageMobileApiVO.md"
+    },
+    {
+      "name": "PageService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PageService.html",
+      "file": "com.fluig.sdk.service/PageService.md"
+    },
+    {
+      "name": "PageWidgetMobileApiVO",
+      "packageName": "com.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PageWidgetMobileApiVO.html",
+      "file": "com.fluig.sdk.page/PageWidgetMobileApiVO.md"
+    },
+    {
+      "name": "PageWidgetService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PageWidgetService.html",
+      "file": "com.fluig.sdk.service/PageWidgetService.md"
+    },
+    {
+      "name": "PermissionAssetVO",
+      "packageName": "com.fluig.sdk.api.permission",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/PermissionAssetVO.html",
+      "file": "com.fluig.sdk.api.permission/PermissionAssetVO.md"
+    },
+    {
+      "name": "PermissionVO",
+      "packageName": "com.fluig.sdk.api.permission",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/PermissionVO.html",
+      "file": "com.fluig.sdk.api.permission/PermissionVO.md"
+    },
+    {
+      "name": "PostService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PostService.html",
+      "file": "com.fluig.sdk.service/PostService.md"
+    },
+    {
+      "name": "PostVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/PostVO.html",
+      "file": "com.fluig.sdk.api.social/PostVO.md"
+    },
+    {
+      "name": "ProcessAttachmentVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessAttachmentVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessAttachmentVO.md"
+    },
+    {
+      "name": "ProcessDefinitionVersionVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessDefinitionVersionVO.md"
+    },
+    {
+      "name": "ProcessDefinitionVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessDefinitionVO.md"
+    },
+    {
+      "name": "ProcessInstanceInfoVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessInstanceInfoVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessInstanceInfoVO.md"
+    },
+    {
+      "name": "ProcessObservationVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessObservationVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessObservationVO.md"
+    },
+    {
+      "name": "ProcessStateVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessStateVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessStateVO.md"
+    },
+    {
+      "name": "ProcessTaskInfoVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessTaskInfoVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessTaskInfoVO.md"
+    },
+    {
+      "name": "ProcessTaskVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessTaskVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessTaskVO.md"
+    },
+    {
+      "name": "ProcessVersionVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessVersionVO.html",
+      "file": "com.fluig.sdk.api.workflow/ProcessVersionVO.md"
+    },
+    {
+      "name": "PublicApiPageVO",
+      "packageName": "com.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PublicApiPageVO.html",
+      "file": "com.fluig.sdk.page/PublicApiPageVO.md"
+    },
+    {
+      "name": "RelatedDocumentVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/RelatedDocumentVO.html",
+      "file": "com.fluig.sdk.api.document/RelatedDocumentVO.md"
+    },
+    {
+      "name": "RequestProcessTaskVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestProcessTaskVO.html",
+      "file": "com.fluig.sdk.api.workflow/RequestProcessTaskVO.md"
+    },
+    {
+      "name": "RequestSLAVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestSLAVO.html",
+      "file": "com.fluig.sdk.api.workflow/RequestSLAVO.md"
+    },
+    {
+      "name": "RequestStatusType",
+      "packageName": "com.fluig.sdk.api.workflow.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/RequestStatusType.html",
+      "file": "com.fluig.sdk.api.workflow.enums/RequestStatusType.md"
+    },
+    {
+      "name": "RequestTaskSLAVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestTaskSLAVO.html",
+      "file": "com.fluig.sdk.api.workflow/RequestTaskSLAVO.md"
+    },
+    {
+      "name": "RestViews",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.html",
+      "file": "com.fluig.sdk.api/RestViews.md"
+    },
+    {
+      "name": "RestViews.Message",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.Message.html",
+      "file": "com.fluig.sdk.api/RestViews.Message.md"
+    },
+    {
+      "name": "RestViews.Mobile",
+      "packageName": "com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.Mobile.html",
+      "file": "com.fluig.sdk.api/RestViews.Mobile.md"
+    },
+    {
+      "name": "ResumedTasksVO",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/ResumedTasksVO.html",
+      "file": "com.fluig.sdk.api.task/ResumedTasksVO.md"
+    },
+    {
+      "name": "ResumeProcessTaskVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ResumeProcessTaskVO.html",
+      "file": "com.fluig.sdk.api.workflow/ResumeProcessTaskVO.md"
+    },
+    {
+      "name": "ResumeRequestsSLAVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ResumeRequestsSLAVO.html",
+      "file": "com.fluig.sdk.api.workflow/ResumeRequestsSLAVO.md"
+    },
+    {
+      "name": "ScriptingLog",
+      "packageName": "com.fluig.sdk.api.log",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/ScriptingLog.html",
+      "file": "com.fluig.sdk.api.log/ScriptingLog.md"
+    },
+    {
+      "name": "SearchService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SearchService.html",
+      "file": "com.fluig.sdk.service/SearchService.md"
+    },
+    {
+      "name": "SecurityService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SecurityService.html",
+      "file": "com.fluig.sdk.service/SecurityService.md"
+    },
+    {
+      "name": "SociableVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html",
+      "file": "com.fluig.sdk.api.social/SociableVO.md"
+    },
+    {
+      "name": "SocialBreadcrumbItemVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbItemVO.html",
+      "file": "com.fluig.sdk.api.social/SocialBreadcrumbItemVO.md"
+    },
+    {
+      "name": "SocialBreadcrumbService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SocialBreadcrumbService.html",
+      "file": "com.fluig.sdk.service/SocialBreadcrumbService.md"
+    },
+    {
+      "name": "SocialBreadcrumbVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html",
+      "file": "com.fluig.sdk.api.social/SocialBreadcrumbVO.md"
+    },
+    {
+      "name": "SocialSDKService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SocialSDKService.html",
+      "file": "com.fluig.sdk.service/SocialSDKService.md"
+    },
+    {
+      "name": "SocialVO",
+      "packageName": "com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialVO.html",
+      "file": "com.fluig.sdk.api.social/SocialVO.md"
+    },
+    {
+      "name": "SolvedPermissionVO",
+      "packageName": "com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/SolvedPermissionVO.html",
+      "file": "com.fluig.sdk.api.document/SolvedPermissionVO.md"
+    },
+    {
+      "name": "TagsCloudService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TagsCloudService.html",
+      "file": "com.fluig.sdk.service/TagsCloudService.md"
+    },
+    {
+      "name": "TaskKindEnum",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskKindEnum.html",
+      "file": "com.fluig.sdk.api.task/TaskKindEnum.md"
+    },
+    {
+      "name": "TaskSearchTypeEnumeration",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskSearchTypeEnumeration.html",
+      "file": "com.fluig.sdk.api.task/TaskSearchTypeEnumeration.md"
+    },
+    {
+      "name": "TasksService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TasksService.html",
+      "file": "com.fluig.sdk.service/TasksService.md"
+    },
+    {
+      "name": "TaskStateEnum",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStateEnum.html",
+      "file": "com.fluig.sdk.api.task/TaskStateEnum.md"
+    },
+    {
+      "name": "TaskStatusEnum",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStatusEnum.html",
+      "file": "com.fluig.sdk.api.task/TaskStatusEnum.md"
+    },
+    {
+      "name": "TaskStatusType",
+      "packageName": "com.fluig.sdk.api.workflow.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/TaskStatusType.html",
+      "file": "com.fluig.sdk.api.workflow.enums/TaskStatusType.md"
+    },
+    {
+      "name": "TaskTransferVO",
+      "packageName": "com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskTransferVO.html",
+      "file": "com.fluig.sdk.api.task/TaskTransferVO.md"
+    },
+    {
+      "name": "TenantService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TenantService.html",
+      "file": "com.fluig.sdk.service/TenantService.md"
+    },
+    {
+      "name": "TenantVO",
+      "packageName": "com.fluig.sdk.tenant",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/TenantVO.html",
+      "file": "com.fluig.sdk.tenant/TenantVO.md"
+    },
+    {
+      "name": "UserAuthTokenSessionVO",
+      "packageName": "com.fluig.sdk.identity",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/UserAuthTokenSessionVO.html",
+      "file": "com.fluig.sdk.identity/UserAuthTokenSessionVO.md"
+    },
+    {
+      "name": "UserPasswordVO",
+      "packageName": "com.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/UserPasswordVO.html",
+      "file": "com.fluig.sdk.user/UserPasswordVO.md"
+    },
+    {
+      "name": "UserService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/UserService.html",
+      "file": "com.fluig.sdk.service/UserService.md"
+    },
+    {
+      "name": "UserVO",
+      "packageName": "com.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/UserVO.html",
+      "file": "com.fluig.sdk.user/UserVO.md"
+    },
+    {
+      "name": "WidgetService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/WidgetService.html",
+      "file": "com.fluig.sdk.service/WidgetService.md"
+    },
+    {
+      "name": "WorkflowAPIService",
+      "packageName": "com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/WorkflowAPIService.html",
+      "file": "com.fluig.sdk.service/WorkflowAPIService.md"
+    },
+    {
+      "name": "WorkflowVO",
+      "packageName": "com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/WorkflowVO.html",
+      "file": "com.fluig.sdk.api.workflow/WorkflowVO.md"
+    }
+  ],
+  "failed": []
+}

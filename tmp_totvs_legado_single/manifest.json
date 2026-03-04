@@ -1,0 +1,16 @@
+{
+  "source": "https://apitotvslegado.z15.web.core.windows.net/MOVMOVIMENTOTBCDATA.html?Objeto=MOVMOVIMENTOTBCDATA",
+  "total_pages": 1,
+  "failed_pages": 0,
+  "scraped_at": "2026-03-03T13:22:47.007Z",
+  "pages": [
+    {
+      "title": "Objetos",
+      "url": "https://apitotvslegado.z15.web.core.windows.net/MOVMOVIMENTOTBCDATA.html?Objeto=MOVMOVIMENTOTBCDATA",
+      "file": "MOVMOVIMENTOTBCDATA_Objeto=MOVMOVIMENTOTBCDATA.md",
+      "depth": 0,
+      "linksFound": 0
+    }
+  ],
+  "failed": []
+}

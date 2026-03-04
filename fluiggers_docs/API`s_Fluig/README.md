@@ -1,0 +1,128 @@
+# API`s Fluig
+
+**Total de tópicos:** 116
+
+---
+
+## ✅ Com resposta aceita
+
+- [Tentando consumir API REST dentro do próprio Fluig](Tentando_consumir_API_REST_dentro_do_pr%C3%B3prio_Fluig.md) — 👁 2424 | 💬 2
+- [Dataset buscando de url externa](Dataset_buscando_de_url_externa.md) — 👁 1571 | 💬 1
+- [startProcess() com erro WFLYEJB0034](startProcess()_com_erro_WFLYEJB0034.md) — 👁 1390 | 💬 2 [bpm, fluigapi]
+- [Webservice para movimentar requisições de compra RM](Webservice_para_movimentar_requisi%C3%A7%C3%B5es_de_compra_RM.md) — 👁 1311 | 💬 0
+- [Erro na API de listagem de documentos](Erro_na_API_de_listagem_de_documentos.md) — 👁 1247 | 💬 2
+- [Problema de integração HTTPS Fluig x Webservice SOAP Protheus](Problema_de_integra%C3%A7%C3%A3o_HTTPS_Fluig_x_Webservice_SOAP_Protheus.md) — 👁 1096 | 💬 0
+- [Envio de documento para formulário por API](Envio_de_documento_para_formul%C3%A1rio_por_API.md) — 👁 1092 | 💬 2 [form, fluigapi]
+- [REST GET com body](REST_GET_com_body.md) — 👁 1074 | 💬 2 [webservice, rest]
+- [Atualizar formulario de processo](Atualizar_formulario_de_processo.md) — 👁 1072 | 💬 1 [form]
+- [saveAndSaveTask zerando formuário](saveAndSaveTask_zerando_formu%C3%A1rio.md) — 👁 1059 | 💬 6
+- [Update via API - Fluig, apagando childrens formulario](Update_via_API_-_Fluig%2C_apagando_childrens_formulario.md) — 👁 1055 | 💬 11 [form, fluigapi]
+- [API FLUIG - 401 -Unauthorized](API_FLUIG_-_401_-Unauthorized.md) — 👁 1037 | 💬 5 [fluigapi]
+- [Preencher Grupo de Forma dinâmica](Preencher_Grupo_de_Forma_din%C3%A2mica.md) — 👁 970 | 💬 0
+- [API fluig + JAVASCRIPT](API_fluig_%2B_JAVASCRIPT.md) — 👁 867 | 💬 1 [fluigapi, app, javascript]
+- [Como instanciar um objeto da fluigAPI Java no JavaScript](Como_instanciar_um_objeto_da_fluigAPI_Java_no_JavaScript.md) — 👁 851 | 💬 0 [fluigapi]
+- [Webhooks no Fluig](Webhooks_no_Fluig.md) — 👁 834 | 💬 1 [webhook]
+- [Download simultâneo de arquivos](Download_simult%C3%A2neo_de_arquivos.md) — 👁 756 | 💬 1
+- [É possível criar/editar formulários e seus campos via API?](%C3%89_poss%C3%ADvel_criar_editar_formul%C3%A1rios_e_seus_campos_via_API.md) — 👁 738 | 💬 3 [form, fluigapi]
+- [Erro ao consumir API com fluig](Erro_ao_consumir_API_com_fluig.md) — 👁 737 | 💬 1
+- [Método addUsers num grupo](M%C3%A9todo_addUsers_num_grupo.md) — 👁 633 | 💬 10
+- [Consumindo ECMDatasetService no PHP](Consumindo_ECMDatasetService_no_PHP.md) — 👁 544 | 💬 0 [dataset]
+- [API assumeProcessTasks - assumir em bloco via API](API_assumeProcessTasks_-_assumir_em_bloco_via_API.md) — 👁 540 | 💬 3 [bloco, assumir-processo]
+- [WebService para criar Feriado](WebService_para_criar_Feriado.md) — 👁 540 | 💬 0
+- [API Request Move - Task](API_Request_Move_-_Task.md) — 👁 483 | 💬 0 [bpm, fluigapi]
+- [Alterar limite de tempo de execução do dataset](Alterar_limite_de_tempo_de_execu%C3%A7%C3%A3o_do_dataset.md) — 👁 443 | 💬 1 [dataset, fluigapi]
+- [ParseFloat em integração com o Protheus](ParseFloat_em_integra%C3%A7%C3%A3o_com_o_Protheus.md) — 👁 432 | 💬 0
+- [Trigger para notificação](Trigger_para_notifica%C3%A7%C3%A3o.md) — 👁 420 | 💬 0
+- [Serviço externo fluig](Servi%C3%A7o_externo_fluig.md) — 👁 393 | 💬 0
+- [Erro /api/public/2.0/cards/create](Erro_api_public_2.0_cards_create.md) — 👁 372 | 💬 0
+- [Requisição externa - API Fluig](Requisi%C3%A7%C3%A3o_externa_-_API_Fluig.md) — 👁 350 | 💬 2 [fluigapi, rest]
+- [Gerar acordo de débitos no RM via Fluig](Gerar_acordo_de_d%C3%A9bitos_no_RM_via_Fluig.md) — 👁 342 | 💬 2 [fluigapi, rm]
+- [WSWrapper hasnt been loaded. (beforeTaskSave#196)](WSWrapper_hasnt_been_loaded._(beforeTaskSave%23196).md) — 👁 336 | 💬 0
+- [Recuperar informações de pasta do ecm](Recuperar_informa%C3%A7%C3%B5es_de_pasta_do_ecm.md) — 👁 285 | 💬 1 [fluigapi]
+- [Adicionar um item em um Dataset via Widget](Adicionar_um_item_em_um_Dataset_via_Widget.md) — 👁 241 | 💬 2 [dataset, fluigapi, widget, webservice]
+- [Iniciar Processo via Progress Datasul](Iniciar_Processo_via_Progress_Datasul.md) — 👁 236 | 💬 1
+- [Retorno integração](Retorno_integra%C3%A7%C3%A3o.md) — 👁 196 | 💬 4 [form, fluigapi, integração]
+- [Consumir api rest](Consumir_api_rest.md) — 👁 170 | 💬 9 [dataset]
+- [Alterar Solicitante](Alterar_Solicitante.md) — 👁 149 | 💬 6 [form, dataset, fluigapi]
+- [Iniciar solicitação através de um executável](Iniciar_solicita%C3%A7%C3%A3o_atrav%C3%A9s_de_um_execut%C3%A1vel.md) — 👁 149 | 💬 3 [form, dataset, fluigapi]
+- [Api para trazer dados de um formulário](Api_para_trazer_dados_de_um_formul%C3%A1rio.md) — 👁 145 | 💬 3
+- [Qual a preferencia de serviço da comunidade?](Qual_a_preferencia_de_servi%C3%A7o_da_comunidade.md) — 👁 122 | 💬 0 [dataset, webservice]
+- [Uncaught ReferenceError: fluigAPI is not defined](Uncaught_ReferenceError_fluigAPI_is_not_defined.md) — 👁 97 | 💬 3 [fluigapi]
+- [DataSet não retorna nada](DataSet_n%C3%A3o_retorna_nada.md) — 👁 80 | 💬 0 [dataset, webservice, rest]
+- [Array em atividade de serviço](Array_em_atividade_de_servi%C3%A7o.md) — 👁 78 | 💬 3
+- [Erro ao montar o JSON](Erro_ao_montar_o_JSON.md) — 👁 76 | 💬 1 [dataset]
+- [Fechar solicitação que não foi assumida](Fechar_solicita%C3%A7%C3%A3o_que_n%C3%A3o_foi_assumida.md) — 👁 67 | 💬 1
+- [Tornar documento publico e recuperar URL publica via API](Tornar_documento_publico_e_recuperar_URL_publica_via_API.md) — 👁 43 | 💬 0
+- [Inserir QR Code como anexo de processo via API ou SOAP](Inserir_QR_Code_como_anexo_de_processo_via_API_ou_SOAP.md) — 👁 40 | 💬 0 [processo, anexo, api, soap]
+
+## 💬 Discussões
+
+- [Subir arquivo para o GED via API](Subir_arquivo_para_o_GED_via_API.md) — 👁 3760 | 💬 6
+- [Consultar Dataset via WS por sistema externo](Consultar_Dataset_via_WS_por_sistema_externo.md) — 👁 3424 | 💬 17 [fluigapi]
+- [Consumir API Externa para Formulário Fluig](Consumir_API_Externa_para_Formul%C3%A1rio_Fluig.md) — 👁 2409 | 💬 1 [form, fluigapi, javascript]
+- [Serviço REST para iniciar o processo](Servi%C3%A7o_REST_para_iniciar_o_processo.md) — 👁 2201 | 💬 1 [fluigapi]
+- [Enviar Anexo por email](Enviar_Anexo_por_email.md) — 👁 1799 | 💬 4
+- [Chamda as APIs rest do fluig de forma simples](Chamda_as_APIs_rest_do_fluig_de_forma_simples.md) — 👁 1523 | 💬 0
+- [Autenticação de Usuário em Aplicação Externa](Autentica%C3%A7%C3%A3o_de_Usu%C3%A1rio_em_Aplica%C3%A7%C3%A3o_Externa.md) — 👁 1501 | 💬 8 [api, oauth]
+- [Consumindo serviço ECMDatasetService via ajax pelo SOAP](Consumindo_servi%C3%A7o_ECMDatasetService_via_ajax_pelo_SOAP.md) — 👁 1488 | 💬 0 [fluigapi]
+- [hAPI.startProcess](hAPI.startProcess.md) — 👁 1480 | 💬 0 [fluigapi]
+- [Campos complementares em Processo wsProcess](Campos_complementares_em_Processo_wsProcess.md) — 👁 1380 | 💬 4
+- [Upload de arquivos](Upload_de_arquivos.md) — 👁 1328 | 💬 2 [upload]
+- [API Move - Assignee](API_Move_-_Assignee.md) — 👁 1311 | 💬 2 [fluigapi]
+- [Webservice wsFormulaVisual (Fórmula Visual)](Webservice_wsFormulaVisual_(F%C3%B3rmula_Visual).md) — 👁 1309 | 💬 0
+- [Integração Protheus >> Fluig](Integra%C3%A7%C3%A3o_Protheus_Fluig.md) — 👁 1158 | 💬 0 [dataset]
+- [Dataset - Campos do formulário e Workflow](Dataset_-_Campos_do_formul%C3%A1rio_e_Workflow.md) — 👁 1141 | 💬 0
+- [Integração Formulário Público Com API Datasets](Integra%C3%A7%C3%A3o_Formul%C3%A1rio_P%C3%BAblico_Com_API_Datasets.md) — 👁 1069 | 💬 1 [fluigapi]
+- [Consumo WS no Dataset](Consumo_WS_no_Dataset.md) — 👁 1056 | 💬 0 [dataset]
+- [Adicionar vários usuários a um grupo via dataset](Adicionar_v%C3%A1rios_usu%C3%A1rios_a_um_grupo_via_dataset.md) — 👁 972 | 💬 1 [fluigapi]
+- [Obter PDF de dentro do arquivo ZIP](Obter_PDF_de_dentro_do_arquivo_ZIP.md) — 👁 964 | 💬 2 [ged]
+- [Filtrar dataset pela api](Filtrar_dataset_pela_api.md) — 👁 950 | 💬 5 [dataset]
+- [Request a API fluig](Request_a_API_fluig.md) — 👁 921 | 💬 1
+- [Usando autenticação oauth 2.0](Usando_autentica%C3%A7%C3%A3o_oauth_2.0.md) — 👁 820 | 💬 0
+- [Problemas ao obter relatório do RM via Fluig](Problemas_ao_obter_relat%C3%B3rio_do_RM_via_Fluig.md) — 👁 792 | 💬 2 [bpm, rm]
+- [API Dataset externa X Power B.I](API_Dataset_externa_X_Power_B.I.md) — 👁 775 | 💬 1 [fluigapi]
+- [Teste SoapUi utilizando WSexecbo](Teste_SoapUi_utilizando_WSexecbo.md) — 👁 752 | 💬 0
+- [Totvs Assinatura Eletrônica](Totvs_Assinatura_Eletr%C3%B4nica.md) — 👁 648 | 💬 0
+- [Enviar arquivos de um processo para outro pelo startProcess](Enviar_arquivos_de_um_processo_para_outro_pelo_startProcess.md) — 👁 572 | 💬 0 [processo, fluigapi]
+- [URL de Teste Serviço REST](URL_de_Teste_Servi%C3%A7o_REST.md) — 👁 527 | 💬 0
+- [Atualizar conjunto de dados de um dataset usando updateRow](Atualizar_conjunto_de_dados_de_um_dataset_usando_updateRow.md) — 👁 516 | 💬 2 [dataset, fluigapi]
+- [Sobre a categoria API`s Fluig ](Sobre_a_categoria_API%60s_Fluig.md) — 👁 505 | 💬 0
+- [Definição de Temp-table (progress) para usar Dataset](Defini%C3%A7%C3%A3o_de_Temp-table_(progress)_para_usar_Dataset.md) — 👁 493 | 💬 0
+- [Fluig ler um movimento do RM e startar um processo no fluig](Fluig_ler_um_movimento_do_RM_e_startar_um_processo_no_fluig.md) — 👁 461 | 💬 1 [dataset, fluigapi, rm, startprocess]
+- [Internacionalização (Tradução) de página pública](Internacionaliza%C3%A7%C3%A3o_(Tradu%C3%A7%C3%A3o)_de_p%C3%A1gina_p%C3%BAblica.md) — 👁 437 | 💬 0 [fluigapi]
+- [Fluig não executa o refresh token](Fluig_n%C3%A3o_executa_o_refresh_token.md) — 👁 434 | 💬 8 [processo, bpm]
+- [API Detran - Como usar ela?](API_Detran_-_Como_usar_ela.md) — 👁 414 | 💬 0
+- [Validação de conteúdo de diretório](Valida%C3%A7%C3%A3o_de_conte%C3%BAdo_de_diret%C3%B3rio.md) — 👁 409 | 💬 0 [fluigapi]
+- [API remover user de um grupo](API_remover_user_de_um_grupo.md) — 👁 402 | 💬 0
+- [Baixar arquivo da uma API e anexar em formulário](Baixar_arquivo_da_uma_API_e_anexar_em_formul%C3%A1rio.md) — 👁 381 | 💬 2
+- [Remover filho em formulário por Webservice](Remover_filho_em_formul%C3%A1rio_por_Webservice.md) — 👁 339 | 💬 0 [form, fluigapi]
+- [Listar pessoas e suas fotos tendo o Protheus como fonte de dados](Listar_pessoas_e_suas_fotos_tendo_o_Protheus_como_fonte_de_dados.md) — 👁 338 | 💬 0
+- [Fluig sdk para consumo externo](Fluig_sdk_para_consumo_externo.md) — 👁 323 | 💬 0
+- [Usuário oAuth ocasionando erro na autenticação de usuários](Usu%C3%A1rio_oAuth_ocasionando_erro_na_autentica%C3%A7%C3%A3o_de_usu%C3%A1rios.md) — 👁 309 | 💬 1 [wcmapi]
+- [hAPI em dataset](hAPI_em_dataset.md) — 👁 298 | 💬 0
+- [Api Criar Formulario](Api_Criar_Formulario.md) — 👁 253 | 💬 0 [form, fluigapi]
+- [TimeOut- API EXTERNA](TimeOut-_API_EXTERNA.md) — 👁 252 | 💬 2 [dataset, fluigapi]
+- [API - saveAttachments - Alguém já utilizou essa api para anexar documentos em solicitação?](API_-_saveAttachments_-_Algu%C3%A9m_j%C3%A1_utilizou_essa_api_para_anexar_documentos_em_solicita%C3%A7%C3%A3o.md) — 👁 231 | 💬 0 [processo]
+- [Exportação Anexos Fluig - Organizada por pastas](Exporta%C3%A7%C3%A3o_Anexos_Fluig_-_Organizada_por_pastas.md) — 👁 171 | 💬 0 [fluigapi]
+- [Internel Server Error em conexão externa](Internel_Server_Error_em_conex%C3%A3o_externa.md) — 👁 154 | 💬 0 [dataset, fluigapi, api, externo]
+- [Fluig x Fluig Identify - Login Unico](Fluig_x_Fluig_Identify_-_Login_Unico.md) — 👁 137 | 💬 0 [usuario]
+- [É possível editar um processo utilizando o método `importProcess()`?](%C3%89_poss%C3%ADvel_editar_um_processo_utilizando_o_m%C3%A9todo_%60importProcess()%60.md) — 👁 129 | 💬 0
+- [Anexar documento em processo por api](Anexar_documento_em_processo_por_api.md) — 👁 126 | 💬 0
+- [Importar XML de Processo via REST](Importar_XML_de_Processo_via_REST.md) — 👁 115 | 💬 0
+- [Consulta usuário logado retornando código errado](Consulta_usu%C3%A1rio_logado_retornando_c%C3%B3digo_errado.md) — 👁 113 | 💬 1 [dataset, fluigapi]
+- [oAuth 2.0 no fluig](oAuth_2.0_no_fluig.md) — 👁 111 | 💬 0 [dataset, fluigapi]
+- [Dataset Customizado com JOIN entre duas tabelas](Dataset_Customizado_com_JOIN_entre_duas_tabelas.md) — 👁 103 | 💬 0 [dataset]
+- [Fluig API - Documentos](Fluig_API_-_Documentos.md) — 👁 73 | 💬 0 [fluigapi]
+- [Comentários inseridos pelos usuários da aba histórico](Coment%C3%A1rios_inseridos_pelos_usu%C3%A1rios_da_aba_hist%C3%B3rico.md) — 👁 73 | 💬 5 [dataset]
+- [Consulta de solicitações em massa](Consulta_de_solicita%C3%A7%C3%B5es_em_massa.md) — 👁 49 | 💬 0 [processo, dataset, fluigapi]
+- [TOTVs Assinatura de Documentos](TOTVs_Assinatura_de_Documentos.md) — 👁 48 | 💬 0 [form, processo, bpm]
+- [API - Retorno de grande volume de dados para fluig - Duvida](API_-_Retorno_de_grande_volume_de_dados_para_fluig_-_Duvida.md) — 👁 45 | 💬 0 [dataset]
+- [Problemas au chamar fluigAPI em evento condicional intermediario](Problemas_au_chamar_fluigAPI_em_evento_condicional_intermediario.md) — 👁 38 | 💬 0 [processo, bpm, fluigapi]
+- [Informações somem na integração](Informa%C3%A7%C3%B5es_somem_na_integra%C3%A7%C3%A3o.md) — 👁 34 | 💬 1 [form, fluigapi]
+- [Erro Ao Enviar o E-mail pelo After Task Save](Erro_Ao_Enviar_o_E-mail_pelo_After_Task_Save.md) — 👁 34 | 💬 0 [form, processo, dataset, fluigapi, integração]
+- [Download das pastas do fluig](Download_das_pastas_do_fluig.md) — 👁 34 | 💬 0
+- [Problemas com Token de conexão entre serviço, dataset e API](Problemas_com_Token_de_conex%C3%A3o_entre_servi%C3%A7o%2C_dataset_e_API.md) — 👁 28 | 💬 0 [dataset]
+- [Alterar data de expiração de um documento via api](Alterar_data_de_expira%C3%A7%C3%A3o_de_um_documento_via_api.md) — 👁 26 | 💬 0
+- [Alterar tabela TNumSerie no RM](Alterar_tabela_TNumSerie_no_RM.md) — 👁 26 | 💬 0 [form, processo, fluigapi]
+- [Já conseguiram criar uma widget que crie formulários no low code do Voyager?](J%C3%A1_conseguiram_criar_uma_widget_que_crie_formul%C3%A1rios_no_low_code_do_Voyager.md) — 👁 22 | 💬 0
+

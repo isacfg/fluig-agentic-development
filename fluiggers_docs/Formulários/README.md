@@ -1,0 +1,269 @@
+# Formulários
+
+**Total de tópicos:** 257
+
+---
+
+## ✅ Com resposta aceita
+
+- [Validação de formulário no front](Valida%C3%A7%C3%A3o_de_formul%C3%A1rio_no_front.md) — 👁 4324 | 💬 19 [form, beforesendvalidate, validação, front]
+- [Forma de chamada a dataset](Forma_de_chamada_a_dataset.md) — 👁 3390 | 💬 5
+- [Transformar números em número por extenso (moeda também)](Transformar_n%C3%BAmeros_em_n%C3%BAmero_por_extenso_(moeda_tamb%C3%A9m).md) — 👁 2978 | 💬 0 [form, javascript, js, função, jquery]
+- [Iniciar processo via formulário publico](Iniciar_processo_via_formul%C3%A1rio_publico.md) — 👁 2088 | 💬 12
+- [Dataset Avançado + ZOOM](Dataset_Avan%C3%A7ado_%2B_ZOOM.md) — 👁 1747 | 💬 2 [zoom]
+- [FLUIGC.autocomplete](FLUIGC.autocomplete.md) — 👁 1692 | 💬 0
+- [Imagem "embed" (embutida) no corpo de e-mail](Imagem_embed_(embutida)_no_corpo_de_e-mail.md) — 👁 1564 | 💬 16
+- [Utilizando opção "Salvar"](Utilizando_op%C3%A7%C3%A3o_Salvar.md) — 👁 1528 | 💬 1
+- [Utilizar a busca de documento padrão em formulário](Utilizar_a_busca_de_documento_padr%C3%A3o_em_formul%C3%A1rio.md) — 👁 1409 | 💬 3 [ecm, arquivo, pasta, busca]
+- [Customizar Botão Salvar e Enviar](Customizar_Bot%C3%A3o_Salvar_e_Enviar.md) — 👁 1390 | 💬 0
+- [Recuperar todos os documentos de uma pasta do ECM](Recuperar_todos_os_documentos_de_uma_pasta_do_ECM.md) — 👁 1366 | 💬 4 [form, fluigapi]
+- [ValidateForm dinâmico](ValidateForm_din%C3%A2mico.md) — 👁 1319 | 💬 2
+- [Selecionar vários elementos no zoom](Selecionar_v%C3%A1rios_elementos_no_zoom.md) — 👁 1241 | 💬 0 [form, zoom]
+- [Preenchimento automático dos dados em formulário](Preenchimento_autom%C3%A1tico_dos_dados_em_formul%C3%A1rio.md) — 👁 1229 | 💬 0 [form, bpm]
+- [Incorporando CSS no Fluig](Incorporando_CSS_no_Fluig.md) — 👁 1221 | 💬 5
+- [Usar Toast para validação de campos](Usar_Toast_para_valida%C3%A7%C3%A3o_de_campos.md) — 👁 1153 | 💬 0 [form, validação]
+- [Validação do formulário pai e filho](Valida%C3%A7%C3%A3o_do_formul%C3%A1rio_pai_e_filho.md) — 👁 1147 | 💬 0
+- [Alterar css de um objeto do tipo zoom](Alterar_css_de_um_objeto_do_tipo_zoom.md) — 👁 1126 | 💬 0
+- [Filtrar Dataset](Filtrar_Dataset.md) — 👁 1098 | 💬 0 [form, dataset]
+- [Índice da tabela pai e filho na sequência](%C3%8Dndice_da_tabela_pai_e_filho_na_sequ%C3%AAncia.md) — 👁 1090 | 💬 5 [form, paixfilho]
+- [Tabela pai x filho duplicando dados ao consultar os registros](Tabela_pai_x_filho_duplicando_dados_ao_consultar_os_registros.md) — 👁 1051 | 💬 3
+- [setSelectedZoomItem não funciona no mobile?](setSelectedZoomItem_n%C3%A3o_funciona_no_mobile.md) — 👁 971 | 💬 2 [form, mobile]
+- [Criar Dataset para Cadastro de Produtos do Protheus](Criar_Dataset_para_Cadastro_de_Produtos_do_Protheus.md) — 👁 959 | 💬 0 [form, bpm, dataset]
+- [Esconder linha pai x filho](Esconder_linha_pai_x_filho.md) — 👁 940 | 💬 0
+- [Alimentar um formulario existente atraves de uma widget](Alimentar_um_formulario_existente_atraves_de_uma_widget.md) — 👁 937 | 💬 7 [form, widget, ecm]
+- [Como criar botão para upload de arquivos no formulário](Como_criar_bot%C3%A3o_para_upload_de_arquivos_no_formul%C3%A1rio.md) — 👁 890 | 💬 1 [form, processo, fluigapi]
+- [Validar um campo de formulário por atividade](Validar_um_campo_de_formul%C3%A1rio_por_atividade.md) — 👁 870 | 💬 2
+- [Como listar os usuários de um Grupo dentro de outro Grupo?](Como_listar_os_usu%C3%A1rios_de_um_Grupo_dentro_de_outro_Grupo.md) — 👁 842 | 💬 3 [dataset]
+- [Filtrar zoom em tabela Pai x Filho](Filtrar_zoom_em_tabela_Pai_x_Filho.md) — 👁 828 | 💬 1 [form, processo, dataset]
+- [Workflow MLA x Fluig](Workflow_MLA_x_Fluig.md) — 👁 817 | 💬 2
+- [Validação de Formulario](Valida%C3%A7%C3%A3o_de_Formulario.md) — 👁 776 | 💬 3 [form]
+- [Assinatura manual](Assinatura_manual.md) — 👁 704 | 💬 0 [form, bpm]
+- [Mostrar Dataset no Formulário para Envio por Email](Mostrar_Dataset_no_Formul%C3%A1rio_para_Envio_por_Email.md) — 👁 700 | 💬 1 [dataset, formulario]
+- [Erro: Não foi possível compilar os scripts para customização](Erro_N%C3%A3o_foi_poss%C3%ADvel_compilar_os_scripts_para_customiza%C3%A7%C3%A3o.md) — 👁 685 | 💬 1 [form]
+- [Ocultar/ habilitar campos com checkbox](Ocultar_habilitar_campos_com_checkbox.md) — 👁 660 | 💬 0 [form, validação]
+- [Trabalhando com listas](Trabalhando_com_listas.md) — 👁 635 | 💬 1
+- [Quando usar Data Fetching e quando usar os serviços do Fluig](Quando_usar_Data_Fetching_e_quando_usar_os_servi%C3%A7os_do_Fluig.md) — 👁 598 | 💬 1
+- [Criando um input na DOM via createElement](Criando_um_input_na_DOM_via_createElement.md) — 👁 587 | 💬 0
+- [Como buscar todos os campos tipo Input no displayFields?](Como_buscar_todos_os_campos_tipo_Input_no_displayFields.md) — 👁 582 | 💬 0 [form]
+- [Letras na label](Letras_na_label.md) — 👁 526 | 💬 6 [form]
+- [Encoding padrão de formulário FLUIG](Encoding_padr%C3%A3o_de_formul%C3%A1rio_FLUIG.md) — 👁 521 | 💬 0
+- [Salvar dados do Dataset Interno em outro BD](Salvar_dados_do_Dataset_Interno_em_outro_BD.md) — 👁 521 | 💬 0
+- [Criar link para um formulário](Criar_link_para_um_formul%C3%A1rio.md) — 👁 520 | 💬 0 [form, bpm]
+- [Table desalinhada](Table_desalinhada.md) — 👁 518 | 💬 0
+- [Situação em preenchimento de campo obrigatório em determinada atividade](Situa%C3%A7%C3%A3o_em_preenchimento_de_campo_obrigat%C3%B3rio_em_determinada_atividade.md) — 👁 501 | 💬 0
+- [Desabilitar Rating Stars](Desabilitar_Rating_Stars.md) — 👁 489 | 💬 1 [form]
+- [Evento em Formulário (Vincular Subitem ao Item)](Evento_em_Formul%C3%A1rio_(Vincular_Subitem_ao_Item).md) — 👁 475 | 💬 0
+- [FLUIG fieldsDisabled fieldsDisabled .push](FLUIG_fieldsDisabled_fieldsDisabled_.push.md) — 👁 441 | 💬 4 [form, bpm, dataset]
+- [ECMCardService pai filho](ECMCardService_pai_filho.md) — 👁 418 | 💬 3 [form]
+- [Incluir Linha em determinada posição Tabela PaiXfilho](Incluir_Linha_em_determinada_posi%C3%A7%C3%A3o_Tabela_PaiXfilho.md) — 👁 410 | 💬 2 [form]
+- [Campo com valor negativo automaticamente trocar de cor](Campo_com_valor_negativo_automaticamente_trocar_de_cor.md) — 👁 409 | 💬 5
+- [StartProcess limpando campos do formulário](StartProcess_limpando_campos_do_formul%C3%A1rio.md) — 👁 399 | 💬 1 [form]
+- [Criar um novo formulário a partir do app my fluig](Criar_um_novo_formul%C3%A1rio_a_partir_do_app_my_fluig.md) — 👁 397 | 💬 0 [form, mobile]
+- [Dataset Sincronizado com filtro interno para mais de um campo](Dataset_Sincronizado_com_filtro_interno_para_mais_de_um_campo.md) — 👁 378 | 💬 2 [dataset]
+- [Solicitação publica de alguém que não tem cadastro no fluig](Solicita%C3%A7%C3%A3o_publica_de_algu%C3%A9m_que_n%C3%A3o_tem_cadastro_no_fluig.md) — 👁 377 | 💬 2 [form, processo, bpm]
+- [Fluig Mobile não carregando Scripts](Fluig_Mobile_n%C3%A3o_carregando_Scripts.md) — 👁 358 | 💬 0 [form, mobile]
+- [Importação de processo = null](Importa%C3%A7%C3%A3o_de_processo_%3D_null.md) — 👁 356 | 💬 1 [processo]
+- [Fluig problema com table em processo](Fluig_problema_com_table_em_processo.md) — 👁 348 | 💬 1 [form, bpm, dataset]
+- [Filtrar valor dentro de um zoom](Filtrar_valor_dentro_de_um_zoom.md) — 👁 343 | 💬 2 [form, dataset, zoom]
+- [Formulario perdendo os valores após certa etapa do "fluxo"](Formulario_perdendo_os_valores_ap%C3%B3s_certa_etapa_do_fluxo.md) — 👁 298 | 💬 4 [form, bpm]
+- [Criar Constraints com Dataset De BD Externo](Criar_Constraints_com_Dataset_De_BD_Externo.md) — 👁 289 | 💬 1 [form, dataset]
+- [Div de formulário em Popup](Div_de_formul%C3%A1rio_em_Popup.md) — 👁 288 | 💬 0
+- [Ocultar linha Tabela PaixFilho](Ocultar_linha_Tabela_PaixFilho.md) — 👁 277 | 💬 0 [form, mobile]
+- [Type radio modo VIEW](Type_radio_modo_VIEW.md) — 👁 272 | 💬 0 [form]
+- [Métodos da funcionalidade Filter](M%C3%A9todos_da_funcionalidade_Filter.md) — 👁 247 | 💬 1 [form]
+- [Duvida reloadZoomFilterValues](Duvida_reloadZoomFilterValues.md) — 👁 230 | 💬 0 [form]
+- [Dúvida sobre dataset, constraint e campo zoom](D%C3%BAvida_sobre_dataset%2C_constraint_e_campo_zoom.md) — 👁 217 | 💬 1 [dataset]
+- [Campo de tabela não salva](Campo_de_tabela_n%C3%A3o_salva.md) — 👁 205 | 💬 1 [paixfilho, tabela]
+- [wdkAddChild em uma div](wdkAddChild_em_uma_div.md) — 👁 192 | 💬 0 [form]
+- [Forma de pesquisar processo abertos](Forma_de_pesquisar_processo_abertos.md) — 👁 180 | 💬 0 [form]
+- [Quebra de linha textarea no e-mail](Quebra_de_linha_textarea_no_e-mail.md) — 👁 168 | 💬 1 [form, processo, formulario]
+- [Tabela Pai x Filho perde o id da div ao salvar](Tabela_Pai_x_Filho_perde_o_id_da_div_ao_salvar.md) — 👁 149 | 💬 0 [form]
+- [Tabela limpando campo](Tabela_limpando_campo.md) — 👁 140 | 💬 0 [form, paixfilho, tabela]
+- [Radio em Pai x Filho não tem comportamento esperado](Radio_em_Pai_x_Filho_n%C3%A3o_tem_comportamento_esperado.md) — 👁 114 | 💬 1
+- [Buscar colunas da versão atual do form](Buscar_colunas_da_vers%C3%A3o_atual_do_form.md) — 👁 111 | 💬 1 [form, processo, bpm, dataset]
+- [Campo Zoom Consultando Dataset Customizado](Campo_Zoom_Consultando_Dataset_Customizado.md) — 👁 99 | 💬 4 [form, processo, bpm, dataset]
+- [Anexos do Fluig em base64](Anexos_do_Fluig_em_base64.md) — 👁 96 | 💬 0 [form, bpm]
+- [Editando form em "tempo real"](Editando_form_em_tempo_real.md) — 👁 96 | 💬 2 [form, edição]
+- [Mecanismos de atribuição](Mecanismos_de_atribui%C3%A7%C3%A3o.md) — 👁 84 | 💬 1 [mecanismoatribuicao]
+- [Filtrar Input Zoom Conforme Dataset](Filtrar_Input_Zoom_Conforme_Dataset.md) — 👁 83 | 💬 0 [form, dataset, formulario]
+- [Alterar estilo do dropdown no filter](Alterar_estilo_do_dropdown_no_filter.md) — 👁 76 | 💬 2 [form]
+- [Componente AutoComplete filtrar dados](Componente_AutoComplete_filtrar_dados.md) — 👁 75 | 💬 0 [form, dataset, fluigapi]
+- [Pai Filho com Muitos Registros](Pai_Filho_com_Muitos_Registros.md) — 👁 74 | 💬 0 [form, dataset]
+- [Erro ao anexar arquivo](Erro_ao_anexar_arquivo.md) — 👁 67 | 💬 3
+- [Melhoria Campo zoom/opções paliativas](Melhoria_Campo_zoom_op%C3%A7%C3%B5es_paliativas.md) — 👁 66 | 💬 1 [form, dataset]
+- [Internacionalização (i18n) em formulários, zooms, scripts js](Internacionaliza%C3%A7%C3%A3o_(i18n)_em_formul%C3%A1rios%2C_zooms%2C_scripts_js.md) — 👁 64 | 💬 2 [i18n]
+- [Não foi possível compilar os scripts para customização](N%C3%A3o_foi_poss%C3%ADvel_compilar_os_scripts_para_customiza%C3%A7%C3%A3o.md) — 👁 61 | 💬 0 [form, processo, bpm, beforetasksave]
+- [Movimentar atividade do processo sistematicamente depois de um prazo](Movimentar_atividade_do_processo_sistematicamente_depois_de_um_prazo.md) — 👁 60 | 💬 1 [processo, bpm]
+- [Mostrar documento em formulário](Mostrar_documento_em_formul%C3%A1rio.md) — 👁 50 | 💬 0
+- [Pra que servem os Datasets Associados ao Formulário?](Pra_que_servem_os_Datasets_Associados_ao_Formul%C3%A1rio.md) — 👁 39 | 💬 1 [form, dataset]
+- [Upload no Fluig Mobile](Upload_no_Fluig_Mobile.md) — 👁 36 | 💬 0 [processo, mobile]
+- [Manipular elemento com evento de outro](Manipular_elemento_com_evento_de_outro.md) — 👁 36 | 💬 1 [form]
+- [Onsultar dataset como dmin](Onsultar_dataset_como_dmin.md) — 👁 35 | 💬 1
+- [Automatização de Campos do Formulário](Automatiza%C3%A7%C3%A3o_de_Campos_do_Formul%C3%A1rio.md) — 👁 32 | 💬 0 [form]
+- [Zoom sem dados para usuários](Zoom_sem_dados_para_usu%C3%A1rios.md) — 👁 31 | 💬 0 [form, processo, bpm, dataset]
+- [Impedir exclusão de Anexos em atividades](Impedir_exclus%C3%A3o_de_Anexos_em_atividades.md) — 👁 30 | 💬 1 [form, processo, bpm]
+- [Evento de Processo Workflow](Evento_de_Processo_Workflow.md) — 👁 30 | 💬 0 [processo, dataset]
+- [Dúvida sobre eventos](D%C3%BAvida_sobre_eventos.md) — 👁 26 | 💬 2 [form, processo]
+- [Prazo de atividade](Prazo_de_atividade.md) — 👁 26 | 💬 3
+
+## 💬 Discussões
+
+- [Como preencher outro campo ZOOM atraves de um campo ZOOM?](Como_preencher_outro_campo_ZOOM_atraves_de_um_campo_ZOOM.md) — 👁 2678 | 💬 3 [form, dataset, fluigapi]
+- [Base64 dos Anexos](Base64_dos_Anexos.md) — 👁 2353 | 💬 7
+- [Desabilitar botão tabela pai x filho](Desabilitar_bot%C3%A3o_tabela_pai_x_filho.md) — 👁 2167 | 💬 6
+- [Funcionamento do Modal no fluig](Funcionamento_do_Modal_no_fluig.md) — 👁 1875 | 💬 2
+- [Pesquisa em zoom com dataset customizado](Pesquisa_em_zoom_com_dataset_customizado.md) — 👁 1809 | 💬 0 [dataset, zoom]
+- [Tabela pai x filho dentro de outra](Tabela_pai_x_filho_dentro_de_outra.md) — 👁 1630 | 💬 2 [form]
+- [Problema para realizar upload de arquivos através do formulário](Problema_para_realizar_upload_de_arquivos_atrav%C3%A9s_do_formul%C3%A1rio.md) — 👁 1592 | 💬 0
+- [No arquivo js (beforeTaskSave) adicione html / css](No_arquivo_js_(beforeTaskSave)_adicione_html_css.md) — 👁 1416 | 💬 1
+- [Listar solicitações ativas e canceladas no dataset](Listar_solicita%C3%A7%C3%B5es_ativas_e_canceladas_no_dataset.md) — 👁 1384 | 💬 2 [form, dataset]
+- [Prazo de um workflow por campo](Prazo_de_um_workflow_por_campo.md) — 👁 1364 | 💬 5
+- [Iniciar processo com formulário pré-cadastrado](Iniciar_processo_com_formul%C3%A1rio_pr%C3%A9-cadastrado.md) — 👁 1221 | 💬 3 [fluigapi]
+- [Tabela pai x filho não apresenta os dados após enviar o processo para próxima atividade](Tabela_pai_x_filho_n%C3%A3o_apresenta_os_dados_ap%C3%B3s_enviar_o_processo_para_pr%C3%B3xima_atividade.md) — 👁 1177 | 💬 1
+- [Uso de datasets no form](Uso_de_datasets_no_form.md) — 👁 1128 | 💬 1
+- [Como selecionar radio e habilitar campo readonly?](Como_selecionar_radio_e_habilitar_campo_readonly.md) — 👁 1074 | 💬 1
+- [FLUIGC.datatable - Filtros](FLUIGC.datatable_-_Filtros.md) — 👁 1071 | 💬 0
+- [Bloquei no botão de download de Anexos do processo](Bloquei_no_bot%C3%A3o_de_download_de_Anexos_do_processo.md) — 👁 1037 | 💬 0 [form, bpm]
+- [Filtrar campo zoom](Filtrar_campo_zoom.md) — 👁 960 | 💬 3 [form, zoom]
+- [Ocultar/mostrar campo com base na escolha](Ocultar_mostrar_campo_com_base_na_escolha.md) — 👁 924 | 💬 0
+- [Inicialização de campo Zoom a partir de campo texto](Inicializa%C3%A7%C3%A3o_de_campo_Zoom_a_partir_de_campo_texto.md) — 👁 910 | 💬 8
+- [Fomulario com campo data perdendo formatação](Fomulario_com_campo_data_perdendo_formata%C3%A7%C3%A3o.md) — 👁 898 | 💬 7 [form, processo]
+- [Evento impressão](Evento_impress%C3%A3o.md) — 👁 897 | 💬 0
+- [Não é possível importar os eventos de um formulário com usuário que não seja o admin](N%C3%A3o_%C3%A9_poss%C3%ADvel_importar_os_eventos_de_um_formul%C3%A1rio_com_usu%C3%A1rio_que_n%C3%A3o_seja_o_admin.md) — 👁 894 | 💬 5 [form, eclipse, ecmcardindexservice]
+- [Uncaught TypeError: Cannot read properties of undefined (reading 'push')](Uncaught_TypeError_Cannot_read_properties_of_undefined_(reading_'push').md) — 👁 859 | 💬 0 [form, widget, formulario]
+- [Usuários de um Grupo - colleagueGroup x Colleague](Usu%C3%A1rios_de_um_Grupo_-_colleagueGroup_x_Colleague.md) — 👁 848 | 💬 0 [form, processo, dataset, fluigapi, grupo]
+- [Copiar Tabelas no Form](Copiar_Tabelas_no_Form.md) — 👁 825 | 💬 1 [form]
+- [Criptografia no fluig](Criptografia_no_fluig.md) — 👁 812 | 💬 0
+- [Visualizar Formulário dentro Widget](Visualizar_Formul%C3%A1rio_dentro_Widget.md) — 👁 744 | 💬 0 [form, dataset, fluigapi]
+- [Esconder o label de um campo oculto no display fields](Esconder_o_label_de_um_campo_oculto_no_display_fields.md) — 👁 734 | 💬 0
+- [Retornar Processo ao Solicitante com calculateAgreement](Retornar_Processo_ao_Solicitante_com_calculateAgreement.md) — 👁 731 | 💬 0 [form, processo, javascript]
+- [Excluir no datatable](Excluir_no_datatable.md) — 👁 725 | 💬 0 [form]
+- [Problema ao Salvar o formulário - Error when saving form data: null](Problema_ao_Salvar_o_formul%C3%A1rio_-_Error_when_saving_form_data_null.md) — 👁 723 | 💬 2 [form, processo, bpm]
+- [Padrão de projeto em formulário do FLUIG](Padr%C3%A3o_de_projeto_em_formul%C3%A1rio_do_FLUIG.md) — 👁 712 | 💬 3
+- [Integração Protheus x Fluig](Integra%C3%A7%C3%A3o_Protheus_x_Fluig.md) — 👁 709 | 💬 9 [form, processo, bpm, fluigapi]
+- [Function afterSavenew](Function_afterSavenew.md) — 👁 702 | 💬 0 [form, bpm, fluigapi]
+- [Metodo ShowCamera não consegue anexar mais de um anexo por vez](Metodo_ShowCamera_n%C3%A3o_consegue_anexar_mais_de_um_anexo_por_vez.md) — 👁 691 | 💬 0 [função]
+- [Performance do Zoom](Performance_do_Zoom.md) — 👁 664 | 💬 0 [form]
+- [Como pegar número total de "filhos" de tabela PaixFilho no Front](Como_pegar_n%C3%BAmero_total_de_filhos_de_tabela_PaixFilho_no_Front.md) — 👁 658 | 💬 1
+- [Tabela paixfilho dentro do modal](Tabela_paixfilho_dentro_do_modal.md) — 👁 611 | 💬 1 [paixfilho, modal]
+- [Recuperar campo checkbox de tabela pai x filho](Recuperar_campo_checkbox_de_tabela_pai_x_filho.md) — 👁 604 | 💬 0
+- [Tirando o "filtrar colunas" do campo zoom](Tirando_o_filtrar_colunas_do_campo_zoom.md) — 👁 588 | 💬 0 [form, zoom, formulario]
+- [Transformar o formulário em uma imagem JPEG](Transformar_o_formul%C3%A1rio_em_uma_imagem_JPEG.md) — 👁 586 | 💬 1 [form]
+- [Tabela paixfilho pra incluir os e-mails in form](Tabela_paixfilho_pra_incluir_os_e-mails_in_form.md) — 👁 579 | 💬 0
+- [Integração entre BI x Dados de formulários](Integra%C3%A7%C3%A3o_entre_BI_x_Dados_de_formul%C3%A1rios.md) — 👁 555 | 💬 1 [form]
+- [Condicional de valor não executa workflow](Condicional_de_valor_n%C3%A3o_executa_workflow.md) — 👁 554 | 💬 0
+- [Movimentar atividade via botão enviar customizado no formulário](Movimentar_atividade_via_bot%C3%A3o_enviar_customizado_no_formul%C3%A1rio.md) — 👁 553 | 💬 2
+- [Como Criar campo zoom passando valores em constraints](Como_Criar_campo_zoom_passando_valores_em_constraints.md) — 👁 535 | 💬 8 [zoom]
+- [Upload de Fotos da Câmera - MyFLuig](Upload_de_Fotos_da_C%C3%A2mera_-_MyFLuig.md) — 👁 525 | 💬 7
+- [Rateio de item em tabela pai fliho](Rateio_de_item_em_tabela_pai_fliho.md) — 👁 522 | 💬 1 [form, paixfilho]
+- [Como eu posso fazer para obter a linha da tabela Pai Filho ao consultar o dataset do Formulário?](Como_eu_posso_fazer_para_obter_a_linha_da_tabela_Pai_Filho_ao_consultar_o_dataset_do_Formul%C3%A1rio.md) — 👁 515 | 💬 1 [dataset]
+- [Erro ao executar o eventro displayFields não foi implementado para o fichário 461 na versão 24000](Erro_ao_executar_o_eventro_displayFields_n%C3%A3o_foi_implementado_para_o_fich%C3%A1rio_461_na_vers%C3%A3o_24000.md) — 👁 503 | 💬 2 [form, bpm]
+- [Formulário em Java?](Formul%C3%A1rio_em_Java.md) — 👁 481 | 💬 3 [form]
+- [Invalid version "html PUBLIC ": non-numeric "html PUBLIC "](Invalid_version_html_PUBLIC_non-numeric_html_PUBLIC.md) — 👁 458 | 💬 4 [form]
+- [Pegar dados de parametros](Pegar_dados_de_parametros.md) — 👁 450 | 💬 13 [form, processo]
+- [Persistência de dados no formulário](Persist%C3%AAncia_de_dados_no_formul%C3%A1rio.md) — 👁 448 | 💬 0
+- [fnWdkRemoveChild](fnWdkRemoveChild.md) — 👁 437 | 💬 0 [form]
+- [Ajustar dataset SQL para sincronizar](Ajustar_dataset_SQL_para_sincronizar.md) — 👁 429 | 💬 0 [dataset]
+- [Formulário no Eclipse não retorna para o Fluig para editar?](Formul%C3%A1rio_no_Eclipse_n%C3%A3o_retorna_para_o_Fluig_para_editar.md) — 👁 422 | 💬 0 [form, bpm]
+- [Limpar campo zoom](Limpar_campo_zoom.md) — 👁 420 | 💬 0 [form, dataset, zoom]
+- [Estrutura dos arquivos no desenvolvimento de Formulários](Estrutura_dos_arquivos_no_desenvolvimento_de_Formul%C3%A1rios.md) — 👁 415 | 💬 2 [form]
+- [reloadZoomFilterValues não funciona](reloadZoomFilterValues_n%C3%A3o_funciona.md) — 👁 414 | 💬 0
+- [Sobre a categoria Formulários ](Sobre_a_categoria_Formul%C3%A1rios.md) — 👁 410 | 💬 0
+- [Ocultar Botões Próximo e Enviar no Fluig Mobile](Ocultar_Bot%C3%B5es_Pr%C3%B3ximo_e_Enviar_no_Fluig_Mobile.md) — 👁 400 | 💬 0
+- [Dataset + constraints em campo do formulário](Dataset_%2B_constraints_em_campo_do_formul%C3%A1rio.md) — 👁 386 | 💬 0 [form, dataset]
+- [Formulário paixfilho com botão para foto com novo do campo DESCRICAOPONTOVAOTBPF01](Formul%C3%A1rio_paixfilho_com_bot%C3%A3o_para_foto_com_novo_do_campo_DESCRICAOPONTOVAOTBPF01.md) — 👁 383 | 💬 1 [paixfilho]
+- [Grupo de atribuição visivel apenas para quem assume](Grupo_de_atribui%C3%A7%C3%A3o_visivel_apenas_para_quem_assume.md) — 👁 378 | 💬 1
+- [Tabela paixfilho pra incluir os e-mails](Tabela_paixfilho_pra_incluir_os_e-mails.md) — 👁 377 | 💬 0
+- [Update no banco retorna valor nulo](Update_no_banco_retorna_valor_nulo.md) — 👁 366 | 💬 16 [form, processo, bpm, dataset]
+- [Como limpar tabela PaixFilho](Como_limpar_tabela_PaixFilho.md) — 👁 361 | 💬 0 [form]
+- [Dados do formulário no processo fluig](Dados_do_formul%C3%A1rio_no_processo_fluig.md) — 👁 357 | 💬 0
+- [Documento não gerado na aba Anexos](Documento_n%C3%A3o_gerado_na_aba_Anexos.md) — 👁 356 | 💬 0 [form]
+- [Obter campo de formulário](Obter_campo_de_formul%C3%A1rio.md) — 👁 351 | 💬 0 [form]
+- [Tabela pai-filho-neto](Tabela_pai-filho-neto.md) — 👁 350 | 💬 1 [paixfilho, formulario]
+- [Integração RM x GED identificar os centavos do campo no formulário](Integra%C3%A7%C3%A3o_RM_x_GED_identificar_os_centavos_do_campo_no_formul%C3%A1rio.md) — 👁 332 | 💬 2 [form, bpm, dataset, rm]
+- [Problemas com replace](Problemas_com_replace.md) — 👁 329 | 💬 0 [dataset]
+- [Mudança de formulário (documento) de um processo](Mudan%C3%A7a_de_formul%C3%A1rio_(documento)_de_um_processo.md) — 👁 313 | 💬 0 [form, processo, bpm]
+- [Dado Sensível no Fluig](Dado_Sens%C3%ADvel_no_Fluig.md) — 👁 311 | 💬 0 [form, bpm]
+- [Erro ao tentar iniciar processo pela widget](Erro_ao_tentar_iniciar_processo_pela_widget.md) — 👁 308 | 💬 0 [form, processo, fluigapi, widget]
+- [Constraints dataset padrão](Constraints_dataset_padr%C3%A3o.md) — 👁 307 | 💬 1 [form, bpm, dataset, java]
+- [Listar NF x itens em formulario](Listar_NF_x_itens_em_formulario.md) — 👁 306 | 💬 0
+- [Zoom Filter não limpa o campo](Zoom_Filter_n%C3%A3o_limpa_o_campo.md) — 👁 300 | 💬 0 [form, bpm, zoom]
+- [Nâo consigo aplicar a API da receita Ws](N%C3%A2o_consigo_aplicar_a_API_da_receita_Ws.md) — 👁 297 | 💬 1 [form, bpm, fluigapi]
+- [Como preencher inputs automaticamente com um select](Como_preencher_inputs_automaticamente_com_um_select.md) — 👁 295 | 💬 0 [form, dataset]
+- [Integrar Formulário do Fluig com Sharepoint](Integrar_Formul%C3%A1rio_do_Fluig_com_Sharepoint.md) — 👁 292 | 💬 1 [form]
+- [Como esconder mais de um campo com displayfields?](Como_esconder_mais_de_um_campo_com_displayfields.md) — 👁 287 | 💬 2
+- [Pegar dados do histórico da solicitação](Pegar_dados_do_hist%C3%B3rico_da_solicita%C3%A7%C3%A3o.md) — 👁 283 | 💬 0 [form, processo, fluigapi]
+- [Acessar um serviço cadastrado no fluig via formulario](Acessar_um_servi%C3%A7o_cadastrado_no_fluig_via_formulario.md) — 👁 279 | 💬 0
+- [ValidateForm - TABLE](ValidateForm_-_TABLE.md) — 👁 277 | 💬 0 [form, processo, tabela, beforesendvalidate]
+- [Função que calcula total geral de cada campo](Fun%C3%A7%C3%A3o_que_calcula_total_geral_de_cada_campo.md) — 👁 277 | 💬 0 [form]
+- [Ferramenta para criar Fórmulario, com arrasta e solta (VISUAL)](Ferramenta_para_criar_F%C3%B3rmulario%2C_com_arrasta_e_solta_(VISUAL).md) — 👁 273 | 💬 2
+- [Carimbo eletrônico](Carimbo_eletr%C3%B4nico.md) — 👁 269 | 💬 0
+- [Registro de evidência (leitor facial, leitor de digital, etc)](Registro_de_evid%C3%AAncia_(leitor_facial%2C_leitor_de_digital%2C_etc).md) — 👁 266 | 💬 0 [form, processo, bpm, mobile, app]
+- [Table Dinâmica - Table some ao enviar atividade](Table_Din%C3%A2mica_-_Table_some_ao_enviar_atividade.md) — 👁 264 | 💬 0 [form, dataset]
+- [Não deixar selecionar dois rádios diferentes](N%C3%A3o_deixar_selecionar_dois_r%C3%A1dios_diferentes.md) — 👁 263 | 💬 0
+- [Assinatura simples em formulário do fluig](Assinatura_simples_em_formul%C3%A1rio_do_fluig.md) — 👁 256 | 💬 2 [form]
+- [Alterar versão antiga de form (displayField)](Alterar_vers%C3%A3o_antiga_de_form_(displayField).md) — 👁 256 | 💬 0 [form]
+- [Novo registro de formulário já com a opção herda segurança do pai selecionada](Novo_registro_de_formul%C3%A1rio_j%C3%A1_com_a_op%C3%A7%C3%A3o_herda_seguran%C3%A7a_do_pai_selecionada.md) — 👁 253 | 💬 1 [form]
+- [Anexo Obrigatório em Tabela Pai x Filho](Anexo_Obrigat%C3%B3rio_em_Tabela_Pai_x_Filho.md) — 👁 247 | 💬 0 [form, bpm, paixfilho]
+- [maximumSelectionLength do campo zoom dinâmico](maximumSelectionLength_do_campo_zoom_din%C3%A2mico.md) — 👁 238 | 💬 0 [form, zoom, fluig, javascript, js]
+- [Simular evento click() em botão customizado no mobile Fluig](Simular_evento_click()_em_bot%C3%A3o_customizado_no_mobile_Fluig.md) — 👁 238 | 💬 0 [form, processo, mobile]
+- [Acesso de usuário externo](Acesso_de_usu%C3%A1rio_externo.md) — 👁 234 | 💬 0 [form, processo, bpm, fluigapi]
+- [SOAP no mobile Fluig](SOAP_no_mobile_Fluig.md) — 👁 233 | 💬 0 [form, fluigapi, mobile, app]
+- [Chamar Dataset de integração por botão no Form](Chamar_Dataset_de_integra%C3%A7%C3%A3o_por_bot%C3%A3o_no_Form.md) — 👁 233 | 💬 0 [form, dataset, integração]
+- [Validar TextArea após clicar no Botão](Validar_TextArea_ap%C3%B3s_clicar_no_Bot%C3%A3o.md) — 👁 224 | 💬 0 [form]
+- [Informação do campo zoom somem](Informa%C3%A7%C3%A3o_do_campo_zoom_somem.md) — 👁 220 | 💬 0 [form, dataset]
+- [Erro ao anexar arquivos Fluig](Erro_ao_anexar_arquivos_Fluig.md) — 👁 219 | 💬 0
+- [Carregar o estilo correto do Tema](Carregar_o_estilo_correto_do_Tema.md) — 👁 218 | 💬 0
+- [Envio de e-mail após clicar em botão](Envio_de_e-mail_ap%C3%B3s_clicar_em_bot%C3%A3o.md) — 👁 217 | 💬 8 [form, processo]
+- [Pegar dados campo pai e filho](Pegar_dados_campo_pai_e_filho.md) — 👁 215 | 💬 0 [form]
+- [Formulário com Envio anônimo](Formul%C3%A1rio_com_Envio_an%C3%B4nimo.md) — 👁 213 | 💬 2
+- [Iniciar solicitação externamente](Iniciar_solicita%C3%A7%C3%A3o_externamente.md) — 👁 212 | 💬 0 [form, processo, bpm, fluigapi, widget]
+- [Inserir caracteres especiais no Fluig](Inserir_caracteres_especiais_no_Fluig.md) — 👁 209 | 💬 0 [form, processo, fluigapi, webservice]
+- [Página Publica - JS](P%C3%A1gina_Publica_-_JS.md) — 👁 209 | 💬 0 [js]
+- [Erro ao executar o beforeTask](Erro_ao_executar_o_beforeTask.md) — 👁 202 | 💬 2 [form, formulario, beforetasksave]
+- [Erro de proxy ao salvar pasta de formulário](Erro_de_proxy_ao_salvar_pasta_de_formul%C3%A1rio.md) — 👁 200 | 💬 0 [form, processo]
+- [Campos estão desabilitados no subprocesso](Campos_est%C3%A3o_desabilitados_no_subprocesso.md) — 👁 196 | 💬 1 [form, processo, bpm]
+- [Importação de Excel para uma tabela Pai x Filho](Importa%C3%A7%C3%A3o_de_Excel_para_uma_tabela_Pai_x_Filho.md) — 👁 191 | 💬 0 [form, processo, bpm]
+- [Acessar dados do campo Zoom em tabela Pai x Filho](Acessar_dados_do_campo_Zoom_em_tabela_Pai_x_Filho.md) — 👁 189 | 💬 6 [form, paixfilho, zoom]
+- [Gostaria de saber como posso resgatar um anexo de um formulário/processo e exibir em uma widget](Gostaria_de_saber_como_posso_resgatar_um_anexo_de_um_formul%C3%A1rio_processo_e_exibir_em_uma_widget.md) — 👁 182 | 💬 1 [form, processo, dataset, widget]
+- [Eventos no Fluig Modal](Eventos_no_Fluig_Modal.md) — 👁 171 | 💬 0 [form, modal]
+- [Erro ao exportar um form com anonimização](Erro_ao_exportar_um_form_com_anonimiza%C3%A7%C3%A3o.md) — 👁 171 | 💬 0 [form, lgpd, anonimizacao]
+- [Cadastro buscando codigo anterior](Cadastro_buscando_codigo_anterior.md) — 👁 166 | 💬 0
+- [Definir prazo por campo de formulário variável](Definir_prazo_por_campo_de_formul%C3%A1rio_vari%C3%A1vel.md) — 👁 163 | 💬 3
+- [Tag <html> do fichário não foi fechada](Tag_html_do_fich%C3%A1rio_n%C3%A3o_foi_fechada.md) — 👁 163 | 💬 0 [form]
+- [Erro SyntaxError: Unexpected token: Ã (#112) - Alguém já passou por esse erro?](Erro_SyntaxError_Unexpected_token_%C3%83_(%23112)_-_Algu%C3%A9m_j%C3%A1_passou_por_esse_erro.md) — 👁 160 | 💬 0
+- [Modal de Confirmação ao enviar a solicitação](Modal_de_Confirma%C3%A7%C3%A3o_ao_enviar_a_solicita%C3%A7%C3%A3o.md) — 👁 153 | 💬 0 [form, modal]
+- [Erro ao exportar formulário pelo VS Code](Erro_ao_exportar_formul%C3%A1rio_pelo_VS_Code.md) — 👁 145 | 💬 1 [form, bpm]
+- [Função beforeSendValidate](Fun%C3%A7%C3%A3o_beforeSendValidate.md) — 👁 132 | 💬 0 [form, processo]
+- [Preencher campo com informação selecionada no campo tipo ZOOM](Preencher_campo_com_informa%C3%A7%C3%A3o_selecionada_no_campo_tipo_ZOOM.md) — 👁 114 | 💬 0 [form, dataset]
+- [Atividade externa com formulário público](Atividade_externa_com_formul%C3%A1rio_p%C3%BAblico.md) — 👁 113 | 💬 0 [form, processo, widget]
+- [Erro ao enviar email](Erro_ao_enviar_email.md) — 👁 109 | 💬 0 [processo]
+- [Acessar câmera do dispositivo (desktop/mobile)](Acessar_c%C3%A2mera_do_dispositivo_(desktop_mobile).md) — 👁 98 | 💬 1 [form, bpm, mobile, camera]
+- [Subindo versão do formulario, mas a tabela não está sendo atualizada](Subindo_vers%C3%A3o_do_formulario%2C_mas_a_tabela_n%C3%A3o_est%C3%A1_sendo_atualizada.md) — 👁 97 | 💬 7 [processo, dataset]
+- [Campo zoom - Limite de caractere](Campo_zoom_-_Limite_de_caractere.md) — 👁 92 | 💬 0
+- [IA no desenvolvimento para Fluig](IA_no_desenvolvimento_para_Fluig.md) — 👁 91 | 💬 2 [form, processo, dataset, widget]
+- [Biometria facial, biometria digital](Biometria_facial%2C_biometria_digital.md) — 👁 84 | 💬 5 [form]
+- [UpdateFile / UpdateDocument](UpdateFile_UpdateDocument.md) — 👁 81 | 💬 1 [form, fluigapi]
+- [Enviar anexos de uma solicitação para o GED](Enviar_anexos_de_uma_solicita%C3%A7%C3%A3o_para_o_GED.md) — 👁 77 | 💬 3 [processo, ged]
+- [Atualizar formulários antigos para nova versão](Atualizar_formul%C3%A1rios_antigos_para_nova_vers%C3%A3o.md) — 👁 70 | 💬 2 [form, ged]
+- [Dados não ficam salvos ao avançar processo](Dados_n%C3%A3o_ficam_salvos_ao_avan%C3%A7ar_processo.md) — 👁 59 | 💬 0 [form, processo, bpm, dataset]
+- [Dúvida integração RM](D%C3%BAvida_integra%C3%A7%C3%A3o_RM.md) — 👁 56 | 💬 3
+- [Execução de atividade pública](Execu%C3%A7%C3%A3o_de_atividade_p%C3%BAblica.md) — 👁 54 | 💬 0 [form]
+- [Persistência de Cards e Tables](Persist%C3%AAncia_de_Cards_e_Tables.md) — 👁 50 | 💬 4 [form, processo, bpm]
+- [Problema ao exportar formulário após atualização do plugin no Eclipse](Problema_ao_exportar_formul%C3%A1rio_ap%C3%B3s_atualiza%C3%A7%C3%A3o_do_plugin_no_Eclipse.md) — 👁 49 | 💬 0 [form]
+- [Gerar arquivo PDF no beforeSendValidate](Gerar_arquivo_PDF_no_beforeSendValidate.md) — 👁 46 | 💬 0 [form]
+- [Caixa do Select some ao usar EnableFields](Caixa_do_Select_some_ao_usar_EnableFields.md) — 👁 44 | 💬 0 [form]
+- [Dúvida, papel do usuário em formulário](D%C3%BAvida%2C_papel_do_usu%C3%A1rio_em_formul%C3%A1rio.md) — 👁 43 | 💬 0 [form, processo, bpm]
+- [Envio de e-mail](Envio_de_e-mail.md) — 👁 42 | 💬 0 [form, bpm, dataset, fluigapi]
+- [Campos readonly](Campos_readonly.md) — 👁 39 | 💬 1
+- [Jornadas dentro do Admissão Digital](Jornadas_dentro_do_Admiss%C3%A3o_Digital.md) — 👁 39 | 💬 0 [processo]
+- [Problemas com o AutoComplete](Problemas_com_o_AutoComplete.md) — 👁 38 | 💬 0 [form, dataset]
+- [Campos de Formulário Não Carrega](Campos_de_Formul%C3%A1rio_N%C3%A3o_Carrega.md) — 👁 30 | 💬 0 [form, processo]
+- [.filter dataset create](filter_dataset_create.md) — 👁 30 | 💬 0 [form, dataset]
+- [Preciso adicionar permissão para algumas páginas para um grupo de pessoas](Preciso_adicionar_permiss%C3%A3o_para_algumas_p%C3%A1ginas_para_um_grupo_de_pessoas.md) — 👁 27 | 💬 0
+- [Inconsistência Exportação Formulário/Processo](Inconsist%C3%AAncia_Exporta%C3%A7%C3%A3o_Formul%C3%A1rio_Processo.md) — 👁 24 | 💬 0
+- [Dúvida: Notificação](D%C3%BAvida_Notifica%C3%A7%C3%A3o.md) — 👁 23 | 💬 0
+- [Retornar atividade](Retornar_atividade.md) — 👁 19 | 💬 1 [form, processo, bpm]
+- [FLUIGC.calendar undefined NaN](FLUIGC.calendar_undefined_NaN.md) — 👁 18 | 💬 0 [form, processo]
+- [Desativar view mobile de tabela pai-filho](Desativar_view_mobile_de_tabela_pai-filho.md) — 👁 16 | 💬 0 [form]
+

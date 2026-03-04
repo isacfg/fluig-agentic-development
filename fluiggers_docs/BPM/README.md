@@ -1,0 +1,299 @@
+# BPM
+
+> BPM para modelar processos e colocar em pratica o verdadeiro poder do workflow.
+
+**Total de tópicos:** 285
+
+---
+
+## ✅ Com resposta aceita
+
+- [Gerando arquivo em PDF e salvando no GED](Gerando_arquivo_em_PDF_e_salvando_no_GED.md) — 👁 2952 | 💬 10
+- [Erro Json - has no public instance field or method named "toJSON](Erro_Json_-_has_no_public_instance_field_or_method_named_toJSON.md) — 👁 2714 | 💬 1
+- [Como pegar URL do ambiente Fluig que estou?](Como_pegar_URL_do_ambiente_Fluig_que_estou.md) — 👁 2396 | 💬 2
+- [Usar serviço ou script condicional?](Usar_servi%C3%A7o_ou_script_condicional.md) — 👁 2276 | 💬 22
+- [Criação de Usuário dentro do form](Cria%C3%A7%C3%A3o_de_Usu%C3%A1rio_dentro_do_form.md) — 👁 2120 | 💬 9
+- [Alterar versão formulário de um processo ativo](Alterar_vers%C3%A3o_formul%C3%A1rio_de_um_processo_ativo.md) — 👁 1700 | 💬 0 [form, bpm]
+- [Link anexo processo no e-mail](Link_anexo_processo_no_e-mail.md) — 👁 1586 | 💬 6
+- [Desativar notificação para usuário](Desativar_notifica%C3%A7%C3%A3o_para_usu%C3%A1rio.md) — 👁 1555 | 💬 3
+- [Envio de e-mail personalizado](Envio_de_e-mail_personalizado.md) — 👁 1468 | 💬 22 [form, processo, bpm]
+- [Como exportar ou obter versões anteriores de um processo](Como_exportar_ou_obter_vers%C3%B5es_anteriores_de_um_processo.md) — 👁 1438 | 💬 0 [processo, bpm, exportar, diagrama]
+- [Dataset sincronizado criando muitas tabelas no banco](Dataset_sincronizado_criando_muitas_tabelas_no_banco.md) — 👁 1435 | 💬 0 [dataset]
+- [Apagar registro de tabela pai x filho (em formulário com 3 pai x filho!)](Apagar_registro_de_tabela_pai_x_filho_(em_formul%C3%A1rio_com_3_pai_x_filho!).md) — 👁 1431 | 💬 4
+- [Atividade Serviço - Mensagem da Captura de Erro](Atividade_Servi%C3%A7o_-_Mensagem_da_Captura_de_Erro.md) — 👁 1266 | 💬 2 [servicetask, atividade-serviço]
+- [Setar Horas na atividade, respeitando o expediente](Setar_Horas_na_atividade%2C_respeitando_o_expediente.md) — 👁 1265 | 💬 1 [fluigapi]
+- [HTTP Error 401.2 - Unauthorized ao consumir API Fluig](HTTP_Error_401.2_-_Unauthorized_ao_consumir_API_Fluig.md) — 👁 1249 | 💬 2 [fluigapi]
+- [Dúvida para usar mecanismo customizado](D%C3%BAvida_para_usar_mecanismo_customizado.md) — 👁 1234 | 💬 1
+- [Detalhe visual ao incluir complemento via hAPI](Detalhe_visual_ao_incluir_complemento_via_hAPI.md) — 👁 1216 | 💬 0
+- [Ler código de barras pela câmera do celular](Ler_c%C3%B3digo_de_barras_pela_c%C3%A2mera_do_celular.md) — 👁 1159 | 💬 1 [form, app, camera, aplicativo, celular]
+- [Atividade Script fluig](Atividade_Script_fluig.md) — 👁 1127 | 💬 1
+- [Como descobrir o campo do metadado que indica encerramento?](Como_descobrir_o_campo_do_metadado_que_indica_encerramento.md) — 👁 1119 | 💬 4
+- [Transferência/atribuição de atividade](Transfer%C3%AAncia_atribui%C3%A7%C3%A3o_de_atividade.md) — 👁 1108 | 💬 0
+- [Campos checkbox e radio sendo desmarcados automaticamente](Campos_checkbox_e_radio_sendo_desmarcados_automaticamente.md) — 👁 1104 | 💬 1
+- [Alguém com um momento para ajudar um iniciante com DiplayFields?](Algu%C3%A9m_com_um_momento_para_ajudar_um_iniciante_com_DiplayFields.md) — 👁 1078 | 💬 4 [form, bpm]
+- [Atividade Serviço - Mensagem da Captura de Erro No Catch](Atividade_Servi%C3%A7o_-_Mensagem_da_Captura_de_Erro_No_Catch.md) — 👁 1070 | 💬 0 [servicetask, atividade-serviço]
+- [Mecanismo de Atribuição Customizado e Atividades Conjuntas](Mecanismo_de_Atribui%C3%A7%C3%A3o_Customizado_e_Atividades_Conjuntas.md) — 👁 1067 | 💬 0 [bpm, mecanismoatribuicao]
+- [Como pegar número total de "filhos" de tabela PaixFilho](Como_pegar_n%C3%BAmero_total_de_filhos_de_tabela_PaixFilho.md) — 👁 1057 | 💬 0
+- [Quantidades de Valores no Campo Zoom - Evento de Processo](Quantidades_de_Valores_no_Campo_Zoom_-_Evento_de_Processo.md) — 👁 1024 | 💬 1
+- [Notificacion Email del proceso no funciona](Notificacion_Email_del_proceso_no_funciona.md) — 👁 990 | 💬 4
+- [Pegar a data que iniciou a solicitação](Pegar_a_data_que_iniciou_a_solicita%C3%A7%C3%A3o.md) — 👁 962 | 💬 1
+- [Processos - Dar direito a um usuário de movimentar em qualquer processo](Processos_-_Dar_direito_a_um_usu%C3%A1rio_de_movimentar_em_qualquer_processo.md) — 👁 938 | 💬 1
+- [Bloquear opção de excluir anexo em uma atividade específica](Bloquear_op%C3%A7%C3%A3o_de_excluir_anexo_em_uma_atividade_espec%C3%ADfica.md) — 👁 927 | 💬 1 [processo, anexo]
+- [Aprovação de movimentos RM x fluig](Aprova%C3%A7%C3%A3o_de_movimentos_RM_x_fluig.md) — 👁 927 | 💬 1
+- [Mecanismo de atribuição Customizado](Mecanismo_de_atribui%C3%A7%C3%A3o_Customizado.md) — 👁 854 | 💬 1
+- [Enviar e-mail com a data retirada de um campo do formulário após concluir uma determinada atividade](Enviar_e-mail_com_a_data_retirada_de_um_campo_do_formul%C3%A1rio_ap%C3%B3s_concluir_uma_determinada_atividade.md) — 👁 819 | 💬 5 [form, bpm]
+- [Pesquisar e criar pasta no GED e salvar anexo](Pesquisar_e_criar_pasta_no_GED_e_salvar_anexo.md) — 👁 808 | 💬 0 [form, bpm, ecm, ged, anexo]
+- [Definir tempo via form para temporizador](Definir_tempo_via_form_para_temporizador.md) — 👁 802 | 💬 0 [bpm]
+- [Excluir instâncias de um processo](Excluir_inst%C3%A2ncias_de_um_processo.md) — 👁 797 | 💬 2
+- [Dúvida sobre API IBGE (select de Estados e Cidades)](D%C3%BAvida_sobre_API_IBGE_(select_de_Estados_e_Cidades).md) — 👁 779 | 💬 1 [form, fluigapi]
+- [Mecanismo de Atribuição Customizado não lista Eclipse](Mecanismo_de_Atribui%C3%A7%C3%A3o_Customizado_n%C3%A3o_lista_Eclipse.md) — 👁 740 | 💬 1 [bpm]
+- [Enviando atividade via app](Enviando_atividade_via_app.md) — 👁 733 | 💬 4 [form, mobile, app, beforesendvalidate]
+- [Apagar pai x filho em atividade de serviço ou evento?](Apagar_pai_x_filho_em_atividade_de_servi%C3%A7o_ou_evento.md) — 👁 715 | 💬 0
+- [Atribuição de uma tarefa leva em consideração o login ou a matrícula?](Atribui%C3%A7%C3%A3o_de_uma_tarefa_leva_em_considera%C3%A7%C3%A3o_o_login_ou_a_matr%C3%ADcula.md) — 👁 705 | 💬 0
+- [Erro ao incluir movimento - integração RM x fluig](Erro_ao_incluir_movimento_-_integra%C3%A7%C3%A3o_RM_x_fluig.md) — 👁 694 | 💬 0
+- [Sou iniciante no BPM/ECM Fluig](Sou_iniciante_no_BPM_ECM_Fluig.md) — 👁 681 | 💬 2 [bpm]
+- [Utilização do Evento Intermediário SINAL (Signal Intermediate Event)](Utiliza%C3%A7%C3%A3o_do_Evento_Intermedi%C3%A1rio_SINAL_(Signal_Intermediate_Event).md) — 👁 676 | 💬 3 [fluig-studio]
+- [Visualizar documento desde el formulario de un proceso](Visualizar_documento_desde_el_formulario_de_un_proceso.md) — 👁 674 | 💬 3
+- [FLUIG elemento exclusivo](FLUIG_elemento_exclusivo.md) — 👁 668 | 💬 2 [processo]
+- [Como ler um arquivo XML nos eventos de processo](Como_ler_um_arquivo_XML_nos_eventos_de_processo.md) — 👁 654 | 💬 0
+- [Tamanho máximo de Campo](Tamanho_m%C3%A1ximo_de_Campo.md) — 👁 619 | 💬 0
+- [Admissão Integrada com RM - envelope após atualização](Admiss%C3%A3o_Integrada_com_RM_-_envelope_ap%C3%B3s_atualiza%C3%A7%C3%A3o.md) — 👁 617 | 💬 1 [bpm, rm, integração, admissão, xml]
+- [Erro de sintaxe é informado sempre ao gerar um evento de processo no eclipse](Erro_de_sintaxe_%C3%A9_informado_sempre_ao_gerar_um_evento_de_processo_no_eclipse.md) — 👁 614 | 💬 1 [java]
+- [Função ao utilizar o atributo deletebutton de uma Table](Fun%C3%A7%C3%A3o_ao_utilizar_o_atributo_deletebutton_de_uma_Table.md) — 👁 611 | 💬 1 [form]
+- [Como iniciar um processo através de outro processo](Como_iniciar_um_processo_atrav%C3%A9s_de_outro_processo.md) — 👁 599 | 💬 1 [bpm]
+- [Criação de Solicidação via WS com Anexo](Cria%C3%A7%C3%A3o_de_Solicida%C3%A7%C3%A3o_via_WS_com_Anexo.md) — 👁 593 | 💬 3
+- [Como funciona o Fluxo Automático?](Como_funciona_o_Fluxo_Autom%C3%A1tico.md) — 👁 572 | 💬 1 [automático, fluxo]
+- [Mensagem de Sucesso no beforeStateEntry](Mensagem_de_Sucesso_no_beforeStateEntry.md) — 👁 529 | 💬 1 [bpm]
+- [Sistema de B.I sobre o fluig](Sistema_de_B.I_sobre_o_fluig.md) — 👁 513 | 💬 0
+- [Fluxos BPM - Copiar](Fluxos_BPM_-_Copiar.md) — 👁 512 | 💬 1
+- [getChildrenFromTable](getChildrenFromTable.md) — 👁 509 | 💬 0
+- [Capturar resultado do modal](Capturar_resultado_do_modal.md) — 👁 477 | 💬 0 [form, bpm]
+- [Movimentar Atividade Automaticamente](Movimentar_Atividade_Automaticamente.md) — 👁 472 | 💬 2 [form, processo, bpm]
+- [Erro ao acessar solicitação finalizada](Erro_ao_acessar_solicita%C3%A7%C3%A3o_finalizada.md) — 👁 470 | 💬 6
+- [Vincular um campo ao outro](Vincular_um_campo_ao_outro.md) — 👁 452 | 💬 3 [form]
+- [nextSequenceId se refere a todos os elementos do diagrama?](nextSequenceId_se_refere_a_todos_os_elementos_do_diagrama.md) — 👁 450 | 💬 0
+- [Atribuir atividade a usuário específico com base em valor digitado](Atribuir_atividade_a_usu%C3%A1rio_espec%C3%ADfico_com_base_em_valor_digitado.md) — 👁 432 | 💬 3 [form, processo, bpm]
+- [Bloquear nova solicitação por expiração de data](Bloquear_nova_solicita%C3%A7%C3%A3o_por_expira%C3%A7%C3%A3o_de_data.md) — 👁 428 | 💬 2
+- [Diferença de horas de atividades considerando o expediente](Diferen%C3%A7a_de_horas_de_atividades_considerando_o_expediente.md) — 👁 421 | 💬 3 [fluigapi]
+- [Puxar requisitante de outros processos](Puxar_requisitante_de_outros_processos.md) — 👁 415 | 💬 7 [processo, bpm, fluigapi]
+- [Valor de vampo setado no beforeSendValidade vazio na próxima etapa](Valor_de_vampo_setado_no_beforeSendValidade_vazio_na_pr%C3%B3xima_etapa.md) — 👁 392 | 💬 4 [beforesendvalidate]
+- [Como se testa um mecanismo de atribuição customizado?](Como_se_testa_um_mecanismo_de_atribui%C3%A7%C3%A3o_customizado.md) — 👁 385 | 💬 0 [processo, bpm, mecanismoatribuicao]
+- [Popular grupo com dataset](Popular_grupo_com_dataset.md) — 👁 372 | 💬 0
+- [Integração com Protheus API REST](Integra%C3%A7%C3%A3o_com_Protheus_API_REST.md) — 👁 364 | 💬 0 [form, processo, bpm, dataset]
+- [Retirar pessoa de consenso "on-the-fly"](Retirar_pessoa_de_consenso_on-the-fly.md) — 👁 344 | 💬 2 [consenso]
+- [[ERRO] A different object with the same identifier value was already associated with the session](%5BERRO%5D_A_different_object_with_the_same_identifier_value_was_already_associated_with_the_session.md) — 👁 315 | 💬 0 [form, processo, bpm]
+- [Script para eliminar solicitações](Script_para_eliminar_solicita%C3%A7%C3%B5es.md) — 👁 309 | 💬 1 [bpm, fluigapi, script]
+- [Aprovação simultânea](Aprova%C3%A7%C3%A3o_simult%C3%A2nea.md) — 👁 309 | 💬 5 [form, bpm]
+- [Função reutilizável em todos scripts Fluig](Fun%C3%A7%C3%A3o_reutiliz%C3%A1vel_em_todos_scripts_Fluig.md) — 👁 286 | 💬 7 [form, processo, bpm, dataset, app]
+- [Campo Zoom no Método de Atribuição por Campo de Formulário](Campo_Zoom_no_M%C3%A9todo_de_Atribui%C3%A7%C3%A3o_por_Campo_de_Formul%C3%A1rio.md) — 👁 220 | 💬 2 [form]
+- [Retorno "Could not receive message" em chamada via SOAP ao RM](Retorno_Could_not_receive_message_em_chamada_via_SOAP_ao_RM.md) — 👁 211 | 💬 0 [rm, webservice, soap]
+- [Definição de Consenso](Defini%C3%A7%C3%A3o_de_Consenso.md) — 👁 202 | 💬 1 [processo, bpm]
+- [Usar dados enviados no startProcess](Usar_dados_enviados_no_startProcess.md) — 👁 197 | 💬 3 [bpm]
+- [Como dispara um formulário para mais de um usuário responder em simultâneo](Como_dispara_um_formul%C3%A1rio_para_mais_de_um_usu%C3%A1rio_responder_em_simult%C3%A2neo.md) — 👁 196 | 💬 1 [form, processo, bpm]
+- [Erro ao enviar e-mail](Erro_ao_enviar_e-mail.md) — 👁 172 | 💬 3 [processo, bpm, beforetasksave]
+- [Uma sugestão sobre criar ou não novos processos](Uma_sugest%C3%A3o_sobre_criar_ou_n%C3%A3o_novos_processos.md) — 👁 151 | 💬 2 [processo, bpm]
+- [Preenchendo Campo com DataSet](Preenchendo_Campo_com_DataSet.md) — 👁 113 | 💬 0 [form, processo, bpm, dataset]
+- [Cópia de Documento via atividade de serviço](C%C3%B3pia_de_Documento_via_atividade_de_servi%C3%A7o.md) — 👁 107 | 💬 3 [processo, ged]
+- [Erro ao abrir diagrama no eclipse](Erro_ao_abrir_diagrama_no_eclipse.md) — 👁 94 | 💬 0 [form, processo, bpm]
+- [Multiplas atividades de aprovação dentro de um processo](Multiplas_atividades_de_aprova%C3%A7%C3%A3o_dentro_de_um_processo.md) — 👁 84 | 💬 4 [processo, bpm, approval]
+- [Como eu posso importar dados do meu histórico de um formulário, com o fluig no tCloud?](Como_eu_posso_importar_dados_do_meu_hist%C3%B3rico_de_um_formul%C3%A1rio%2C_com_o_fluig_no_tCloud.md) — 👁 73 | 💬 0 [processo]
+- [Enviar dados entre processos](Enviar_dados_entre_processos.md) — 👁 64 | 💬 3 [form, processo, bpm, dataset, fluigapi]
+- [Envio de email customizado em um processo](Envio_de_email_customizado_em_um_processo.md) — 👁 53 | 💬 0 [processo]
+- [Bloquear solicitação em atividade especifica](Bloquear_solicita%C3%A7%C3%A3o_em_atividade_especifica.md) — 👁 52 | 💬 1 [processo, bpm, dataset]
+- [Consultar Mecanismo de Atribuição Customizado](Consultar_Mecanismo_de_Atribui%C3%A7%C3%A3o_Customizado.md) — 👁 48 | 💬 0 [processo]
+- [Adicionar filhos numa tabela usando o addCardChild()](Adicionar_filhos_numa_tabela_usando_o_addCardChild().md) — 👁 41 | 💬 0 [form, dataset]
+- [Erro ao anexar aquivos](Erro_ao_anexar_aquivos.md) — 👁 39 | 💬 2 [processo, anexo]
+- [Erro em Task Service](Erro_em_Task_Service.md) — 👁 38 | 💬 1 [processo, bpm, fluigapi, widget]
+- [Nome da pasta em Iniciar solicitações](Nome_da_pasta_em_Iniciar_solicita%C3%A7%C3%B5es.md) — 👁 33 | 💬 1 [processo, bpm]
+- [Houve alguma mudança na importação de processos?](Houve_alguma_mudan%C3%A7a_na_importa%C3%A7%C3%A3o_de_processos.md) — 👁 23 | 💬 1 [processo]
+
+## 💬 Discussões
+
+- [Incluir comentário no processo via hAPI](Incluir_coment%C3%A1rio_no_processo_via_hAPI.md) — 👁 26737 | 💬 0 [bpm, hapi, complemento, comentario]
+- [Cliente externo sem usuário Fluig startar um processo e anexar documentos](Cliente_externo_sem_usu%C3%A1rio_Fluig_startar_um_processo_e_anexar_documentos.md) — 👁 5653 | 💬 13 [processo, widget, publico, pagina, externo]
+- [Listar anexos actuales de un proceso](Listar_anexos_actuales_de_un_proceso.md) — 👁 2402 | 💬 7 [form, anexo]
+- [Erro ao executar o evento displayFields não foi implementado para o fichário 2228479 na versão 1000](Erro_ao_executar_o_evento_displayFields_n%C3%A3o_foi_implementado_para_o_fich%C3%A1rio_2228479_na_vers%C3%A3o_1000.md) — 👁 2298 | 💬 2
+- [Constraint fazendo like em dois campos](Constraint_fazendo_like_em_dois_campos.md) — 👁 2107 | 💬 1
+- [Tabela SQL que guarda configuração de atividade dentro processo](Tabela_SQL_que_guarda_configura%C3%A7%C3%A3o_de_atividade_dentro_processo.md) — 👁 2085 | 💬 2 [sql]
+- [Validar intervalo de data do formulário #form #spinners #js](Validar_intervalo_de_data_do_formul%C3%A1rio_%23form_%23spinners_%23js.md) — 👁 2055 | 💬 9 [form, java, javascript, spinners]
+- [Valida se um novo anexo foi inserido](Valida_se_um_novo_anexo_foi_inserido.md) — 👁 1945 | 💬 4
+- [Evento beforeSendValidate](Evento_beforeSendValidate.md) — 👁 1930 | 💬 0
+- [Evento do botão de deletar paixfilho](Evento_do_bot%C3%A3o_de_deletar_paixfilho.md) — 👁 1869 | 💬 0
+- [Modal Zoom em Form](Modal_Zoom_em_Form.md) — 👁 1739 | 💬 0 [java]
+- [startProcess no beforeTaskSave](startProcess_no_beforeTaskSave.md) — 👁 1663 | 💬 2 [form, processo, bpm, beforetasksave, startprocess]
+- [Fluig x Protheus - Criando dataset com integração Via REST (GET) utilizando BasicAuth](Fluig_x_Protheus_-_Criando_dataset_com_integra%C3%A7%C3%A3o_Via_REST_(GET)_utilizando_BasicAuth.md) — 👁 1605 | 💬 1
+- [Inserir filho em uma tabela pai x filho através de outra solicitação](Inserir_filho_em_uma_tabela_pai_x_filho_atrav%C3%A9s_de_outra_solicita%C3%A7%C3%A3o.md) — 👁 1571 | 💬 3 [form, paixfilho, tabela]
+- [Script para disponibilizar as variáveis direto no form/javascript](Script_para_disponibilizar_as_vari%C3%A1veis_direto_no_form_javascript.md) — 👁 1545 | 💬 2 [java]
+- [fluigAPI-WCMAPI no front](fluigAPI-WCMAPI_no_front.md) — 👁 1539 | 💬 0 [processo, fluigapi, wcmapi, solicitacao]
+- [Inserir linhas em uma tabela pai x filho através de outra solicitação](Inserir_linhas_em_uma_tabela_pai_x_filho_atrav%C3%A9s_de_outra_solicita%C3%A7%C3%A3o.md) — 👁 1460 | 💬 5 [form, processo, bpm, fluigapi, paixfilho]
+- [Radio Button customizado](Radio_Button_customizado.md) — 👁 1443 | 💬 1
+- [Problema ao consumir API Fluig dentro do dataset](Problema_ao_consumir_API_Fluig_dentro_do_dataset.md) — 👁 1399 | 💬 2
+- [Como pegar o aprovador atual via Evento de Workflow](Como_pegar_o_aprovador_atual_via_Evento_de_Workflow.md) — 👁 1389 | 💬 0
+- [Pegar dados de uma tabela pai x filho](Pegar_dados_de_uma_tabela_pai_x_filho.md) — 👁 1377 | 💬 2
+- [Dataset Constraint em campo data do formulário](Dataset_Constraint_em_campo_data_do_formul%C3%A1rio.md) — 👁 1296 | 💬 1
+- [Dúvida da funcionalidade reloadZoomFilterValues](D%C3%BAvida_da_funcionalidade_reloadZoomFilterValues.md) — 👁 1293 | 💬 1 [form, bpm, zoom]
+- [Campo checkbox em tabela pai x filho](Campo_checkbox_em_tabela_pai_x_filho.md) — 👁 1231 | 💬 2
+- [Obter Base64 de um anexo dentro do formulário](Obter_Base64_de_um_anexo_dentro_do_formul%C3%A1rio.md) — 👁 1203 | 💬 0 [form]
+- [Exemplo de ECMWorkflowEngineService para Pai X Filho (tablename)](Exemplo_de_ECMWorkflowEngineService_para_Pai_X_Filho_(tablename).md) — 👁 1178 | 💬 4 [form, fluigapi]
+- [WFLYJPA0060: Transaction is required to perform this operation (either use a transaction or extended persistence context)](WFLYJPA0060_Transaction_is_required_to_perform_this_operation_(either_use_a_transaction_or_extended_persistence_context).md) — 👁 1173 | 💬 1
+- [Integração processo com sub-processo](Integra%C3%A7%C3%A3o_processo_com_sub-processo.md) — 👁 1150 | 💬 1 [form, bpm]
+- [Tratar json com dados duplicados](Tratar_json_com_dados_duplicados.md) — 👁 1118 | 💬 0
+- [QUERY SQLServer e Mysql para descobrir Datasets e tabelas METALIST de seus formulários](QUERY_SQLServer_e_Mysql_para_descobrir_Datasets_e_tabelas_METALIST_de_seus_formul%C3%A1rios.md) — 👁 1080 | 💬 0 [banco-de-dados, query, datasets, formularios]
+- [Atribuição utilizando Grupo x Papel](Atribui%C3%A7%C3%A3o_utilizando_Grupo_x_Papel.md) — 👁 1069 | 💬 1 [papel, grupo]
+- [Envio de anexo para API](Envio_de_anexo_para_API.md) — 👁 1061 | 💬 2
+- [Problema para usar o toast no displayFields](Problema_para_usar_o_toast_no_displayFields.md) — 👁 1039 | 💬 5
+- [Problemas com sub-processo](Problemas_com_sub-processo.md) — 👁 1033 | 💬 0
+- [Cancelar Requisição](Cancelar_Requisi%C3%A7%C3%A3o.md) — 👁 981 | 💬 1
+- [Criar um documento a partir de um formulário via código de um processo](Criar_um_documento_a_partir_de_um_formul%C3%A1rio_via_c%C3%B3digo_de_um_processo.md) — 👁 947 | 💬 0
+- [Limpar Dataset Sincronizado](Limpar_Dataset_Sincronizado.md) — 👁 934 | 💬 0
+- [Executar função com biblioteca externa em atividade de serviço ou Dataset](Executar_fun%C3%A7%C3%A3o_com_biblioteca_externa_em_atividade_de_servi%C3%A7o_ou_Dataset.md) — 👁 930 | 💬 1 [bpm, dataset, mobile]
+- [Problema para arquivar documentos no GED](Problema_para_arquivar_documentos_no_GED.md) — 👁 905 | 💬 1
+- [Erro ao realizar a criação de processos](Erro_ao_realizar_a_cria%C3%A7%C3%A3o_de_processos.md) — 👁 822 | 💬 0
+- [Converter dataset para arquivo CSV](Converter_dataset_para_arquivo_CSV.md) — 👁 791 | 💬 0
+- [Página em manutenção](P%C3%A1gina_em_manuten%C3%A7%C3%A3o.md) — 👁 789 | 💬 0
+- [Processo - Programação do evento beforeStateEntry para fazer Insert em banco de dados externo](Processo_-_Programa%C3%A7%C3%A3o_do_evento_beforeStateEntry_para_fazer_Insert_em_banco_de_dados_externo.md) — 👁 774 | 💬 0
+- [Movimentar o processo com um botão próprio](Movimentar_o_processo_com_um_bot%C3%A3o_pr%C3%B3prio.md) — 👁 763 | 💬 0
+- [Remover botões de anexo, complemento e detalhes](Remover_bot%C3%B5es_de_anexo%2C_complemento_e_detalhes.md) — 👁 749 | 💬 1
+- [Erro Usuário destino não foi informado!](Erro_Usu%C3%A1rio_destino_n%C3%A3o_foi_informado!.md) — 👁 709 | 💬 0
+- [Desfazer um Cancelamento de Processo](Desfazer_um_Cancelamento_de_Processo.md) — 👁 707 | 💬 0
+- [Como deixar anexos obrigatórios em um processo?](Como_deixar_anexos_obrigat%C3%B3rios_em_um_processo.md) — 👁 675 | 💬 2 [form, bpm]
+- [Como pegar informação de um dataset com consulta SQL e colocar em um campo hidden do formulário](Como_pegar_informa%C3%A7%C3%A3o_de_um_dataset_com_consulta_SQL_e_colocar_em_um_campo_hidden_do_formul%C3%A1rio.md) — 👁 660 | 💬 0 [dataset]
+- [É possível manter uma versão anterior de um processo como a versão ativa e não a última versão?](%C3%89_poss%C3%ADvel_manter_uma_vers%C3%A3o_anterior_de_um_processo_como_a_vers%C3%A3o_ativa_e_n%C3%A3o_a_%C3%BAltima_vers%C3%A3o.md) — 👁 646 | 💬 0
+- [Salvar Anexos de um Processo no ECM](Salvar_Anexos_de_um_Processo_no_ECM.md) — 👁 640 | 💬 0 [bpm, ecm, anexo]
+- [Assinatura Automática Vertsign Fluig](Assinatura_Autom%C3%A1tica_Vertsign_Fluig.md) — 👁 637 | 💬 0
+- [Erro ao usar processo com sinal](Erro_ao_usar_processo_com_sinal.md) — 👁 630 | 💬 1
+- [Omitir um campo especifico de uma solicitação](Omitir_um_campo_especifico_de_uma_solicita%C3%A7%C3%A3o.md) — 👁 629 | 💬 7 [form, bpm]
+- [Exclusivo não funciona](Exclusivo_n%C3%A3o_funciona.md) — 👁 627 | 💬 2
+- [Bisagi no lugar do Eclipse e fa ferramenta interna do fluig](Bisagi_no_lugar_do_Eclipse_e_fa_ferramenta_interna_do_fluig.md) — 👁 616 | 💬 0 [bpm]
+- [Visualização de Processo](Visualiza%C3%A7%C3%A3o_de_Processo.md) — 👁 608 | 💬 0 [bpm]
+- [Multiplos usuários acessando a mesma atividade.](Multiplos_usu%C3%A1rios_acessando_a_mesma_atividade.md) — 👁 598 | 💬 0
+- [Trazer Input alterado no evento do workflow](Trazer_Input_alterado_no_evento_do_workflow.md) — 👁 598 | 💬 2
+- [Filtrar Anexos de um Processo](Filtrar_Anexos_de_um_Processo.md) — 👁 569 | 💬 0 [bpm, anexo]
+- [Uso de Sinal em processos](Uso_de_Sinal_em_processos.md) — 👁 555 | 💬 1
+- [Complementos em atividades paralelas getActualThread](Complementos_em_atividades_paralelas_getActualThread.md) — 👁 550 | 💬 0
+- [Anexar mais de um arquivo no processo](Anexar_mais_de_um_arquivo_no_processo.md) — 👁 543 | 💬 0 [form, bpm]
+- [Central de tarefas customizada](Central_de_tarefas_customizada.md) — 👁 540 | 💬 0 [bpm, dataset]
+- [Definir prazo de expiração da solicitação via API/WS](Definir_prazo_de_expira%C3%A7%C3%A3o_da_solicita%C3%A7%C3%A3o_via_API_WS.md) — 👁 526 | 💬 0
+- [Modificar tarefas adhoc](Modificar_tarefas_adhoc.md) — 👁 511 | 💬 0
+- [Simular ajax request no backend](Simular_ajax_request_no_backend.md) — 👁 501 | 💬 0
+- [CI/CD no Fluig (build/deploy automatizado)](CI_CD_no_Fluig_(build_deploy_automatizado).md) — 👁 499 | 💬 1
+- [Assinatura via mobile](Assinatura_via_mobile.md) — 👁 499 | 💬 0 [mobile, app]
+- [Problema em visualizar documentos na solicitação](Problema_em_visualizar_documentos_na_solicita%C3%A7%C3%A3o.md) — 👁 481 | 💬 1
+- [Dados não salvos no banco do fluig](Dados_n%C3%A3o_salvos_no_banco_do_fluig.md) — 👁 460 | 💬 1
+- [Organização do Fluxo do Diagrama](Organiza%C3%A7%C3%A3o_do_Fluxo_do_Diagrama.md) — 👁 452 | 💬 2 [bpm]
+- [Erro ao usar a função notifier.notify](Erro_ao_usar_a_fun%C3%A7%C3%A3o_notifier.notify.md) — 👁 450 | 💬 1 [bpm, dataset]
+- [WorkFlow de Aprovação TOTVS RM x FLuig](WorkFlow_de_Aprova%C3%A7%C3%A3o_TOTVS_RM_x_FLuig.md) — 👁 448 | 💬 0
+- [Mais de um aprovador na atividade](Mais_de_um_aprovador_na_atividade.md) — 👁 443 | 💬 0 [bpm]
+- [Document ready do fluig](Document_ready_do_fluig.md) — 👁 442 | 💬 0
+- [Cores no grid da Central de Tarefas](Cores_no_grid_da_Central_de_Tarefas.md) — 👁 437 | 💬 0 [bpm]
+- [Atividade de sinal via rest](Atividade_de_sinal_via_rest.md) — 👁 435 | 💬 0
+- [Sobre a categoria BPM ](Sobre_a_categoria_BPM.md) — 👁 425 | 💬 0
+- [Referência de métodos e propriedades para os eventos de processo](Refer%C3%AAncia_de_m%C3%A9todos_e_propriedades_para_os_eventos_de_processo.md) — 👁 420 | 💬 1
+- [Desvincular anexo de processo](Desvincular_anexo_de_processo.md) — 👁 417 | 💬 0 [processo, bpm, fluigapi]
+- [Systema:Auto - Preso na atividade](Systema_Auto_-_Preso_na_atividade.md) — 👁 410 | 💬 0
+- [Dúvida sobre sob-processo com saída para outra atividade](D%C3%BAvida_sobre_sob-processo_com_sa%C3%ADda_para_outra_atividade.md) — 👁 410 | 💬 1
+- [Cancelar em bloco como gestor](Cancelar_em_bloco_como_gestor.md) — 👁 407 | 💬 0
+- [Saber os papéis do solicitante ou usuário de um formulário BPM](Saber_os_pap%C3%A9is_do_solicitante_ou_usu%C3%A1rio_de_um_formul%C3%A1rio_BPM.md) — 👁 406 | 💬 0 [form, bpm, papel]
+- [Integração de movimentos RM x Fluig](Integra%C3%A7%C3%A3o_de_movimentos_RM_x_Fluig.md) — 👁 404 | 💬 0
+- [Salvar e-mail enviado no WorkFlow](Salvar_e-mail_enviado_no_WorkFlow.md) — 👁 397 | 💬 1 [bpm]
+- [Processo parado em atividade de serviço](Processo_parado_em_atividade_de_servi%C3%A7o.md) — 👁 388 | 💬 0
+- [Tempo decorrido em cada atividade do processo](Tempo_decorrido_em_cada_atividade_do_processo.md) — 👁 388 | 💬 0
+- [Enviar e-mail personalizado dependendo da decisão do usuario](Enviar_e-mail_personalizado_dependendo_da_decis%C3%A3o_do_usuario.md) — 👁 387 | 💬 0 [form, processo, bpm]
+- [Permitir acesso a solicitação para outro usuário](Permitir_acesso_a_solicita%C3%A7%C3%A3o_para_outro_usu%C3%A1rio.md) — 👁 377 | 💬 0
+- [Erro ao exportar processo para a produção](Erro_ao_exportar_processo_para_a_produ%C3%A7%C3%A3o.md) — 👁 375 | 💬 1
+- [Cálculo de tempo em atividade (Utilizando o expediente)](C%C3%A1lculo_de_tempo_em_atividade_(Utilizando_o_expediente).md) — 👁 374 | 💬 0 [form, processo, bpm]
+- [Referenciar o responsável da atividade](Referenciar_o_respons%C3%A1vel_da_atividade.md) — 👁 370 | 💬 0 [bpm, dataset, formulario]
+- [Solicitação atrasada mas atividade não](Solicita%C3%A7%C3%A3o_atrasada_mas_atividade_n%C3%A3o.md) — 👁 368 | 💬 0
+- [Input Zoom - parou de funcionar na versão 170](Input_Zoom_-_parou_de_funcionar_na_vers%C3%A3o_170.md) — 👁 363 | 💬 2
+- [Docusign integração](Docusign_integra%C3%A7%C3%A3o.md) — 👁 355 | 💬 0
+- [Atribuir tarefa a diferentes usuários dependendo do tempo decorrido](Atribuir_tarefa_a_diferentes_usu%C3%A1rios_dependendo_do_tempo_decorrido.md) — 👁 349 | 💬 0
+- [Não salva valor no campo caso ocorra throw no script](N%C3%A3o_salva_valor_no_campo_caso_ocorra_throw_no_script.md) — 👁 348 | 💬 1 [form, bpm]
+- [Atividade condicional com duas opções de saida](Atividade_condicional_com_duas_op%C3%A7%C3%B5es_de_saida.md) — 👁 342 | 💬 0
+- [JSON.stringify retornando erro no servicetask](JSON.stringify_retornando_erro_no_servicetask.md) — 👁 340 | 💬 0 [processo, bpm, dataset]
+- [Evento intermediário temporizado](Evento_intermedi%C3%A1rio_temporizado.md) — 👁 337 | 💬 0
+- [Remover anexo ao entrar em uma atividade?](Remover_anexo_ao_entrar_em_uma_atividade.md) — 👁 336 | 💬 0
+- [Evento especifico em um processo](Evento_especifico_em_um_processo.md) — 👁 333 | 💬 5 [form, fluigapi]
+- [Como atribuir um font-family default para o componente Fluig richeditor](Como_atribuir_um_font-family_default_para_o_componente_Fluig_richeditor.md) — 👁 333 | 💬 0
+- [Tipo de tratativa](Tipo_de_tratativa.md) — 👁 331 | 💬 0 [bpm]
+- [Não exibir o diagrama (fluxo) na aba "Detalhes"](N%C3%A3o_exibir_o_diagrama_(fluxo)_na_aba_Detalhes.md) — 👁 329 | 💬 2
+- [Deletar anexos de um processo](Deletar_anexos_de_um_processo.md) — 👁 327 | 💬 0
+- [Gestores por Mecanismo Customizado](Gestores_por_Mecanismo_Customizado.md) — 👁 322 | 💬 0
+- [Timeout em dataset customizado - saveAndsend](Timeout_em_dataset_customizado_-_saveAndsend.md) — 👁 321 | 💬 0 [dataset, fluigapi]
+- [Requisição de Materiais](Requisi%C3%A7%C3%A3o_de_Materiais.md) — 👁 318 | 💬 0 [form, dataset, rm]
+- [Criar Regras de anexos nas atividades dos processos](Criar_Regras_de_anexos_nas_atividades_dos_processos.md) — 👁 311 | 💬 5 [processo]
+- [Enviar e-mail customizado após transferir](Enviar_e-mail_customizado_ap%C3%B3s_transferir.md) — 👁 304 | 💬 0 [bpm]
+- [Campo de formulario com vários itens](Campo_de_formulario_com_v%C3%A1rios_itens.md) — 👁 301 | 💬 1 [dataset]
+- [Capturar codigo alias da tabela protheus](Capturar_codigo_alias_da_tabela_protheus.md) — 👁 296 | 💬 0 [dataset, datasets]
+- [Gerar relatório no RM e enviar em anexo via email](Gerar_relat%C3%B3rio_no_RM_e_enviar_em_anexo_via_email.md) — 👁 295 | 💬 0 [form, processo, bpm, webservice]
+- [Sub-processo parou de referenciar o processo pai](Sub-processo_parou_de_referenciar_o_processo_pai.md) — 👁 286 | 💬 0
+- [Erro ao criar diagrama no eclipse](Erro_ao_criar_diagrama_no_eclipse.md) — 👁 284 | 💬 0
+- [Falha ao desserealizar a resposta](Falha_ao_desserealizar_a_resposta.md) — 👁 276 | 💬 0
+- [Fluig montando desenho do diagrama do fluxo errado](Fluig_montando_desenho_do_diagrama_do_fluxo_errado.md) — 👁 274 | 💬 0
+- [Popular tabela pai x filho após o usuário assumir a tarefa](Popular_tabela_pai_x_filho_ap%C3%B3s_o_usu%C3%A1rio_assumir_a_tarefa.md) — 👁 273 | 💬 0 [paixfilho]
+- [Enviar atividade para vários usuário com mecanismo customizado por tabela pai x filho](Enviar_atividade_para_v%C3%A1rios_usu%C3%A1rio_com_mecanismo_customizado_por_tabela_pai_x_filho.md) — 👁 270 | 💬 0 [paixfilho, mecanismoatribuicao]
+- [Integração executada com sucesso, mas fluig não segue adiante](Integra%C3%A7%C3%A3o_executada_com_sucesso%2C_mas_fluig_n%C3%A3o_segue_adiante.md) — 👁 266 | 💬 0
+- [Chamada de um fluxo dentro de outro](Chamada_de_um_fluxo_dentro_de_outro.md) — 👁 260 | 💬 0
+- [Atividade de Envio de mensagem](Atividade_de_Envio_de_mensagem.md) — 👁 258 | 💬 1 [form, bpm]
+- [Retorno do REST para FLUIG](Retorno_do_REST_para_FLUIG.md) — 👁 255 | 💬 0 [processo, bpm]
+- [IJ000457: Unchecked throwable in managedConnectionReconnected()](IJ000457_Unchecked_throwable_in_managedConnectionReconnected().md) — 👁 250 | 💬 0 [dataset]
+- [Integração TOTVS RM x Fluig](Integra%C3%A7%C3%A3o_TOTVS_RM_x_Fluig.md) — 👁 246 | 💬 0
+- [Atualizar script de processo sem atualizar versão de processo](Atualizar_script_de_processo_sem_atualizar_vers%C3%A3o_de_processo.md) — 👁 242 | 💬 1 [bpm, evento, script]
+- [Posso usar um formulario html, css e js ja feito no Fluig?](Posso_usar_um_formulario_html%2C_css_e_js_ja_feito_no_Fluig.md) — 👁 214 | 💬 0 [form, processo, dataset, mobile]
+- [Envio de formularios para json](Envio_de_formularios_para_json.md) — 👁 211 | 💬 0 [form, processo, bpm]
+- [Como usar ECMSignalService](Como_usar_ECMSignalService.md) — 👁 205 | 💬 0
+- [Mecanismo customizado retornando apenas ultimo usuario](Mecanismo_customizado_retornando_apenas_ultimo_usuario.md) — 👁 199 | 💬 0 [processo]
+- [Processo Mobile - Salvar Formulário](Processo_Mobile_-_Salvar_Formul%C3%A1rio.md) — 👁 197 | 💬 0 [form]
+- [Validar usuários de papel ou grupo via workflow](Validar_usu%C3%A1rios_de_papel_ou_grupo_via_workflow.md) — 👁 192 | 💬 0 [processo, bpm]
+- [Processos criados na Plataforma x Widget customizada](Processos_criados_na_Plataforma_x_Widget_customizada.md) — 👁 179 | 💬 1
+- [Assinatura digital](Assinatura_digital.md) — 👁 177 | 💬 0
+- [Ocultar "Enviar" do mobile](Ocultar_Enviar_do_mobile.md) — 👁 176 | 💬 0
+- [Movimentar atividade automaticamente sem expirar o prazo](Movimentar_atividade_automaticamente_sem_expirar_o_prazo.md) — 👁 175 | 💬 0 [processo]
+- [Necessito pesquisar um determinado usuário pelo e-mail](Necessito_pesquisar_um_determinado_usu%C3%A1rio_pelo_e-mail.md) — 👁 163 | 💬 0 [dataset, usuario]
+- [Utilização da tarefa de Envio (mailtask)](Utiliza%C3%A7%C3%A3o_da_tarefa_de_Envio_(mailtask).md) — 👁 157 | 💬 0 [fluigapi]
+- [Notificação de atividade pendente para grupo](Notifica%C3%A7%C3%A3o_de_atividade_pendente_para_grupo.md) — 👁 148 | 💬 0 [processo]
+- [Variável form entre eventos de formulário](Vari%C3%A1vel_form_entre_eventos_de_formul%C3%A1rio.md) — 👁 148 | 💬 0 [processo, bpm]
+- [Solicitação atribuida por formulário ou mecanismo para usuário a ser inativado](Solicita%C3%A7%C3%A3o_atribuida_por_formul%C3%A1rio_ou_mecanismo_para_usu%C3%A1rio_a_ser_inativado.md) — 👁 147 | 💬 2 [processo, bpm, usuario]
+- [Integração fluig x rm para processar rescisão](Integra%C3%A7%C3%A3o_fluig_x_rm_para_processar_rescis%C3%A3o.md) — 👁 137 | 💬 2
+- [Mecanismo customizado com usuários vindo do RM](Mecanismo_customizado_com_usu%C3%A1rios_vindo_do_RM.md) — 👁 135 | 💬 0 [processo, bpm]
+- [Metodo saveAndSendTaskByReplacement](Metodo_saveAndSendTaskByReplacement.md) — 👁 133 | 💬 2 [processo]
+- [Seguir redirect usando getAuthorizeClientService](Seguir_redirect_usando_getAuthorizeClientService.md) — 👁 128 | 💬 0 [dataset]
+- [Customização Before SendValidate](Customiza%C3%A7%C3%A3o_Before_SendValidate.md) — 👁 126 | 💬 0 [form, processo, bpm]
+- [Transferência com Mecanismo Customizado ( pool de grupo para usuário não pertencente ao grupo )](Transfer%C3%AAncia_com_Mecanismo_Customizado_(_pool_de_grupo_para_usu%C3%A1rio_n%C3%A3o_pertencente_ao_grupo_).md) — 👁 118 | 💬 0 [mecanismoatribuicao]
+- [Voltar Atividade](Voltar_Atividade.md) — 👁 117 | 💬 2
+- [Mecanismo de atribuição customizado - atribuir ao usuário especifico do papel sem necessidade de assumir tarefa](Mecanismo_de_atribui%C3%A7%C3%A3o_customizado_-_atribuir_ao_usu%C3%A1rio_especifico_do_papel_sem_necessidade_de_assumir_tarefa.md) — 👁 117 | 💬 0 [processo]
+- [Processos - Não existem colaboradores em comum](Processos_-_N%C3%A3o_existem_colaboradores_em_comum.md) — 👁 113 | 💬 5 [processo]
+- [Tabela pai x filho em hapi.startprocess](Tabela_pai_x_filho_em_hapi.startprocess.md) — 👁 87 | 💬 1 [form, processo, paixfilho, startprocess, hapi]
+- [Erro de permissão ao criar pasta no GED via atividade de serviço no Fluig](Erro_de_permiss%C3%A3o_ao_criar_pasta_no_GED_via_atividade_de_servi%C3%A7o_no_Fluig.md) — 👁 85 | 💬 2 [processo]
+- [Consultar informações de solicitações de um processo](Consultar_informa%C3%A7%C3%B5es_de_solicita%C3%A7%C3%B5es_de_um_processo.md) — 👁 82 | 💬 0 [processo, bpm, banco-de-dados, sql, query]
+- [Gateway inclusivo sem condição verdadeira](Gateway_inclusivo_sem_condi%C3%A7%C3%A3o_verdadeira.md) — 👁 77 | 💬 1 [processo, bpm]
+- [Como criar um sub-processo vindo de um processo](Como_criar_um_sub-processo_vindo_de_um_processo.md) — 👁 76 | 💬 1
+- [Problema com leitura de Dataset](Problema_com_leitura_de_Dataset.md) — 👁 76 | 💬 1 [form, dataset]
+- [Acompanhante de atividade](Acompanhante_de_atividade.md) — 👁 69 | 💬 0
+- [Adicionar filhos numa tabela pai em um evento Workflow](Adicionar_filhos_numa_tabela_pai_em_um_evento_Workflow.md) — 👁 65 | 💬 0 [form, paixfilho, tabela]
+- [Duvida mecanismo de atribuição customizado](Duvida_mecanismo_de_atribui%C3%A7%C3%A3o_customizado.md) — 👁 63 | 💬 0 [bpm]
+- [Controle de versão](Controle_de_vers%C3%A3o.md) — 👁 57 | 💬 2 [form, processo, bpm]
+- [Ocultar um processo da lista de "Iniciar Solicitações"](Ocultar_um_processo_da_lista_de_Iniciar_Solicita%C3%A7%C3%B5es.md) — 👁 57 | 💬 0 [processo]
+- [Não foi possível resolver as condições da atividade automática](N%C3%A3o_foi_poss%C3%ADvel_resolver_as_condi%C3%A7%C3%B5es_da_atividade_autom%C3%A1tica.md) — 👁 54 | 💬 0 [form, processo, bpm]
+- [Dicas sobre Datasets](Dicas_sobre_Datasets.md) — 👁 53 | 💬 1 [form, bpm]
+- [Atribuição por executor de atividade](Atribui%C3%A7%C3%A3o_por_executor_de_atividade.md) — 👁 52 | 💬 0 [processo, bpm]
+- [Duvida campos Workflow](Duvida_campos_Workflow.md) — 👁 50 | 💬 0 [form, processo]
+- [Pula etapa do processo quando não existir responsável](Pula_etapa_do_processo_quando_n%C3%A3o_existir_respons%C3%A1vel.md) — 👁 49 | 💬 2
+- [Votar nas melhorias relacionadas ao Fluig](Votar_nas_melhorias_relacionadas_ao_Fluig.md) — 👁 48 | 💬 0 [form, processo, bpm]
+- [Como recuperar valor de campo do formulário via dataset](Como_recuperar_valor_de_campo_do_formul%C3%A1rio_via_dataset.md) — 👁 47 | 💬 0
+- [Editar registro do processo via api](Editar_registro_do_processo_via_api.md) — 👁 42 | 💬 0
+- [Limitar a edição de processos a usuários, grupos ou papéis específicos](Limitar_a_edi%C3%A7%C3%A3o_de_processos_a_usu%C3%A1rios%2C_grupos_ou_pap%C3%A9is_espec%C3%ADficos.md) — 👁 39 | 💬 0
+- [Erro solcitaçao de Compra - integração Fluig X rm](Erro_solcita%C3%A7ao_de_Compra_-_integra%C3%A7%C3%A3o_Fluig_X_rm.md) — 👁 38 | 💬 0
+- [Descobrir para quem um processo enviou e-mail](Descobrir_para_quem_um_processo_enviou_e-mail.md) — 👁 32 | 💬 0
+- [Descrição e categoria não atualizam](Descri%C3%A7%C3%A3o_e_categoria_n%C3%A3o_atualizam.md) — 👁 31 | 💬 4 [processo, bpm]
+- [Importação de XML de NFSE pro RM via Fluig](Importa%C3%A7%C3%A3o_de_XML_de_NFSE_pro_RM_via_Fluig.md) — 👁 26 | 💬 0 [form, processo, bpm]
+- [Fluxo - Solicitação de nota fiscal de entrada](Fluxo_-_Solicita%C3%A7%C3%A3o_de_nota_fiscal_de_entrada.md) — 👁 25 | 💬 0
+- [Acesso de um usuário específico a uma solicitação de processo privado](Acesso_de_um_usu%C3%A1rio_espec%C3%ADfico_a_uma_solicita%C3%A7%C3%A3o_de_processo_privado.md) — 👁 24 | 💬 0 [processo, bpm]
+- [BPM - encaminhou a tarefa Validar preenchimento do formulário para o grupo Revisor onde você é o substituto do usuário](BPM_-_encaminhou_a_tarefa_Validar_preenchimento_do_formul%C3%A1rio_para_o_grupo_Revisor_onde_voc%C3%AA_%C3%A9_o_substituto_do_usu%C3%A1rio.md) — 👁 24 | 💬 5 [processo]
+- [Etapa parada na integração (serviceTask)](Etapa_parada_na_integra%C3%A7%C3%A3o_(serviceTask).md) — 👁 23 | 💬 0 [processo, bpm, servicetask]
+- [Bloquear notificação de responsabilidade por aprovação](Bloquear_notifica%C3%A7%C3%A3o_de_responsabilidade_por_aprova%C3%A7%C3%A3o.md) — 👁 20 | 💬 0 [bpm]
+- [Consultar dados de uma tabela com Always Encrypted do SQL habilitado](Consultar_dados_de_uma_tabela_com_Always_Encrypted_do_SQL_habilitado.md) — 👁 20 | 💬 0 [fluig, sql, lgpd]
+- [Buscar ID após transferência](Buscar_ID_ap%C3%B3s_transfer%C3%AAncia.md) — 👁 18 | 💬 1 [processo]
+- [Como configurar um processo de Aprovação usando exclusivegatway](Como_configurar_um_processo_de_Aprova%C3%A7%C3%A3o_usando_exclusivegatway.md) — 👁 17 | 💬 1 [form]
+- [Sinalizar para Intermediario através do BeforeTaskSave](Sinalizar_para_Intermediario_atrav%C3%A9s_do_BeforeTaskSave.md) — 👁 15 | 💬 0 [processo, bpm]
+- [Input de dados Dataset](Input_de_dados_Dataset.md) — 👁 11 | 💬 4 [form, processo, dataset]
+
