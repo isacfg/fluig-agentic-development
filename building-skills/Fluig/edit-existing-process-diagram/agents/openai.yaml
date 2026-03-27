@@ -1,0 +1,4 @@
+version: 1
+display_name: Edit Existing Process Diagram
+short_description: Inspect, edit, compare, and validate an existing Fluig .process diagram
+default_prompt: Edit an existing Fluig/TOTVS .process diagram safely, preserving BPMN ids and Graphiti/XMI invariants while validating the result after the change.

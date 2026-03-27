@@ -1,0 +1,4 @@
+version: 1
+display_name: Read Process for Display/Validate Fields
+short_description: Inspect a Fluig .process and derive stage-aware displayFields and validateForm rules
+default_prompt: Read an existing Fluig/TOTVS .process diagram and derive the activity matrix, lane ownership, gateway-driving fields, and stage-aware rules needed to build or revise displayFields.js and validateForm.js.
