@@ -1,0 +1,513 @@
+{
+  "source": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/home/",
+  "portalRoot": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/",
+  "total_pages": 12,
+  "failed_pages": 0,
+  "scraped_at": "2026-03-11T12:49:29.683Z",
+  "pages": [
+    {
+      "title": "Documentação - Integração SAS → FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/home/",
+      "file": "home.md",
+      "section": "home",
+      "sections": [
+        {
+          "id": "documenta-o-integra-o-sas-foco",
+          "text": "Documentação - Integração SAS → FOCO"
+        },
+        {
+          "id": "vis-o-geral",
+          "text": "Visão Geral"
+        },
+        {
+          "id": "aten-o-integradores",
+          "text": "⚠️ Atenção Integradores! ⚠️"
+        },
+        {
+          "id": "muito-importante-que-todos-leiam-com-aten-o-todas-as-informa-es-presentes-nas-p-ginas-de-apoio-antes-de-avan-arem-para-o-mapping-de-para-garantindo-que-o-entendimento-seja-claro-e-correto",
+          "text": "É muito importante que todos leiam com atenção todas as informações presentes nas páginas de apoio 📄 antes de avançarem para o mapping (de-para) 🔄, garantindo que o entendimento seja claro e correto ✅."
+        },
+        {
+          "id": "objetivos-da-documenta-o",
+          "text": "Objetivos da Documentação"
+        },
+        {
+          "id": "respons-veis",
+          "text": "Responsáveis"
+        },
+        {
+          "id": "estrutura-de-navega-o",
+          "text": "Estrutura de Navegação"
+        },
+        {
+          "id": "ltimas-atualiza-es",
+          "text": "Últimas Atualizações"
+        },
+        {
+          "id": "boas-pr-ticas-de-uso",
+          "text": "Boas Práticas de Uso"
+        }
+      ]
+    },
+    {
+      "title": "Manual de Uso – APIs Nativas Salesforce FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/9p1-e6p/Manual%20de%20Uso/",
+      "file": "manual de uso.md",
+      "section": "manual de uso",
+      "sections": [
+        {
+          "id": "manual-de-uso-apis-nativas-salesforce-foco",
+          "text": "Manual de Uso – APIs Nativas Salesforce FOCO"
+        },
+        {
+          "id": "objetivo",
+          "text": "Objetivo"
+        },
+        {
+          "id": "collection-postman",
+          "text": "Collection Postman"
+        },
+        {
+          "id": "como-usar",
+          "text": "Como usar"
+        },
+        {
+          "id": "vari-veis-da-collection-foco",
+          "text": "Variáveis da Collection (FOCO)"
+        },
+        {
+          "id": "variavel-_endpoint",
+          "text": "Variavel {{_endpoint}}"
+        },
+        {
+          "id": "op-es-dispon-veis",
+          "text": "Opções disponíveis"
+        },
+        {
+          "id": "login-salesforce-via-api",
+          "text": "Login Salesforce via API"
+        },
+        {
+          "id": "resposta",
+          "text": "Resposta"
+        },
+        {
+          "id": "configura-o-do-token-no-postman",
+          "text": "Configuração do Token no Postman"
+        },
+        {
+          "id": "teste-de-requisi-o",
+          "text": "Teste de Requisição"
+        },
+        {
+          "id": "avisos-de-compatibilidade",
+          "text": "Avisos de Compatibilidade"
+        }
+      ]
+    },
+    {
+      "title": "Mapeamento SAS X FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/wu1-5ks/FAQ%20%E2%80%94%20Agendas%20T%C3%A9cnicas/",
+      "file": "faq — agendas técnicas.md",
+      "section": "faq — agendas técnicas",
+      "sections": []
+    },
+    {
+      "title": "Histórico:",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/nhn-kb7/Notas%20de%20Atualiza%C3%A7%C3%B5es/",
+      "file": "notas de atualizações.md",
+      "section": "notas de atualizações",
+      "sections": [
+        {
+          "id": "hist-rico",
+          "text": "Histórico:"
+        },
+        {
+          "id": "cria-o-de-nova-aba-de-alertas",
+          "text": "Criação de Nova aba de alertas"
+        },
+        {
+          "id": "inser-o-de-parametros-obrigat-rios-no-foco-e-manual-de-describe-object",
+          "text": "Inserção de parametros obrigatórios no FOCO e Manual de Describe Object"
+        },
+        {
+          "id": "publica-o-de-novos-mappings-e-p-ginas",
+          "text": "Publicação de Novos Mappings e Páginas"
+        },
+        {
+          "id": "publica-o-inicial-das-p-ginas-de-apoio-e-mappings-de-clientes",
+          "text": "Publicação Inicial das Páginas de Apoio E Mappings de Clientes"
+        },
+        {
+          "id": "publica-o-de-ferramenta-auxiliar-de-integra-o",
+          "text": "Publicação De Ferramenta Auxiliar de Integração"
+        }
+      ]
+    },
+    {
+      "title": "Mapeamento SAS X FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/xhu-7eb/Salesforce%20Q%26A/",
+      "file": "salesforce q&a.md",
+      "section": "salesforce q&a",
+      "sections": [
+        {
+          "id": "p-gina-de-q-a-de-para-sas-salesforce-foco",
+          "text": "Página de Q&A — De/Para SAS ↔ Salesforce (FOCO)"
+        },
+        {
+          "id": "quais-apis-do-salesforce-devo-usar",
+          "text": "Quais APIs do Salesforce devo usar?"
+        },
+        {
+          "id": "como-fa-o-autentica-o",
+          "text": "Como faço autenticação?"
+        },
+        {
+          "id": "como-descubro-campos-e-obrigatoriedades-do-objeto-no-salesforce",
+          "text": "Como descubro campos e obrigatoriedades do objeto no Salesforce?"
+        },
+        {
+          "id": "qual-a-diferen-a-entre-sql-e-soql",
+          "text": "Qual a diferença entre SQL e SOQL?"
+        },
+        {
+          "id": "como-fa-o-upsert-criar-atualizar-sem-duplicidade",
+          "text": "Como faço upsert (criar/atualizar) sem duplicidade?"
+        },
+        {
+          "id": "como-tratar-exclus-o-l-gica-x-f-sica",
+          "text": "Como tratar exclusão? (lógica x física)"
+        },
+        {
+          "id": "como-lidar-com-relacionamentos-lookup-master-detail",
+          "text": "Como lidar com relacionamentos (Lookup/Master-Detail)?"
+        },
+        {
+          "id": "como-paginar-resultados-no-soql-rest",
+          "text": "Como paginar resultados no SOQL/REST?"
+        },
+        {
+          "id": "quando-usar-composite-e-sobject-collections",
+          "text": "Quando usar Composite e sObject Collections?"
+        },
+        {
+          "id": "e-para-volumes-muito-grandes",
+          "text": "E para volumes muito grandes?"
+        },
+        {
+          "id": "como-tratar-limites-governor-api-limits",
+          "text": "Como tratar limites (governor/API limits)?"
+        },
+        {
+          "id": "como-lidar-com-datas-hor-rios-e-fuso",
+          "text": "Como lidar com datas/horários e fuso?"
+        },
+        {
+          "id": "o-que-verificar-quando-recebo-erros-4xx-5xx",
+          "text": "O que verificar quando recebo erros 4xx/5xx?"
+        },
+        {
+          "id": "como-garantir-idempot-ncia-e-reprocessamento",
+          "text": "Como garantir idempotência e reprocessamento?"
+        },
+        {
+          "id": "onde-e-como-testar",
+          "text": "Onde e como testar?"
+        },
+        {
+          "id": "como-versionar-o-de-para-e-lidar-com-mudan-as-do-foco",
+          "text": "Como versionar o de/para e lidar com mudanças do FOCO?"
+        },
+        {
+          "id": "como-enviar-receber-anexos-arquivos",
+          "text": "Como enviar/receber anexos/arquivos?"
+        },
+        {
+          "id": "como-reduzir-lat-ncia-e-melhorar-performance",
+          "text": "Como reduzir latência e melhorar performance?"
+        },
+        {
+          "id": "como-detectar-mudan-as-no-salesforce-sem-varrer-tudo",
+          "text": "Como detectar mudanças no Salesforce sem varrer tudo?"
+        },
+        {
+          "id": "exemplo-r-pido-composite-criando-conta-e-contato-mesma-transa-o",
+          "text": "Exemplo rápido: Composite criando Conta e Contato (mesma transação)"
+        },
+        {
+          "id": "d-vidas-que-ainda-n-o-encontrou-aqui",
+          "text": "Dúvidas que ainda não encontrou aqui?"
+        }
+      ]
+    },
+    {
+      "title": "CRUD na prática (REST API)",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/oow-u4t/CRUD%20%26%20SOQL/",
+      "file": "crud & soql.md",
+      "section": "crud & soql",
+      "sections": [
+        {
+          "id": "p-gina-introdu-o-ao-soql-e-crud-no-salesforce-foco",
+          "text": "Página: Introdução ao SOQL e CRUD no Salesforce (FOCO)"
+        },
+        {
+          "id": "introdu-o-r-pida",
+          "text": "Introdução Rápida"
+        },
+        {
+          "id": "pr-requisitos-autentica-o-vers-o-de-api",
+          "text": "Pré-requisitos (autenticação & versão de API)"
+        },
+        {
+          "id": "o-que-soql-salesforce-object-query-language",
+          "text": "O que é SOQL (Salesforce Object Query Language)"
+        },
+        {
+          "id": "crud-na-pr-tica-rest-api",
+          "text": "CRUD na prática (REST API)"
+        },
+        {
+          "id": "create-inserir-um-novo-registro-em-um-objeto-do-foco",
+          "text": "Create (inserir um novo registro em um objeto do FOCO)"
+        },
+        {
+          "id": "read-consultar-com-filtros-simples-via-soql",
+          "text": "Read (Consultar com filtros simples via SOQL):"
+        },
+        {
+          "id": "update-atualizar-registros-existentes",
+          "text": "Update (atualizar registros existentes)"
+        },
+        {
+          "id": "delete-exclus-o-l-gica-no-foco",
+          "text": "Delete (exclusão lógica no FOCO)"
+        },
+        {
+          "id": "upsert-recomendado-para-integra-es",
+          "text": "Upsert (recomendado para integrações)"
+        },
+        {
+          "id": "opera-es-em-lote-at-200-registros",
+          "text": "Operações em lote (até 200 registros):"
+        },
+        {
+          "id": "composite-orquestrar-m-ltiplas-sub-requisi-es",
+          "text": "Composite (orquestrar múltiplas sub-requisições)"
+        },
+        {
+          "id": "sandbox-vs-produ-o",
+          "text": "Sandbox vs Produção"
+        },
+        {
+          "id": "boas-pr-ticas-de-integra-o",
+          "text": "Boas práticas de integração"
+        },
+        {
+          "id": "ferramentas-de-apoio",
+          "text": "Ferramentas de apoio"
+        },
+        {
+          "id": "exemplos-teis-soql-integra-o",
+          "text": "Exemplos úteis (SOQL & integração)"
+        },
+        {
+          "id": "dicas-espec-ficas-para-quem-vem-do-sas",
+          "text": "Dicas específicas para quem vem do SAS"
+        }
+      ]
+    },
+    {
+      "title": "📘 Consulta de Campos de Objetos no Salesforce com a API Describe",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/2kp-7xn/Documenta%C3%A7%C3%A3o%20Objetos%20FOCO/",
+      "file": "documentação objetos foco.md",
+      "section": "documentação objetos foco",
+      "sections": [
+        {
+          "id": "consulta-de-campos-de-objetos-no-salesforce-com-a-api-describe",
+          "text": "📘 Consulta de Campos de Objetos no Salesforce com a API Describe"
+        },
+        {
+          "id": "o-que-a-api-describe",
+          "text": "🔍 O que é a API Describe?"
+        },
+        {
+          "id": "usando-o-describer-do-salesforce-com-picklists",
+          "text": "📝 Usando o Describer do Salesforce com Picklists"
+        },
+        {
+          "id": "aten-o-especial-aos-picklists",
+          "text": "🎯 Atenção especial aos Picklists"
+        },
+        {
+          "id": "regras-pr-ticas-para-integradores",
+          "text": "🚨 Regras práticas para integradores"
+        },
+        {
+          "id": "exemplo-de-uso-em-integra-o",
+          "text": "📌 Exemplo de uso em integração"
+        },
+        {
+          "id": "endpoints-principais",
+          "text": "📡 Endpoints Principais"
+        },
+        {
+          "id": "exemplo-completo-com-curl",
+          "text": "⚙️ Exemplo Completo com curl"
+        },
+        {
+          "id": "resposta-trecho-simplificado",
+          "text": "Resposta (trecho simplificado):"
+        },
+        {
+          "id": "estrutura-da-resposta",
+          "text": "🗂️ Estrutura da Resposta"
+        },
+        {
+          "id": "boas-pr-ticas",
+          "text": "🛠️ Boas Práticas"
+        },
+        {
+          "id": "por-que-uma-documenta-o-viva",
+          "text": "📖 Por que é uma \"Documentação Viva\"?"
+        },
+        {
+          "id": "conclus-o",
+          "text": "✅ Conclusão"
+        },
+        {
+          "id": "refer-ncia-oficial-salesforce-rest-api-developer-guide-https-developer-salesforce-com-docs-atlas-en-us-api_rest-meta-api_rest-resources_sobject_describe-htm",
+          "text": "> 🔗 Referência oficial: Salesforce REST API Developer Guide"
+        }
+      ]
+    },
+    {
+      "title": "Manual de Uso – Bulk API v2 Salesforce",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/9jm-5ya/BULK%20API%20V2/",
+      "file": "bulk api v2.md",
+      "section": "bulk api v2",
+      "sections": [
+        {
+          "id": "manual-de-uso-bulk-api-v2-salesforce",
+          "text": "Manual de Uso – Bulk API v2 Salesforce"
+        },
+        {
+          "id": "objetivo",
+          "text": "Objetivo"
+        },
+        {
+          "id": "documenta-o-oficial",
+          "text": "Documentação Oficial"
+        },
+        {
+          "id": "como-usar",
+          "text": "Como usar"
+        },
+        {
+          "id": "estrutura-do-fluxo",
+          "text": "Estrutura do Fluxo"
+        },
+        {
+          "id": "criar-um-job",
+          "text": "Criar um Job"
+        },
+        {
+          "id": "enviar-dados-csv",
+          "text": "Enviar Dados (CSV)"
+        },
+        {
+          "id": "fechar-o-job",
+          "text": "Fechar o Job"
+        },
+        {
+          "id": "monitorar-o-job",
+          "text": "Monitorar o Job"
+        },
+        {
+          "id": "consultar-resultados",
+          "text": "Consultar Resultados"
+        },
+        {
+          "id": "avisos-de-compatibilidade",
+          "text": "Avisos de Compatibilidade"
+        }
+      ]
+    },
+    {
+      "title": "Objetivo",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/jca-e6i/Alertas%20aos%20Integradores/",
+      "file": "alertas aos integradores.md",
+      "section": "alertas aos integradores",
+      "sections": [
+        {
+          "id": "objetivo",
+          "text": "Objetivo"
+        },
+        {
+          "id": "intera-es",
+          "text": "🗂️ Interações"
+        },
+        {
+          "id": "clientes",
+          "text": "👥 Clientes"
+        },
+        {
+          "id": "eventos",
+          "text": "🎟️ Eventos"
+        },
+        {
+          "id": "portf-lios",
+          "text": "📂 Portfólios"
+        }
+      ]
+    },
+    {
+      "title": "🚀 Extensão Salesforce Inspector Advanced",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/cxx-5o6/Extens%C3%A3o%20Salesforce%20Inspector/",
+      "file": "extensão salesforce inspector.md",
+      "section": "extensão salesforce inspector",
+      "sections": [
+        {
+          "id": "extens-o-salesforce-inspector-advanced",
+          "text": "🚀 Extensão Salesforce Inspector Advanced"
+        },
+        {
+          "id": "principais-funcionalidades",
+          "text": "🔹 Principais Funcionalidades"
+        },
+        {
+          "id": "como-utilizar",
+          "text": "💡 Como Utilizar"
+        },
+        {
+          "id": "dica-profissional",
+          "text": "🧭 Dica Profissional"
+        }
+      ]
+    },
+    {
+      "title": "Mapeamento SAS X FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/w06-w9c/Material%20de%20Apoio/",
+      "file": "material de apoio.md",
+      "section": "material de apoio",
+      "sections": [
+        {
+          "id": "reviews-heading",
+          "text": "Reviews"
+        }
+      ]
+    },
+    {
+      "title": "Mapeamento SAS X FOCO",
+      "url": "https://anypoint.mulesoft.com/exchange/portals/sebrae-2/a7bc5ec0-9afc-42bf-bc65-96a43cd68385/mapeamento-sas-x-foco/minor/1.0/pages/n5h-own/------------------------------------/",
+      "file": "------------------------------------.md",
+      "section": "------------------------------------",
+      "sections": [
+        {
+          "id": "reviews-heading",
+          "text": "Reviews"
+        }
+      ]
+    }
+  ],
+  "failed": []
+}

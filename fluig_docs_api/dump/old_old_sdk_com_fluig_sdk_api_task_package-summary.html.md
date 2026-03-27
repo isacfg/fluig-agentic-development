@@ -1,0 +1,11 @@
+# Package com.fluig.sdk.api.task
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/package-summary.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/package-summary.html)
+
+---
+
+# Package com.fluig.sdk.api.task
+
+-   <table class="typeSummary"><caption><span>Class Summary</span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Class</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/ResumedTasksVO.html" title="class in com.fluig.sdk.api.task">ResumedTasksVO</a></th><td class="colLast"><div class="block">Simple VO for all menu items in central tasks</div></td></tr><tr class="rowColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskTransferVO.html" title="class in com.fluig.sdk.api.task">TaskTransferVO</a></th><td class="colLast"><div class="block">Value Object para Transferência de Pendências</div></td></tr></tbody></table>
+
+-   <table class="typeSummary"><caption><span>Enum Summary</span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Enum</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskKindEnum.html" title="enum in com.fluig.sdk.api.task">TaskKindEnum</a></th><td class="colLast">&nbsp;</td></tr><tr class="rowColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskSearchTypeEnumeration.html" title="enum in com.fluig.sdk.api.task">TaskSearchTypeEnumeration</a></th><td class="colLast">&nbsp;</td></tr><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStateEnum.html" title="enum in com.fluig.sdk.api.task">TaskStateEnum</a></th><td class="colLast">&nbsp;</td></tr><tr class="rowColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStatusEnum.html" title="enum in com.fluig.sdk.api.task">TaskStatusEnum</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>

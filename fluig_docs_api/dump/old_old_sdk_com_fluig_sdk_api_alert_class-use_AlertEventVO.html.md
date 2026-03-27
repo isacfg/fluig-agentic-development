@@ -1,0 +1,16 @@
+# Uses of Classcom.fluig.sdk.api.alert.AlertEventVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertEventVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertEventVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.alert.AlertEventVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html" title="class in com.fluig.sdk.api.alert">AlertEventVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertEventVO.html">com.fluig.sdk.api.alert</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [AlertEventVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html "class in com.fluig.sdk.api.alert") in [com.fluig.sdk.api.alert](https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-summary.html">com.fluig.sdk.api.alert</a> that return <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html" title="class in com.fluig.sdk.api.alert">AlertEventVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html" title="class in com.fluig.sdk.api.alert">AlertEventVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">AlertVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertVO.html">getEvent</a></span>()</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-summary.html">com.fluig.sdk.api.alert</a> with parameters of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html" title="class in com.fluig.sdk.api.alert">AlertEventVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code>void</code></td><th class="colSecond" scope="row"><span class="typeNameLabel">AlertVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertVO.html">setEvent</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html" title="class in com.fluig.sdk.api.alert">AlertEventVO</a>&nbsp;event)</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>

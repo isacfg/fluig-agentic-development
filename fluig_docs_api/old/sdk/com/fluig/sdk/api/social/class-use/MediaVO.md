@@ -1,0 +1,16 @@
+# Uses of Classcom.fluig.sdk.api.social.MediaVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/MediaVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/MediaVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.social.MediaVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html" title="class in com.fluig.sdk.api.social">MediaVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/MediaVO.html">com.fluig.sdk.api.social</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [MediaVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html "class in com.fluig.sdk.api.social") in [com.fluig.sdk.api.social](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html">com.fluig.sdk.api.social</a> that return <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html" title="class in com.fluig.sdk.api.social">MediaVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html" title="class in com.fluig.sdk.api.social">MediaVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">PostVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/PostVO.html">getMediaVO</a></span>()</code></th><td class="colLast"><div class="block">Recupera o valor do</div></td></tr></tbody></table>
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html">com.fluig.sdk.api.social</a> with parameters of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html" title="class in com.fluig.sdk.api.social">MediaVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code>void</code></td><th class="colSecond" scope="row"><span class="typeNameLabel">PostVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/PostVO.html">setMediaVO</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html" title="class in com.fluig.sdk.api.social">MediaVO</a>&nbsp;mediaVO)</code></th><td class="colLast"><div class="block">* Atribui valor para mediaVO</div></td></tr></tbody></table>

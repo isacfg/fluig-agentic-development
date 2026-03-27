@@ -1,0 +1,1693 @@
+{
+  "source": "https://style.fluig.com/",
+  "total_pages": 6,
+  "failed_pages": 0,
+  "scraped_at": "2026-03-11T11:43:32.242Z",
+  "pages": [
+    {
+      "title": "Overview",
+      "url": "https://style.fluig.com/",
+      "file": "overview.md",
+      "section": "overview",
+      "sections": [
+        {
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "id": "plugins-fluig",
+          "text": "Plugins Style Guide"
+        }
+      ]
+    },
+    {
+      "title": "Chart",
+      "url": "https://style.fluig.com/chart.html",
+      "file": "chart.md",
+      "section": "chart",
+      "sections": [
+        {
+          "id": "about",
+          "text": "About"
+        },
+        {
+          "id": "configurations",
+          "text": "Configurations"
+        },
+        {
+          "id": "animations",
+          "text": "Animations"
+        },
+        {
+          "id": "animation-configuration",
+          "text": "Animation Configuration"
+        },
+        {
+          "id": "easing",
+          "text": "Easing"
+        },
+        {
+          "id": "animation-callbacks",
+          "text": "Animation Callbacks"
+        },
+        {
+          "id": "layout-configuration",
+          "text": "Layout Configuration"
+        },
+        {
+          "id": "padding",
+          "text": "Padding"
+        },
+        {
+          "id": "legend-configuration",
+          "text": "Legend Configuration"
+        },
+        {
+          "id": "configuration-options",
+          "text": "Configuration options"
+        },
+        {
+          "id": "position",
+          "text": "Position"
+        },
+        {
+          "id": "align",
+          "text": "Align"
+        },
+        {
+          "id": "legend-label-configuration",
+          "text": "Legend Label Configuration"
+        },
+        {
+          "id": "legend-item-interface",
+          "text": "Legend Item Interface"
+        },
+        {
+          "id": "example",
+          "text": "Example"
+        },
+        {
+          "id": "custom-on-click-actions",
+          "text": "Custom On Click Actions"
+        },
+        {
+          "id": "html-legends",
+          "text": "HTML Legends"
+        },
+        {
+          "id": "chart-title-option",
+          "text": "Title"
+        },
+        {
+          "id": "title-configuration",
+          "text": "Title Configuration"
+        },
+        {
+          "id": "example-usage",
+          "text": "Example Usage"
+        },
+        {
+          "id": "chart-tooltips-option",
+          "text": "Tooltips"
+        },
+        {
+          "id": "tooltip-configuration",
+          "text": "Tooltip Configuration"
+        },
+        {
+          "id": "alignment",
+          "text": "Alignment"
+        },
+        {
+          "id": "sort-callback",
+          "text": "Sort Callback"
+        },
+        {
+          "id": "filter-callback",
+          "text": "Filter Callback"
+        },
+        {
+          "id": "tooltip-callbacks",
+          "text": "Tooltip Callbacks"
+        },
+        {
+          "id": "label-callback",
+          "text": "Label Callback"
+        },
+        {
+          "id": "label-color-callback",
+          "text": "Label Color Callback"
+        },
+        {
+          "id": "tooltip-item-interface",
+          "text": "Tooltip Item Interface"
+        },
+        {
+          "id": "external-custom-tooltips",
+          "text": "External (Custom) Tooltips"
+        },
+        {
+          "id": "tooltip-model",
+          "text": "Tooltip Model"
+        },
+        {
+          "id": "elements",
+          "text": "Elements"
+        },
+        {
+          "id": "point-configuration",
+          "text": "Point Configuration"
+        },
+        {
+          "id": "point-styles",
+          "text": "Point Styles"
+        },
+        {
+          "id": "line-configuration",
+          "text": "Line Configuration"
+        },
+        {
+          "id": "rectangle-configuration",
+          "text": "Rectangle Configuration"
+        },
+        {
+          "id": "arc-configuration",
+          "text": "Arc Configuration"
+        },
+        {
+          "id": "line",
+          "text": "Chart Line"
+        },
+        {
+          "id": "line-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "dataset-properties",
+          "text": "Dataset Properties"
+        },
+        {
+          "id": "general",
+          "text": "General"
+        },
+        {
+          "id": "point-styling",
+          "text": "Point Styling"
+        },
+        {
+          "id": "line-styling",
+          "text": "Line Styling"
+        },
+        {
+          "id": "interactions",
+          "text": "Interactions"
+        },
+        {
+          "id": "cubicinterpolationmode",
+          "text": "cubicInterpolationMode"
+        },
+        {
+          "id": "stepped-line",
+          "text": "Stepped Line"
+        },
+        {
+          "id": "data-structure",
+          "text": "Data Structure"
+        },
+        {
+          "id": "number",
+          "text": "number[]"
+        },
+        {
+          "id": "point",
+          "text": "Point[]"
+        },
+        {
+          "id": "stacked-area-chart",
+          "text": "Stacked Area Chart"
+        },
+        {
+          "id": "bar",
+          "text": "Chart Bar"
+        },
+        {
+          "id": "bar-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "styling",
+          "text": "Styling"
+        },
+        {
+          "id": "borderskipped",
+          "text": "borderSkipped"
+        },
+        {
+          "id": "borderwidth",
+          "text": "borderWidth"
+        },
+        {
+          "id": "dataset-configuration",
+          "text": "Dataset Configuration"
+        },
+        {
+          "id": "barthickness",
+          "text": "barThickness"
+        },
+        {
+          "id": "scale-configuration",
+          "text": "Scale Configuration"
+        },
+        {
+          "id": "offsetgridlines",
+          "text": "offsetGridLines"
+        },
+        {
+          "id": "barpercentage-vs-categorypercentage",
+          "text": "barPercentage vs categoryPercentage"
+        },
+        {
+          "id": "stacked-bar-chart",
+          "text": "Stacked Bar Chart"
+        },
+        {
+          "id": "horizontal-bar",
+          "text": "Chart Horizontal Bar"
+        },
+        {
+          "id": "config-options",
+          "text": "Config Options"
+        },
+        {
+          "id": "radar",
+          "text": "Chart Radar"
+        },
+        {
+          "id": "radar-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "scale-options",
+          "text": "Scale Options"
+        },
+        {
+          "id": "polar",
+          "text": "Chart Polar"
+        },
+        {
+          "id": "polar-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "border-alignment",
+          "text": "Border Alignment"
+        },
+        {
+          "id": "doughnut",
+          "text": "Chart Doughnut and Pie"
+        },
+        {
+          "id": "doughnut-examples",
+          "text": "Doughnut examples"
+        },
+        {
+          "id": "pie-examples",
+          "text": "Pie example"
+        },
+        {
+          "id": "default-options",
+          "text": "Default Options"
+        },
+        {
+          "id": "gauge",
+          "text": "Chart Gauge"
+        },
+        {
+          "id": "gauge-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "donut",
+          "text": "Chart Donut"
+        },
+        {
+          "id": "donut-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "mixed",
+          "text": "Chart Mixed"
+        },
+        {
+          "id": "mixed-examples",
+          "text": "Examples"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "url": "https://style.fluig.com/components.html",
+      "file": "components.md",
+      "section": "components",
+      "sections": [
+        {
+          "id": "default-buttons-tab",
+          "text": "Default Buttons"
+        },
+        {
+          "id": "default-text-colors-tab",
+          "text": "Default colors"
+        },
+        {
+          "id": "custom-text-colors-tab",
+          "text": "Custom colors"
+        },
+        {
+          "id": "default-link-colors-tab",
+          "text": "Default link colors"
+        },
+        {
+          "id": "custom-link-colors-tab",
+          "text": "Custom link colors"
+        },
+        {
+          "id": "default-background-colors-tab",
+          "text": "Default background colors"
+        },
+        {
+          "id": "custom-background-colors-tab",
+          "text": "Custom background colors"
+        },
+        {
+          "id": "animaliaicons",
+          "text": "Animalia Icons"
+        },
+        {
+          "id": "flaticons",
+          "text": "Flat Icons"
+        },
+        {
+          "id": "light-theme-illustrations",
+          "text": "Light theme"
+        },
+        {
+          "id": "dark-theme-illustrations",
+          "text": "Dark theme"
+        },
+        {
+          "id": "default-labels-tab",
+          "text": "Default Labels"
+        },
+        {
+          "id": "custom-labels-tab",
+          "text": "Custom Labels"
+        },
+        {
+          "id": "default-labels-actions-tab",
+          "text": "Default Labels"
+        },
+        {
+          "id": "custom-labels-actions-tab",
+          "text": "Custom Labels"
+        },
+        {
+          "id": "default-switches-tab",
+          "text": "Default Switches"
+        },
+        {
+          "id": "custom-switches-tab",
+          "text": "Custom Switches"
+        },
+        {
+          "id": "alerts",
+          "text": "Alerts"
+        },
+        {
+          "id": "alerts-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "alerts-dismissible",
+          "text": "Dismissible alerts"
+        },
+        {
+          "id": "alerts-links",
+          "text": "Links in alerts"
+        },
+        {
+          "id": "breadcrumbs",
+          "text": "Breadcrumbs"
+        },
+        {
+          "id": "breadcrumbs-with-icons",
+          "text": "Breadcrumbs with icons"
+        },
+        {
+          "id": "buttons-examples",
+          "text": "Example uses"
+        },
+        {
+          "id": "buttons",
+          "text": "Buttons"
+        },
+        {
+          "id": "buttons-options",
+          "text": "Options"
+        },
+        {
+          "id": "other-buttons-options",
+          "text": "Default buttons"
+        },
+        {
+          "id": "buttons-sizes",
+          "text": "Sizes"
+        },
+        {
+          "id": "buttons-active",
+          "text": "Active state"
+        },
+        {
+          "id": "buttons-disabled",
+          "text": "Disabled state"
+        },
+        {
+          "id": "buttons-tags",
+          "text": "Button tags"
+        },
+        {
+          "id": "btn-groups",
+          "text": "Button groups"
+        },
+        {
+          "id": "btn-groups-single",
+          "text": "Basic example"
+        },
+        {
+          "id": "btn-groups-toolbar",
+          "text": "Button toolbar"
+        },
+        {
+          "id": "btn-groups-sizing",
+          "text": "Sizing"
+        },
+        {
+          "id": "btn-groups-nested",
+          "text": "Nesting"
+        },
+        {
+          "id": "btn-groups-vertical",
+          "text": "Vertical variation"
+        },
+        {
+          "id": "btn-groups-justified",
+          "text": "Justified button groups"
+        },
+        {
+          "id": "btn-dropdowns",
+          "text": "Button dropdowns"
+        },
+        {
+          "id": "btn-dropdowns-single",
+          "text": "Single button dropdowns"
+        },
+        {
+          "id": "btn-dropdowns-split",
+          "text": "Split button dropdowns"
+        },
+        {
+          "id": "btn-dropdowns-sizing",
+          "text": "Sizing"
+        },
+        {
+          "id": "btn-dropdowns-dropup",
+          "text": "Dropup variation"
+        },
+        {
+          "id": "btn-persistent-dropdown",
+          "text": "Persistent dropdown"
+        },
+        {
+          "id": "cards",
+          "text": "Cards"
+        },
+        {
+          "id": "custom-checkbox-and-radio",
+          "text": "Checkbox and Radio"
+        },
+        {
+          "id": "contextual-classes",
+          "text": "Contextual classes"
+        },
+        {
+          "id": "counter",
+          "text": "Counter"
+        },
+        {
+          "id": "dropdowns",
+          "text": "Dropdowns"
+        },
+        {
+          "id": "dropdowns-example",
+          "text": "Example"
+        },
+        {
+          "id": "dropdowns-alignment",
+          "text": "Alignment"
+        },
+        {
+          "id": "dropdowns-headers",
+          "text": "Headers"
+        },
+        {
+          "id": "dropdowns-menu-item-disabled",
+          "text": "Disabled menu items"
+        },
+        {
+          "id": "emojis",
+          "text": "Emojis"
+        },
+        {
+          "id": "icons",
+          "text": "Icons"
+        },
+        {
+          "id": "flaticons-glyphs",
+          "text": "Available icons"
+        },
+        {
+          "id": "animaliaicons-how-to-use",
+          "text": "How to use"
+        },
+        {
+          "id": "select-icon",
+          "text": "Select icon component"
+        },
+        {
+          "id": "illustrations",
+          "text": "Illustrations"
+        },
+        {
+          "id": "illustrations-basic",
+          "text": "Basic example"
+        },
+        {
+          "id": "illustrations-available",
+          "text": "Available illustrations"
+        },
+        {
+          "id": "illustrations-theme-color",
+          "text": "Illustrations with light and dark themes automatically"
+        },
+        {
+          "id": "illustrations-custom",
+          "text": "Changing the dimensions of the illustration"
+        },
+        {
+          "id": "input-groups",
+          "text": "Input groups"
+        },
+        {
+          "id": "input-groups-basic",
+          "text": "Basic example"
+        },
+        {
+          "id": "input-groups-sizing",
+          "text": "Sizing"
+        },
+        {
+          "id": "input-groups-checkboxes-radios",
+          "text": "Checkboxes and radio addons"
+        },
+        {
+          "id": "input-groups-buttons",
+          "text": "Button addons"
+        },
+        {
+          "id": "input-groups-buttons-dropdowns",
+          "text": "Buttons with dropdowns"
+        },
+        {
+          "id": "input-groups-buttons-segmented",
+          "text": "Segmented buttons"
+        },
+        {
+          "id": "input-groups-buttons-segmented-extras",
+          "text": "Segmented buttons extras"
+        },
+        {
+          "id": "labels",
+          "text": "Labels"
+        },
+        {
+          "id": "list-group",
+          "text": "List group"
+        },
+        {
+          "id": "list-group-basic",
+          "text": "Basic example"
+        },
+        {
+          "id": "list-group-badges",
+          "text": "Badges"
+        },
+        {
+          "id": "list-group-linked",
+          "text": "Linked items"
+        },
+        {
+          "id": "list-group-disabled",
+          "text": "Disabled items"
+        },
+        {
+          "id": "list-group-contextual-classes",
+          "text": "Contextual classes"
+        },
+        {
+          "id": "list-group-custom-content",
+          "text": "Custom content"
+        },
+        {
+          "id": "media",
+          "text": "Media object"
+        },
+        {
+          "id": "media-default",
+          "text": "Default media"
+        },
+        {
+          "id": "media-list",
+          "text": "Media list"
+        },
+        {
+          "id": "navbar",
+          "text": "Navbar"
+        },
+        {
+          "id": "navbar-default",
+          "text": "Default navbar"
+        },
+        {
+          "id": "navbar-forms",
+          "text": "Forms"
+        },
+        {
+          "id": "navbar-buttons",
+          "text": "Buttons"
+        },
+        {
+          "id": "navbar-text",
+          "text": "Text"
+        },
+        {
+          "id": "navbar-links",
+          "text": "Non-nav links"
+        },
+        {
+          "id": "navbar-component-alignment",
+          "text": "Component alignment"
+        },
+        {
+          "id": "navbar-fixed-top",
+          "text": "Fixed to top"
+        },
+        {
+          "id": "navbar-fixed-bottom",
+          "text": "Fixed to bottom"
+        },
+        {
+          "id": "navbar-static-top",
+          "text": "Static top"
+        },
+        {
+          "id": "navbar-inverted",
+          "text": "Inverted navbar"
+        },
+        {
+          "id": "nav",
+          "text": "Navs"
+        },
+        {
+          "id": "nav-tabs",
+          "text": "Tabs"
+        },
+        {
+          "id": "nav-pills",
+          "text": "Pills"
+        },
+        {
+          "id": "nav-justified",
+          "text": "Justified"
+        },
+        {
+          "id": "nav-ellipsis",
+          "text": "Ellipsis"
+        },
+        {
+          "id": "nav-disabled-links",
+          "text": "Disabled links"
+        },
+        {
+          "id": "nav-dropdowns",
+          "text": "Using dropdowns"
+        },
+        {
+          "id": "page-header",
+          "text": "Page header"
+        },
+        {
+          "id": "pagination",
+          "text": "Pagination"
+        },
+        {
+          "id": "pagination-default",
+          "text": "Default pagination"
+        },
+        {
+          "id": "pagination-pager",
+          "text": "Pager"
+        },
+        {
+          "id": "panels",
+          "text": "Panels"
+        },
+        {
+          "id": "panels-basic",
+          "text": "Basic example"
+        },
+        {
+          "id": "panels-heading",
+          "text": "Panel with heading"
+        },
+        {
+          "id": "panels-footer",
+          "text": "Panel with footer"
+        },
+        {
+          "id": "panels-alternatives",
+          "text": "Contextual alternatives"
+        },
+        {
+          "id": "panels-tables",
+          "text": "With tables"
+        },
+        {
+          "id": "panels-list-group",
+          "text": "With list groups"
+        },
+        {
+          "id": "progress",
+          "text": "Progress bars"
+        },
+        {
+          "id": "progress-basic",
+          "text": "Basic example"
+        },
+        {
+          "id": "progress-label",
+          "text": "With label"
+        },
+        {
+          "id": "progress-low-percentages",
+          "text": "Low percentages"
+        },
+        {
+          "id": "progress-alternatives",
+          "text": "Contextual alternatives"
+        },
+        {
+          "id": "progress-striped",
+          "text": "Striped"
+        },
+        {
+          "id": "progress-animated",
+          "text": "Animated"
+        },
+        {
+          "id": "progress-stacked",
+          "text": "Stacked"
+        },
+        {
+          "id": "smart-ellipsis",
+          "text": "Smart Ellipsis"
+        },
+        {
+          "id": "steps",
+          "text": "Steps"
+        },
+        {
+          "id": "steps-horizontal-basic",
+          "text": "Basic horizontal example"
+        },
+        {
+          "id": "steps-vertical-basic",
+          "text": "Basic vertical example"
+        },
+        {
+          "id": "steps-error-basic",
+          "text": "Steps error example"
+        },
+        {
+          "id": "switch",
+          "text": "Switch"
+        },
+        {
+          "id": "text-style-toolbar",
+          "text": "Text Style Toolbar"
+        },
+        {
+          "id": "text-style-toolbar-about",
+          "text": "About"
+        },
+        {
+          "id": "text-style-toolbar-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "upload",
+          "text": "Upload"
+        },
+        {
+          "id": "upload-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "wells",
+          "text": "Wells"
+        },
+        {
+          "id": "bs-example-navbar-collapse-1",
+          "text": "Bs Example Navbar Collapse 1"
+        },
+        {
+          "id": "bs-example-navbar-collapse-2",
+          "text": "Bs Example Navbar Collapse 2"
+        },
+        {
+          "id": "bs-example-navbar-collapse-3",
+          "text": "Bs Example Navbar Collapse 3"
+        },
+        {
+          "id": "bs-example-navbar-collapse-4",
+          "text": "Bs Example Navbar Collapse 4"
+        },
+        {
+          "id": "bs-example-navbar-collapse-5",
+          "text": "Bs Example Navbar Collapse 5"
+        },
+        {
+          "id": "bs-example-navbar-collapse-6",
+          "text": "Bs Example Navbar Collapse 6"
+        },
+        {
+          "id": "bs-example-navbar-collapse-7",
+          "text": "Bs Example Navbar Collapse 7"
+        },
+        {
+          "id": "bs-example-navbar-collapse-8",
+          "text": "Bs Example Navbar Collapse 8"
+        },
+        {
+          "id": "bs-example-navbar-collapse-9",
+          "text": "Bs Example Navbar Collapse 9"
+        }
+      ]
+    },
+    {
+      "title": "CSS",
+      "url": "https://style.fluig.com/css.html",
+      "file": "css.md",
+      "section": "css",
+      "sections": [
+        {
+          "id": "themes",
+          "text": "Themes"
+        },
+        {
+          "id": "themes-check-color",
+          "text": "Check color"
+        },
+        {
+          "id": "themes-css-variables",
+          "text": "CSS Variables"
+        },
+        {
+          "id": "brand-colors-variables",
+          "text": "Brand color variables"
+        },
+        {
+          "id": "action-colors-variables",
+          "text": "Action color variables"
+        },
+        {
+          "id": "neutral-colors-variables",
+          "text": "Variables for Neutral Colors"
+        },
+        {
+          "id": "feedback-colors-variables",
+          "text": "Feedback Color Variables"
+        },
+        {
+          "id": "shadow-colors-variables",
+          "text": "Shadow variables"
+        },
+        {
+          "id": "grid",
+          "text": "Grid system"
+        },
+        {
+          "id": "grid-intro",
+          "text": "Introduction"
+        },
+        {
+          "id": "grid-media-queries",
+          "text": "Media queries"
+        },
+        {
+          "id": "grid-options",
+          "text": "Grid options"
+        },
+        {
+          "id": "grid-example-basic",
+          "text": "Example: Stacked-to-horizontal"
+        },
+        {
+          "id": "grid-example-fluid",
+          "text": "Example: Fluid container"
+        },
+        {
+          "id": "grid-example-mixed",
+          "text": "Example: Mobile and desktop"
+        },
+        {
+          "id": "grid-example-mixed-complete",
+          "text": "Example: Mobile, tablet, desktops"
+        },
+        {
+          "id": "grid-example-wrapping",
+          "text": "Example: Column wrapping"
+        },
+        {
+          "id": "grid-responsive-resets",
+          "text": "Responsive column resets"
+        },
+        {
+          "id": "grid-offsetting",
+          "text": "Offsetting columns"
+        },
+        {
+          "id": "grid-nesting",
+          "text": "Nesting columns"
+        },
+        {
+          "id": "grid-column-ordering",
+          "text": "Column ordering"
+        },
+        {
+          "id": "grid-less",
+          "text": "Less mixins and variables"
+        },
+        {
+          "id": "responsive-utilities",
+          "text": "Responsive utilities"
+        },
+        {
+          "id": "responsive-utilities-classes",
+          "text": "Available classes"
+        },
+        {
+          "id": "responsive-utilities-print",
+          "text": "Print classes"
+        },
+        {
+          "id": "responsive-utilities-tests",
+          "text": "Test cases"
+        },
+        {
+          "id": "visible-on",
+          "text": "Visible on..."
+        },
+        {
+          "id": "hidden-on",
+          "text": "Hidden on..."
+        },
+        {
+          "id": "type",
+          "text": "Typography"
+        },
+        {
+          "id": "type-headings",
+          "text": "Headings"
+        },
+        {
+          "id": "type-hr",
+          "text": "Horizontal rules"
+        },
+        {
+          "id": "type-body-copy",
+          "text": "Body copy"
+        },
+        {
+          "id": "type-note",
+          "text": "Note or reference data"
+        },
+        {
+          "id": "type-emphasis-text",
+          "text": "Emphasis classes"
+        },
+        {
+          "id": "type-inline-text",
+          "text": "Inline text elements"
+        },
+        {
+          "id": "type-alignment",
+          "text": "Alignment classes"
+        },
+        {
+          "id": "type-transformation",
+          "text": "Transformation classes"
+        },
+        {
+          "id": "type-abbreviations",
+          "text": "Abbreviations"
+        },
+        {
+          "id": "type-addresses",
+          "text": "Addresses"
+        },
+        {
+          "id": "type-blockquotes",
+          "text": "Blockquotes"
+        },
+        {
+          "id": "type-lists",
+          "text": "Lists"
+        },
+        {
+          "id": "tables",
+          "text": "Tables"
+        },
+        {
+          "id": "tables-example",
+          "text": "Basic example"
+        },
+        {
+          "id": "tables-striped",
+          "text": "Striped rows"
+        },
+        {
+          "id": "tables-bordered",
+          "text": "Bordered table"
+        },
+        {
+          "id": "tables-hover-rows",
+          "text": "Hover rows"
+        },
+        {
+          "id": "tables-condensed",
+          "text": "Condensed table"
+        },
+        {
+          "id": "tables-contextual-classes",
+          "text": "Contextual classes"
+        },
+        {
+          "id": "tables-responsive",
+          "text": "Responsive tables"
+        },
+        {
+          "id": "tables-layout-fixed",
+          "text": "Layout-fixed tables"
+        },
+        {
+          "id": "tables-ellipsed-cells",
+          "text": "Ellipsis cells"
+        },
+        {
+          "id": "tables-with-header",
+          "text": "Datatable markup"
+        },
+        {
+          "id": "forms",
+          "text": "Forms"
+        },
+        {
+          "id": "forms-example",
+          "text": "Basic example"
+        },
+        {
+          "id": "search-form",
+          "text": "Search form"
+        },
+        {
+          "id": "forms-inline",
+          "text": "Inline form"
+        },
+        {
+          "id": "forms-horizontal",
+          "text": "Horizontal form"
+        },
+        {
+          "id": "forms-controls",
+          "text": "Supported controls"
+        },
+        {
+          "id": "forms-controls-static",
+          "text": "Static control"
+        },
+        {
+          "id": "forms-control-focus",
+          "text": "Input focus"
+        },
+        {
+          "id": "forms-control-disabled",
+          "text": "Disabled inputs"
+        },
+        {
+          "id": "forms-disabled-fieldsets",
+          "text": "Disabled fieldsets"
+        },
+        {
+          "id": "forms-control-readonly",
+          "text": "Readonly inputs"
+        },
+        {
+          "id": "forms-control-validation",
+          "text": "Validation states"
+        },
+        {
+          "id": "forms-control-sizes",
+          "text": "Control sizing"
+        },
+        {
+          "id": "forms-help-text",
+          "text": "Help text"
+        },
+        {
+          "id": "skeleton-loader",
+          "text": "Skeleton Loader"
+        },
+        {
+          "id": "helpers",
+          "text": "Helpers"
+        },
+        {
+          "id": "hlp-scrollbar",
+          "text": "Scrollbar"
+        },
+        {
+          "id": "hlp-positioning",
+          "text": "Positioning"
+        },
+        {
+          "id": "hlp-block-inline",
+          "text": "Block and inline"
+        },
+        {
+          "id": "hlp-flex-helpers",
+          "text": "Flex helpers"
+        },
+        {
+          "id": "hlp-size",
+          "text": "Size"
+        },
+        {
+          "id": "hlp-margin-padding",
+          "text": "Margin and Padding"
+        },
+        {
+          "id": "hlp-txt-alignment",
+          "text": "Text and alignment"
+        },
+        {
+          "id": "hlp-bg-border",
+          "text": "Background, border and transparency"
+        },
+        {
+          "id": "hlp-cursor-mouse",
+          "text": "Cursor and mouse"
+        },
+        {
+          "id": "hlp-colors",
+          "text": "Colors"
+        },
+        {
+          "id": "hlp-forms",
+          "text": "Forms and inputs"
+        },
+        {
+          "id": "hlp-general",
+          "text": "General"
+        },
+        {
+          "id": "hlp-responsive-classes",
+          "text": "Responsive classes"
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "url": "https://style.fluig.com/javascript.html",
+      "file": "javascript.md",
+      "section": "javascript",
+      "sections": [
+        {
+          "id": "collapseCategory1",
+          "text": "Name of Category 1 10"
+        },
+        {
+          "id": "collapseSubCat1",
+          "text": "Name of subCategory 1 from Category 1 6"
+        },
+        {
+          "id": "collapseSubSubCat1",
+          "text": "Name of subSubCategory 1 from subCategory 1 6"
+        },
+        {
+          "id": "collapseSubCat2",
+          "text": "Name of subCategory 2 from Category 1 2"
+        },
+        {
+          "id": "collapseCategory2",
+          "text": "Name of Category 2 2"
+        },
+        {
+          "id": "default-collapse-tab",
+          "text": "Default Collapse"
+        },
+        {
+          "id": "collapseOne",
+          "text": "Collapsible Group Item #1"
+        },
+        {
+          "id": "collapseTwo",
+          "text": "Collapsible Group Item #2"
+        },
+        {
+          "id": "collapseThree",
+          "text": "Collapsible Group Item #3"
+        },
+        {
+          "id": "collapseOneExemple",
+          "text": "Collapsible Group Item 1"
+        },
+        {
+          "id": "collapseTwoExemple",
+          "text": "Collapsible Group Item 2"
+        },
+        {
+          "id": "collapseThreeExemple",
+          "text": "Collapsible Group Item 3"
+        },
+        {
+          "id": "isolated-scroll",
+          "text": "isolated scroll"
+        },
+        {
+          "id": "home",
+          "text": "Home"
+        },
+        {
+          "id": "profile",
+          "text": "Profile"
+        },
+        {
+          "id": "dropdown1",
+          "text": "@fat"
+        },
+        {
+          "id": "dropdown2",
+          "text": "@mdo"
+        },
+        {
+          "id": "tab1",
+          "text": "Tab 1"
+        },
+        {
+          "id": "tab2",
+          "text": "Tab 2"
+        },
+        {
+          "id": "tab3",
+          "text": "Tab 3"
+        },
+        {
+          "id": "super-widget",
+          "text": "Super Widget"
+        },
+        {
+          "id": "fluig-autocomplete",
+          "text": "Autocomplete"
+        },
+        {
+          "id": "back-to-top",
+          "text": "Back To Top"
+        },
+        {
+          "id": "back-to-bottom",
+          "text": "Back To Bottom"
+        },
+        {
+          "id": "buttons",
+          "text": "Buttons"
+        },
+        {
+          "id": "buttons-examples",
+          "text": "Example uses"
+        },
+        {
+          "id": "buttons-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "fluig-calendar",
+          "text": "Calendar"
+        },
+        {
+          "id": "fluig-calendar-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "collapse",
+          "text": "Collapse"
+        },
+        {
+          "id": "collapse-examples",
+          "text": "Example accordion"
+        },
+        {
+          "id": "collapse-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "fluig-continuous-scroll",
+          "text": "Continuous Scroll"
+        },
+        {
+          "id": "fluig-continuous-scroll-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "fluig-continuous-scroll-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "fluig-copy",
+          "text": "Copy"
+        },
+        {
+          "id": "fluig-copy-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "alerts",
+          "text": "Confirm, Alert and Error messages"
+        },
+        {
+          "id": "alerts-examples",
+          "text": "Example confirms"
+        },
+        {
+          "id": "error-examples",
+          "text": "Example error messages"
+        },
+        {
+          "id": "fluig-datatable",
+          "text": "Datatable"
+        },
+        {
+          "id": "fluig-datatable-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "fluig-datatable-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "dropdowns",
+          "text": "Dropdowns"
+        },
+        {
+          "id": "dropdowns-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "dropdowns-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "desktop-notification",
+          "text": "Desktop Notification"
+        },
+        {
+          "id": "editable",
+          "text": "Editable"
+        },
+        {
+          "id": "input-form-clear",
+          "text": "Input form with clear"
+        },
+        {
+          "id": "fluig-loading",
+          "text": "Loading"
+        },
+        {
+          "id": "fluig-loading-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "modals",
+          "text": "Modals"
+        },
+        {
+          "id": "modals-basic-config",
+          "text": "Basic configuration"
+        },
+        {
+          "id": "modals-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "modals-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "modals-header-actions",
+          "text": "Header actions"
+        },
+        {
+          "id": "modals-without-header-and-footer",
+          "text": "Modal without header and footer"
+        },
+        {
+          "id": "modals-optional-sizes",
+          "text": "Optional sizes"
+        },
+        {
+          "id": "messagepage",
+          "text": "Message Page"
+        },
+        {
+          "id": "password",
+          "text": "Password"
+        },
+        {
+          "id": "periodicalExecutor",
+          "text": "Periodical Executor"
+        },
+        {
+          "id": "popover",
+          "text": "Popover"
+        },
+        {
+          "id": "popover-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "popovers-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "allowed-tags-and-attributes",
+          "text": "Allowed Tags and Attributes in content"
+        },
+        {
+          "id": "sidebar",
+          "text": "Sidebar"
+        },
+        {
+          "id": "sidebar-about",
+          "text": "About"
+        },
+        {
+          "id": "sidebar-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "sidebar-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "slider",
+          "text": "Sliders"
+        },
+        {
+          "id": "slider-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "storage",
+          "text": "Storage"
+        },
+        {
+          "id": "switch-button",
+          "text": "Switch button"
+        },
+        {
+          "id": "toast-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "time-interaction",
+          "text": "Time Interaction"
+        },
+        {
+          "id": "toast",
+          "text": "Toast"
+        },
+        {
+          "id": "toast-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "tabs",
+          "text": "Togglable tabs"
+        },
+        {
+          "id": "tabs-examples",
+          "text": "Example tabs"
+        },
+        {
+          "id": "tabs-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "tooltip",
+          "text": "Tooltip"
+        },
+        {
+          "id": "tooltip-example",
+          "text": "Basic example"
+        },
+        {
+          "id": "tooltip-example-directions",
+          "text": "Four directions"
+        },
+        {
+          "id": "utilities",
+          "text": "Utilities"
+        },
+        {
+          "id": "utilities-about",
+          "text": "About"
+        },
+        {
+          "id": "utilities-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "scroll-to",
+          "text": ".scrollTo(target, duration)"
+        },
+        {
+          "id": "wizard-modal",
+          "text": "Wizard Modal"
+        },
+        {
+          "id": "wizard-modal-basic-config",
+          "text": "Basic configuration"
+        },
+        {
+          "id": "wizard-modal-examples",
+          "text": "Examples"
+        },
+        {
+          "id": "wizard-modal-usage",
+          "text": "Usage"
+        },
+        {
+          "id": "loading-html-element-example",
+          "text": "Loading Html Element Example"
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "url": "https://style.fluig.com/miscellaneous.html",
+      "file": "miscellaneous.md",
+      "section": "miscellaneous",
+      "sections": [
+        {
+          "id": "filter-source-object-info",
+          "text": "More info"
+        },
+        {
+          "id": "about",
+          "text": "About"
+        },
+        {
+          "id": "addToCalendar",
+          "text": "Add to calendar"
+        },
+        {
+          "id": "carousel",
+          "text": "Carousel"
+        },
+        {
+          "id": "code-editor",
+          "text": "Code Editor"
+        },
+        {
+          "id": "color-picker",
+          "text": "Color Picker"
+        },
+        {
+          "id": "cropper",
+          "text": "Cropper"
+        },
+        {
+          "id": "filter",
+          "text": "Filter"
+        },
+        {
+          "id": "fluig-orgchart",
+          "text": "Organizational Chart"
+        },
+        {
+          "id": "player",
+          "text": "Player"
+        },
+        {
+          "id": "rich-editor",
+          "text": "Rich Editor"
+        },
+        {
+          "id": "ratingStars",
+          "text": "Rating Stars"
+        },
+        {
+          "id": "sounds",
+          "text": "Sounds"
+        },
+        {
+          "id": "tagscloud",
+          "text": "Tags Cloud"
+        },
+        {
+          "id": "treeview",
+          "text": "Treeview"
+        }
+      ]
+    }
+  ],
+  "failed": []
+}

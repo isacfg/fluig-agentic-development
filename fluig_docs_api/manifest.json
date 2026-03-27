@@ -1,0 +1,4021 @@
+{
+  "sources": [
+    "https://api.fluig.com/latest/index.html",
+    "https://api.fluig.com/old/",
+    "https://api.fluig.com/latest/content-management/swagger-ui/",
+    "https://api.fluig.com/latest/page-management/swagger-ui/",
+    "https://api.fluig.com/latest/process-management/swagger-ui/",
+    "https://api.fluig.com/latest/ecm-forms/swagger-ui/",
+    "https://api.fluig.com/latest/dataservice/swagger-ui/",
+    "https://api.fluig.com/latest/collaboration/swagger-ui/",
+    "https://api.fluig.com/latest/admin/swagger-ui/",
+    "https://api.fluig.com/latest/dataset/swagger-ui/",
+    "https://api.fluig.com/latest/environment/swagger-ui/",
+    "https://api.fluig.com/latest/use-policy/swagger-ui/",
+    "https://api.fluig.com/latest/form-management/swagger-ui/"
+  ],
+  "total_pages": 499,
+  "failed_pages": 1,
+  "scraped_at": "2026-03-10T12:13:34.602Z",
+  "pages": [
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/index.html",
+      "file": "latest/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "TOTVS Fluig Developer",
+      "url": "https://api.fluig.com/old/",
+      "file": "old/index.md",
+      "depth": 0,
+      "section": "old",
+      "linksFound": 5
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/content-management/swagger-ui/",
+      "file": "latest/content-management/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/page-management/swagger-ui/",
+      "file": "latest/page-management/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/process-management/swagger-ui/",
+      "file": "latest/process-management/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/ecm-forms/swagger-ui/",
+      "file": "latest/ecm-forms/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/dataservice/swagger-ui/",
+      "file": "latest/dataservice/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/collaboration/swagger-ui/",
+      "file": "latest/collaboration/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/admin/swagger-ui/",
+      "file": "latest/admin/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/dataset/swagger-ui/",
+      "file": "latest/dataset/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/environment/swagger-ui/",
+      "file": "latest/environment/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/use-policy/swagger-ui/",
+      "file": "latest/use-policy/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/form-management/swagger-ui/",
+      "file": "latest/form-management/swagger-ui/index.md",
+      "depth": 0,
+      "section": "latest",
+      "linksFound": 2
+    },
+    {
+      "title": "TOTVS Fluig Developer",
+      "url": "https://api.fluig.com/old/resources.html",
+      "file": "old/resources.md",
+      "depth": 1,
+      "section": "old",
+      "linksFound": 4
+    },
+    {
+      "title": "TOTVS Fluig Developer",
+      "url": "https://api.fluig.com/old/data.html",
+      "file": "old/data.md",
+      "depth": 1,
+      "section": "old",
+      "linksFound": 3
+    },
+    {
+      "title": "TOTVS Fluig Developer",
+      "url": "https://api.fluig.com/old/downloads.html",
+      "file": "old/downloads.md",
+      "depth": 1,
+      "section": "old",
+      "linksFound": 3
+    },
+    {
+      "title": "Javadoc for Fluig - SDK - API 2.0.0",
+      "url": "https://api.fluig.com/old/sdk/index.html",
+      "file": "old/sdk/index.md",
+      "depth": 1,
+      "section": "old",
+      "linksFound": 34
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/content-management/swagger-ui/swagger.json",
+      "file": "latest/content-management/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "TOTVS Fluig API",
+      "url": "https://api.fluig.com/latest/",
+      "file": "latest/index.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/page-management/swagger-ui/swagger.json",
+      "file": "latest/page-management/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/process-management/swagger-ui/swagger.json",
+      "file": "latest/process-management/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/ecm-forms/swagger-ui/swagger.json",
+      "file": "latest/ecm-forms/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/dataservice/swagger-ui/swagger.json",
+      "file": "latest/dataservice/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/collaboration/swagger-ui/swagger.json",
+      "file": "latest/collaboration/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/admin/swagger-ui/swagger.json",
+      "file": "latest/admin/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/dataset/swagger-ui/swagger.json",
+      "file": "latest/dataset/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/environment/swagger-ui/swagger.json",
+      "file": "latest/environment/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/use-policy/swagger-ui/swagger.json",
+      "file": "latest/use-policy/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "swagger.json",
+      "url": "https://api.fluig.com/latest/form-management/swagger-ui/swagger.json",
+      "file": "latest/form-management/swagger-ui/swagger.md",
+      "depth": 1,
+      "section": "latest",
+      "linksFound": 0
+    },
+    {
+      "title": "Hierarchy For All Packages",
+      "url": "https://api.fluig.com/old/sdk/overview-tree.html",
+      "file": "old/sdk/overview-tree.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 221
+    },
+    {
+      "title": "Deprecated API",
+      "url": "https://api.fluig.com/old/sdk/deprecated-list.html",
+      "file": "old/sdk/deprecated-list.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 6
+    },
+    {
+      "title": "A",
+      "url": "https://api.fluig.com/old/sdk/index-all.html",
+      "file": "old/sdk/index-all.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 223
+    },
+    {
+      "title": "How This API Document Is Organized",
+      "url": "https://api.fluig.com/old/sdk/help-doc.html",
+      "file": "old/sdk/help-doc.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 6
+    },
+    {
+      "title": "All Classes",
+      "url": "https://api.fluig.com/old/sdk/allclasses.html",
+      "file": "old/sdk/allclasses.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 187
+    },
+    {
+      "title": "Package com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Package com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Package com.fluig.sdk.api.authorizeclient",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/authorizeclient/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Package com.fluig.sdk.api.customappkey",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/customappkey/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 19
+    },
+    {
+      "title": "Package com.fluig.sdk.api.ecm",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.group",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/group/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.holiday",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/holiday/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.job",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.local",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.log",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/log/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.oauth",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/oauth/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.api.permission",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.search",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 19
+    },
+    {
+      "title": "Package com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Package com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 55
+    },
+    {
+      "title": "Package com.fluig.sdk.api.workflow.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/document/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/exception/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Package com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/filter/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Package com.fluig.sdk.identity",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/identity/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Package com.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/page/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Package com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/service/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 48
+    },
+    {
+      "title": "Package com.fluig.sdk.tenant",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Package com.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/user/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Package com.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/package-summary.html",
+      "file": "old/sdk/com/fluig/sdk/web/package-summary.md",
+      "depth": 2,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.authorizeclient",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/authorizeclient/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.customappkey",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/customappkey/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 19
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.ecm",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.group",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/group/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.holiday",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/holiday/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.job",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.local",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.log",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/log/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.oauth",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/oauth/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.permission",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.search",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 19
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 55
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.api.workflow.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/document/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/exception/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/filter/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.identity",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/identity/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/page/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/service/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 48
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.tenant",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/user/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Hierarchy For Package com.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/package-tree.html",
+      "file": "old/sdk/com/fluig/sdk/web/package-tree.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AdminUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/AdminUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/AdminUserVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertActionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertActionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertActionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertConfigVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertConfigVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertConfigVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertEventVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertEventVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertEventVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AlertModuleVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertModuleVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertModuleVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertObjectVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertObjectVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertObjectVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertSenderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertSenderVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertSenderVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AlertUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertUserVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AlertVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/AlertVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/AlertVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Class AllocatedDocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/AllocatedDocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/AllocatedDocumentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ArticleCoverVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleCoverVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/ArticleCoverVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ArticleUtils",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleUtils.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/ArticleUtils.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Class ArticleVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/ArticleVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Class AssumeProcessTaskResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AssumeProcessTasksResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AssumeProcessTasksVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTasksVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AssumeProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/AssumeProcessTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/AttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/AttachmentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class AttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/AttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/AttachmentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class AuthorizeClientSdkServiceVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/AuthorizeClientSdkServiceVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/authorizeclient/AuthorizeClientSdkServiceVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMAssignmentConfigurationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentConfigurationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentConfigurationVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class BPMAssignmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMAssignmentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMDeadlineSpecificationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMDeadlineSpecificationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMDeadlineSpecificationVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMFormFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMFormFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMFormFieldVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMFormRecordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMFormRecordVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMFormRecordVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMLocalVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMProcessActivityTaskInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityTaskInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityTaskInfoVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMProcessActivityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessActivityVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Class BPMProcessAttachmentSecurityConfigurationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityConfigurationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityConfigurationVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class BPMProcessAttachmentSecurityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessAttachmentSecurityVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class BPMProcessStateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessStateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessStateVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class BPMProcessVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMProcessVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMProcessVersionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class BPMRequestVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMRequestVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMRequestVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Class BPMUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/BPMUserVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CancelInstanceResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstanceResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CancelInstanceResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CancelInstancesResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstancesResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CancelInstancesResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CancelInstancesVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstancesVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CancelInstancesVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CancelInstanceVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CancelInstanceVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CancelInstanceVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardChildrenVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardChildrenVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/CardChildrenVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CardFieldFilterVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFieldFilterVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/CardFieldFilterVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/CardFieldVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardFindFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardFindFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/CardFindFieldVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class CardIndexAPIVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAPIVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardIndexAPIVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardIndexAttachmentCreateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentCreateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentCreateVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardIndexAttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardIndexAttachmentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CardIndexCreateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexCreateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardIndexCreateVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CardIndexFindAPIVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/CardIndexFindAPIVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/CardIndexFindAPIVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CardIndexVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardIndexVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardIndexVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class CardItemVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/CardItemVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/CardItemVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Class CollaborationAppVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/CollaborationAppVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/CollaborationAppVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CollaborationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/CollaborationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/CollaborationVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ColleagueVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/ColleagueVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/ColleagueVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CommentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CommentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/CommentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CommunityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CommunityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/CommunityVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class CropVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/CropVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/CropVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DatasetOfflineMobileRestVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/DatasetOfflineMobileRestVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/DatasetOfflineMobileRestVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class DefaultSearchRequest",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/DefaultSearchRequest.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/DefaultSearchRequest.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DefaultSearchResponse",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/DefaultSearchResponse.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/DefaultSearchResponse.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentApprovementHistoryVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentApprovementHistoryVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentApprovementHistoryVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentApproverVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentApproverVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentApproverVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentPermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentPermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentPermissionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentRestrictionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentRestrictionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentRestrictionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentSecurityConfigVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentSecurityConfigVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentSecurityConfigVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentSecurityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentSecurityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentSecurityVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Class DocumentTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class DocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/DocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/DocumentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class FileUploadVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/FileUploadVO.html",
+      "file": "old/sdk/com/fluig/sdk/document/FileUploadVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterFieldVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterGroupResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterGroupResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterGroupResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterGroupVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterGroupVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterGroupVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterOrderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterOrderVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterOrderVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class FilterResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterResultVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class FilterSearchVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterSearchVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterSearchVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterUpdateNameVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterUpdateNameVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterUpdateNameVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FilterVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/FilterVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class FluigAPI",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigAPI.html",
+      "file": "old/sdk/com/fluig/sdk/api/FluigAPI.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 45
+    },
+    {
+      "title": "Class FluigMessage",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigMessage.html",
+      "file": "old/sdk/com/fluig/sdk/api/FluigMessage.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class FluigRest",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRest.html",
+      "file": "old/sdk/com/fluig/sdk/web/FluigRest.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FluigRestConvertDateZone",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRestConvertDateZone.html",
+      "file": "old/sdk/com/fluig/sdk/web/FluigRestConvertDateZone.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class FluigRestResult",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/FluigRestResult.html",
+      "file": "old/sdk/com/fluig/sdk/web/FluigRestResult.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class FolderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/FolderVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/FolderVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Class FormRecordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/FormRecordVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/FormRecordVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class GroupVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/GroupVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/group/GroupVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class HolidayVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/HolidayVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/holiday/HolidayVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class JobVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/JobVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/JobVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ArrayMapDeserializer",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ArrayMapDeserializer.html",
+      "file": "old/sdk/com/fluig/sdk/api/ArrayMapDeserializer.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Class KeyVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/KeyVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/customappkey/KeyVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class LocalUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/LocalUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/LocalUserVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class LocalVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/LocalVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/LocalVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class ManagerDefinitionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ManagerDefinitionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ManagerDefinitionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class MediaVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/MediaVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/MediaVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class OAuthSdkVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/OAuthSdkVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/oauth/OAuthSdkVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class PageMobileApiVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PageMobileApiVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/PageMobileApiVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class PageWidgetMobileApiVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PageWidgetMobileApiVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/PageWidgetMobileApiVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class PermissionAssetVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/PermissionAssetVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/PermissionAssetVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class PermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/PermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/PermissionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class PostVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/PostVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/PostVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ProcessAttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessAttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessAttachmentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ProcessDefinitionVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ProcessDefinitionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ProcessInstanceInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessInstanceInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessInstanceInfoVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Class ProcessObservationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessObservationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessObservationVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ProcessStateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessStateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessStateVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ProcessTaskInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessTaskInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessTaskInfoVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ProcessVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ProcessVersionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class PublicApiPageVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/PublicApiPageVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/PublicApiPageVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class RelatedDocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/RelatedDocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/RelatedDocumentVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class RequestProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/RequestProcessTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class RequestSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/RequestSLAVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Class RequestTaskSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/RequestTaskSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/RequestTaskSLAVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class RestViews",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.html",
+      "file": "old/sdk/com/fluig/sdk/api/RestViews.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class RestViews.Message",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.Message.html",
+      "file": "old/sdk/com/fluig/sdk/api/RestViews.Message.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class RestViews.Mobile",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/RestViews.Mobile.html",
+      "file": "old/sdk/com/fluig/sdk/api/RestViews.Mobile.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ResumedTasksVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/ResumedTasksVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/ResumedTasksVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ResumeProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ResumeProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ResumeProcessTaskVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ResumeRequestsSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ResumeRequestsSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/ResumeRequestsSLAVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ScriptingLog",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/ScriptingLog.html",
+      "file": "old/sdk/com/fluig/sdk/api/log/ScriptingLog.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class SociableVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/SociableVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class SocialBreadcrumbItemVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbItemVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbItemVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class SocialBreadcrumbVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class SocialVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/SocialVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class SolvedPermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/SolvedPermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/SolvedPermissionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class TaskTransferVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskTransferVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/TaskTransferVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class TenantVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/TenantVO.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/TenantVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class ApplicationKeyCreationException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/ApplicationKeyCreationException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/ApplicationKeyCreationException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class ApplicationKeyNotFoundException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/ApplicationKeyNotFoundException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/ApplicationKeyNotFoundException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMCardIndexAttachmentNotDefinedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMCardIndexAttachmentNotDefinedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/BPMCardIndexAttachmentNotDefinedException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMDocumentSecurityNotDefinedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMDocumentSecurityNotDefinedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/BPMDocumentSecurityNotDefinedException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMFileNotFoundException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMFileNotFoundException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/BPMFileNotFoundException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class BPMRenameAttachmentFileFailedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/BPMRenameAttachmentFileFailedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/BPMRenameAttachmentFileFailedException.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class UserAuthTokenSessionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/UserAuthTokenSessionVO.html",
+      "file": "old/sdk/com/fluig/sdk/identity/UserAuthTokenSessionVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class UserPasswordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/UserPasswordVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/UserPasswordVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Class UserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/UserVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/UserVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Class WorkflowVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/WorkflowVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/WorkflowVO.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Interface BaseAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/BaseAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/BaseAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 48
+    },
+    {
+      "title": "Interface AlertService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/AlertService.html",
+      "file": "old/sdk/com/fluig/sdk/service/AlertService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface ApplicationUserDataService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ApplicationUserDataService.html",
+      "file": "old/sdk/com/fluig/sdk/service/ApplicationUserDataService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface ArticleService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ArticleService.html",
+      "file": "old/sdk/com/fluig/sdk/service/ArticleService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface AuthorizeClientSdkService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/AuthorizeClientSdkService.html",
+      "file": "old/sdk/com/fluig/sdk/service/AuthorizeClientSdkService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface CardAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CardAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Interface CardIndexAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardIndexAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CardIndexAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface CardIndexService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardIndexService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CardIndexService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface CardService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CardService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CardService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface CollaborationSDKService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CollaborationSDKService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CollaborationSDKService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Interface CommentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CommentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CommentService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface CommunityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CommunityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CommunityService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface ContentFilesService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/ContentFilesService.html",
+      "file": "old/sdk/com/fluig/sdk/service/ContentFilesService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface CustomAppKeyService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/CustomAppKeyService.html",
+      "file": "old/sdk/com/fluig/sdk/service/CustomAppKeyService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Interface DocumentationProxyServiceService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/DocumentationProxyServiceService.html",
+      "file": "old/sdk/com/fluig/sdk/service/DocumentationProxyServiceService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface DocumentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/DocumentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/DocumentService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 17
+    },
+    {
+      "title": "Interface FavoritesService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FavoritesService.html",
+      "file": "old/sdk/com/fluig/sdk/service/FavoritesService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface FilterAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FilterAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/FilterAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Interface FolderDocumentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/FolderDocumentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/FolderDocumentService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface GlobalParameterService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/GlobalParameterService.html",
+      "file": "old/sdk/com/fluig/sdk/service/GlobalParameterService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface GroupService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/GroupService.html",
+      "file": "old/sdk/com/fluig/sdk/service/GroupService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface HolidayAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/HolidayAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/HolidayAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface I18NService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/I18NService.html",
+      "file": "old/sdk/com/fluig/sdk/service/I18NService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface IdentityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/IdentityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/IdentityService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface JobService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/JobService.html",
+      "file": "old/sdk/com/fluig/sdk/service/JobService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface LocalAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/LocalAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/LocalAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface MentionService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/MentionService.html",
+      "file": "old/sdk/com/fluig/sdk/service/MentionService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface OAuthUserService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/OAuthUserService.html",
+      "file": "old/sdk/com/fluig/sdk/service/OAuthUserService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface PageService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PageService.html",
+      "file": "old/sdk/com/fluig/sdk/service/PageService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface PageWidgetService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PageWidgetService.html",
+      "file": "old/sdk/com/fluig/sdk/service/PageWidgetService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface PostService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/PostService.html",
+      "file": "old/sdk/com/fluig/sdk/service/PostService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface SearchService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SearchService.html",
+      "file": "old/sdk/com/fluig/sdk/service/SearchService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface SecurityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SecurityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/SecurityService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Interface SocialBreadcrumbService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SocialBreadcrumbService.html",
+      "file": "old/sdk/com/fluig/sdk/service/SocialBreadcrumbService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface SocialSDKService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/SocialSDKService.html",
+      "file": "old/sdk/com/fluig/sdk/service/SocialSDKService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface TagsCloudService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TagsCloudService.html",
+      "file": "old/sdk/com/fluig/sdk/service/TagsCloudService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface TasksService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TasksService.html",
+      "file": "old/sdk/com/fluig/sdk/service/TasksService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 18
+    },
+    {
+      "title": "Interface TenantService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/TenantService.html",
+      "file": "old/sdk/com/fluig/sdk/service/TenantService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Interface UserService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/UserService.html",
+      "file": "old/sdk/com/fluig/sdk/service/UserService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Interface WidgetService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/WidgetService.html",
+      "file": "old/sdk/com/fluig/sdk/service/WidgetService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Interface WorkflowAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/WorkflowAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/WorkflowAPIService.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 31
+    },
+    {
+      "title": "Enum AssumeProcessTaskStatus",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/AssumeProcessTaskStatus.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/AssumeProcessTaskStatus.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum CancelInstanceStatus",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/CancelInstanceStatus.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/CancelInstanceStatus.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum FluigMessageType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/FluigMessageType.html",
+      "file": "old/sdk/com/fluig/sdk/api/FluigMessageType.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum JobVO.IntervalType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/JobVO.IntervalType.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/JobVO.IntervalType.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Enum RequestStatusType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/RequestStatusType.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/RequestStatusType.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum TaskKindEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskKindEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/TaskKindEnum.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum TaskSearchTypeEnumeration",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskSearchTypeEnumeration.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/TaskSearchTypeEnumeration.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum TaskStateEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStateEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/TaskStateEnum.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum TaskStatusEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/TaskStatusEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/TaskStatusEnum.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Enum TaskStatusType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/TaskStatusType.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/TaskStatusType.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "All Classes",
+      "url": "https://api.fluig.com/old/sdk/allclasses-index.html",
+      "file": "old/sdk/allclasses-index.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 193
+    },
+    {
+      "title": "All Packages",
+      "url": "https://api.fluig.com/old/sdk/allpackages-index.html",
+      "file": "old/sdk/allpackages-index.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 35
+    },
+    {
+      "title": "Constant Field Values",
+      "url": "https://api.fluig.com/old/sdk/constant-values.html",
+      "file": "old/sdk/constant-values.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 49
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.alert",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 16
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.authorizeclient",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/authorizeclient/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.cardindex",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 13
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.customappkey",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/customappkey/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 21
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.ecm",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.group",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/group/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.holiday",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/holiday/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.job",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.local",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.log",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/log/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.oauth",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/oauth/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.permission",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.search",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.social",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 19
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.task",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 14
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.workflow",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 52
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.api.workflow.enums",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.document",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/document/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 7
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.exception",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/exception/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.filter",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/filter/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.identity",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/identity/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.page",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/page/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.service",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/service/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 45
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.tenant",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.user",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/user/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Packagecom.fluig.sdk.web",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/package-use.html",
+      "file": "old/sdk/com/fluig/sdk/web/package-use.md",
+      "depth": 3,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.tenant.AdminUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/class-use/AdminUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/class-use/AdminUserVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Serialized Form",
+      "url": "https://api.fluig.com/old/sdk/serialized-form.html",
+      "file": "old/sdk/serialized-form.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 139
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertActionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertActionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertActionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertConfigVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertConfigVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertConfigVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertEventVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertEventVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertEventVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertModuleVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertModuleVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertModuleVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertObjectVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertObjectVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertObjectVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertSenderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertSenderVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertSenderVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertUserVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.alert.AlertVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/alert/class-use/AlertVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/alert/class-use/AlertVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.AllocatedDocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/AllocatedDocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/AllocatedDocumentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.ArticleCoverVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/ArticleCoverVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/ArticleCoverVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.ArticleUtils",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/ArticleUtils.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/ArticleUtils.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.ArticleVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/ArticleVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/ArticleVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.AssumeProcessTaskResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTaskResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTaskResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.AssumeProcessTasksResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTasksResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTasksResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.AssumeProcessTasksVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTasksVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTasksVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.AssumeProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/AssumeProcessTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.AttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/AttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/AttachmentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.AttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/AttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/AttachmentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.authorizeclient.AuthorizeClientSdkServiceVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/authorizeclient/class-use/AuthorizeClientSdkServiceVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/authorizeclient/class-use/AuthorizeClientSdkServiceVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMAssignmentConfigurationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMAssignmentConfigurationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMAssignmentConfigurationVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMAssignmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMAssignmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMAssignmentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMDeadlineSpecificationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMDeadlineSpecificationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMDeadlineSpecificationVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMFormFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMFormFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMFormFieldVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMFormRecordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMFormRecordVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMFormRecordVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMLocalVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMLocalVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMLocalVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessActivityTaskInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessActivityTaskInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessActivityTaskInfoVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessActivityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessActivityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessActivityVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessAttachmentSecurityConfigurationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessAttachmentSecurityConfigurationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessAttachmentSecurityConfigurationVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessAttachmentSecurityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessAttachmentSecurityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessAttachmentSecurityVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessStateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessStateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessStateVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMProcessVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMProcessVersionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMRequestVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMRequestVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMRequestVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.BPMUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/BPMUserVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CancelInstanceResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstanceResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstanceResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CancelInstancesResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstancesResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstancesResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CancelInstancesVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstancesVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstancesVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CancelInstanceVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstanceVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CancelInstanceVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.CardChildrenVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/CardChildrenVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/CardChildrenVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.CardFieldFilterVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFieldFilterVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFieldFilterVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.CardFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFieldVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.CardFindFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFindFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/CardFindFieldVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardIndexAPIVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAPIVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAPIVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardIndexAttachmentCreateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAttachmentCreateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAttachmentCreateVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardIndexAttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexAttachmentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardIndexCreateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexCreateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexCreateVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.cardindex.CardIndexFindAPIVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/cardindex/class-use/CardIndexFindAPIVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/cardindex/class-use/CardIndexFindAPIVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardIndexVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardIndexVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.CardItemVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/CardItemVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/CardItemVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.ecm.CollaborationAppVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/class-use/CollaborationAppVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/class-use/CollaborationAppVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.ecm.CollaborationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/ecm/class-use/CollaborationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/ecm/class-use/CollaborationVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.user.ColleagueVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/class-use/ColleagueVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/class-use/ColleagueVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.CommentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/CommentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/CommentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.CommunityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/CommunityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/CommunityVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.CropVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/CropVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/CropVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.DatasetOfflineMobileRestVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/DatasetOfflineMobileRestVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/DatasetOfflineMobileRestVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.search.DefaultSearchRequest",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/class-use/DefaultSearchRequest.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/class-use/DefaultSearchRequest.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.search.DefaultSearchResponse",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/search/class-use/DefaultSearchResponse.html",
+      "file": "old/sdk/com/fluig/sdk/api/search/class-use/DefaultSearchResponse.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentApprovementHistoryVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentApprovementHistoryVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentApprovementHistoryVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentApproverVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentApproverVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentApproverVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentPermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentPermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentPermissionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentRestrictionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentRestrictionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentRestrictionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentSecurityConfigVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentSecurityConfigVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentSecurityConfigVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentSecurityVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentSecurityVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentSecurityVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.DocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/DocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/DocumentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.document.FileUploadVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/document/class-use/FileUploadVO.html",
+      "file": "old/sdk/com/fluig/sdk/document/class-use/FileUploadVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterFieldVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterFieldVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterFieldVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterGroupResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterGroupResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterGroupResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterGroupVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterGroupVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterGroupVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterOrderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterOrderVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterOrderVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterResultVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterResultVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterResultVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterSearchVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterSearchVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterSearchVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterUpdateNameVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterUpdateNameVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterUpdateNameVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.filter.FilterVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterVO.html",
+      "file": "old/sdk/com/fluig/sdk/filter/class-use/FilterVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.FluigAPI",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/FluigAPI.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/FluigAPI.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.FluigMessage",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/FluigMessage.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/FluigMessage.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.web.FluigRest",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/class-use/FluigRest.html",
+      "file": "old/sdk/com/fluig/sdk/web/class-use/FluigRest.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.web.FluigRestConvertDateZone",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/class-use/FluigRestConvertDateZone.html",
+      "file": "old/sdk/com/fluig/sdk/web/class-use/FluigRestConvertDateZone.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.web.FluigRestResult",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/web/class-use/FluigRestResult.html",
+      "file": "old/sdk/com/fluig/sdk/web/class-use/FluigRestResult.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.FolderVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/FolderVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/FolderVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.FormRecordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/FormRecordVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/FormRecordVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.group.GroupVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/group/class-use/GroupVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/group/class-use/GroupVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.holiday.HolidayVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/holiday/class-use/HolidayVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/holiday/class-use/HolidayVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 12
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.job.JobVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/class-use/JobVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/class-use/JobVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.ArrayMapDeserializer",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/ArrayMapDeserializer.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/ArrayMapDeserializer.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.customappkey.KeyVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/customappkey/class-use/KeyVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/customappkey/class-use/KeyVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.local.LocalUserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/class-use/LocalUserVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/class-use/LocalUserVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.local.LocalVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/local/class-use/LocalVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/local/class-use/LocalVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 15
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ManagerDefinitionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ManagerDefinitionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ManagerDefinitionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.MediaVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/MediaVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/MediaVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.oauth.OAuthSdkVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/oauth/class-use/OAuthSdkVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/oauth/class-use/OAuthSdkVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.page.PageMobileApiVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/class-use/PageMobileApiVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/class-use/PageMobileApiVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.page.PageWidgetMobileApiVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/class-use/PageWidgetMobileApiVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/class-use/PageWidgetMobileApiVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.permission.PermissionAssetVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/class-use/PermissionAssetVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/class-use/PermissionAssetVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.permission.PermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/permission/class-use/PermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/permission/class-use/PermissionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.PostVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/PostVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/PostVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessAttachmentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessAttachmentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessAttachmentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessDefinitionVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVersionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessDefinitionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessInstanceInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessInstanceInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessInstanceInfoVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessObservationVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessObservationVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessObservationVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessStateVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessStateVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessStateVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessTaskInfoVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessTaskInfoVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessTaskInfoVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ProcessVersionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessVersionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessVersionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.page.PublicApiPageVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/page/class-use/PublicApiPageVO.html",
+      "file": "old/sdk/com/fluig/sdk/page/class-use/PublicApiPageVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.RelatedDocumentVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/RelatedDocumentVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/RelatedDocumentVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.RequestProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/RequestProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/RequestProcessTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.RequestSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/RequestSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/RequestSLAVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.RequestTaskSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/RequestTaskSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/RequestTaskSLAVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.RestViews",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/RestViews.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/RestViews.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.RestViews.Message",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/RestViews.Message.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/RestViews.Message.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.RestViews.Mobile",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/RestViews.Mobile.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/RestViews.Mobile.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.ResumedTasksVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/ResumedTasksVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/ResumedTasksVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ResumeProcessTaskVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ResumeProcessTaskVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ResumeProcessTaskVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.ResumeRequestsSLAVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ResumeRequestsSLAVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/ResumeRequestsSLAVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.log.ScriptingLog",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/log/class-use/ScriptingLog.html",
+      "file": "old/sdk/com/fluig/sdk/api/log/class-use/ScriptingLog.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.SociableVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SociableVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/SociableVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.SocialBreadcrumbItemVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbItemVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbItemVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.SocialBreadcrumbVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.social.SocialVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/social/class-use/SocialVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.document.SolvedPermissionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/document/class-use/SolvedPermissionVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/document/class-use/SolvedPermissionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.TaskTransferVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/TaskTransferVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/TaskTransferVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.tenant.TenantVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/tenant/class-use/TenantVO.html",
+      "file": "old/sdk/com/fluig/sdk/tenant/class-use/TenantVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.ApplicationKeyCreationException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/ApplicationKeyCreationException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/ApplicationKeyCreationException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.ApplicationKeyNotFoundException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/ApplicationKeyNotFoundException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/ApplicationKeyNotFoundException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.BPMCardIndexAttachmentNotDefinedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/BPMCardIndexAttachmentNotDefinedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/BPMCardIndexAttachmentNotDefinedException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.BPMDocumentSecurityNotDefinedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/BPMDocumentSecurityNotDefinedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/BPMDocumentSecurityNotDefinedException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.BPMFileNotFoundException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/BPMFileNotFoundException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/BPMFileNotFoundException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.exception.BPMRenameAttachmentFileFailedException",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/exception/class-use/BPMRenameAttachmentFileFailedException.html",
+      "file": "old/sdk/com/fluig/sdk/exception/class-use/BPMRenameAttachmentFileFailedException.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.identity.UserAuthTokenSessionVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/identity/class-use/UserAuthTokenSessionVO.html",
+      "file": "old/sdk/com/fluig/sdk/identity/class-use/UserAuthTokenSessionVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.user.UserPasswordVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/class-use/UserPasswordVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/class-use/UserPasswordVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.user.UserVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/user/class-use/UserVO.html",
+      "file": "old/sdk/com/fluig/sdk/user/class-use/UserVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.WorkflowVO",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/WorkflowVO.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/class-use/WorkflowVO.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.BaseAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/BaseAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/BaseAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 48
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.AlertService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/AlertService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/AlertService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.ApplicationUserDataService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/ApplicationUserDataService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/ApplicationUserDataService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.ArticleService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/ArticleService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/ArticleService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.AuthorizeClientSdkService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/AuthorizeClientSdkService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/AuthorizeClientSdkService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CardAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CardAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CardAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CardIndexAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CardIndexAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CardIndexAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CardIndexService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CardIndexService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CardIndexService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CardService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CardService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CardService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CollaborationSDKService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CollaborationSDKService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CollaborationSDKService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CommentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CommentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CommentService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CommunityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CommunityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CommunityService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.ContentFilesService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/ContentFilesService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/ContentFilesService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.CustomAppKeyService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/CustomAppKeyService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/CustomAppKeyService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.DocumentationProxyServiceService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/DocumentationProxyServiceService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/DocumentationProxyServiceService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.DocumentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/DocumentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/DocumentService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.FavoritesService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/FavoritesService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/FavoritesService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.FilterAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/FilterAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/FilterAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.FolderDocumentService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/FolderDocumentService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/FolderDocumentService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.GlobalParameterService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/GlobalParameterService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/GlobalParameterService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.GroupService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/GroupService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/GroupService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.HolidayAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/HolidayAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/HolidayAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.I18NService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/I18NService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/I18NService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.IdentityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/IdentityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/IdentityService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.JobService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/JobService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/JobService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.LocalAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/LocalAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/LocalAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.MentionService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/MentionService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/MentionService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.OAuthUserService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/OAuthUserService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/OAuthUserService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.PageService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/PageService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/PageService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.PageWidgetService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/PageWidgetService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/PageWidgetService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.PostService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/PostService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/PostService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.SearchService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/SearchService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/SearchService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.SecurityService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/SecurityService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/SecurityService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.SocialBreadcrumbService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/SocialBreadcrumbService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/SocialBreadcrumbService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.SocialSDKService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/SocialSDKService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/SocialSDKService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.TagsCloudService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/TagsCloudService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/TagsCloudService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.TasksService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/TasksService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/TasksService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.TenantService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/TenantService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/TenantService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.UserService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/UserService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/UserService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.WidgetService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/WidgetService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/WidgetService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Interfacecom.fluig.sdk.service.WorkflowAPIService",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/service/class-use/WorkflowAPIService.html",
+      "file": "old/sdk/com/fluig/sdk/service/class-use/WorkflowAPIService.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.enums.AssumeProcessTaskStatus",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/class-use/AssumeProcessTaskStatus.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/class-use/AssumeProcessTaskStatus.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 10
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.enums.CancelInstanceStatus",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/enums/class-use/CancelInstanceStatus.html",
+      "file": "old/sdk/com/fluig/sdk/api/enums/class-use/CancelInstanceStatus.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.FluigMessageType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/class-use/FluigMessageType.html",
+      "file": "old/sdk/com/fluig/sdk/api/class-use/FluigMessageType.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.job.JobVO.IntervalType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/job/class-use/JobVO.IntervalType.html",
+      "file": "old/sdk/com/fluig/sdk/api/job/class-use/JobVO.IntervalType.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 9
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.enums.RequestStatusType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/class-use/RequestStatusType.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/class-use/RequestStatusType.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.TaskKindEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/TaskKindEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/TaskKindEnum.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.TaskSearchTypeEnumeration",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/TaskSearchTypeEnumeration.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/TaskSearchTypeEnumeration.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.TaskStateEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/TaskStateEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/TaskStateEnum.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.task.TaskStatusEnum",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/task/class-use/TaskStatusEnum.html",
+      "file": "old/sdk/com/fluig/sdk/api/task/class-use/TaskStatusEnum.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 11
+    },
+    {
+      "title": "Uses of Classcom.fluig.sdk.api.workflow.enums.TaskStatusType",
+      "url": "https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/enums/class-use/TaskStatusType.html",
+      "file": "old/sdk/com/fluig/sdk/api/workflow/enums/class-use/TaskStatusType.md",
+      "depth": 4,
+      "section": "old",
+      "linksFound": 8
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://api.fluig.com/old/application.wadl",
+      "depth": 1,
+      "reason": "fetch error"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "https://style.fluig.com/",
+  "total_pages": 0,
+  "failed_pages": 1,
+  "scraped_at": "2026-03-11T11:42:38.209Z",
+  "pages": [],
+  "failed": [
+    {
+      "url": "https://style.fluig.com/",
+      "reason": "$ is not a function"
+    }
+  ]
+}

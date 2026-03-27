@@ -1,0 +1,14 @@
+# Uses of Classcom.fluig.sdk.filter.FilterVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.filter.FilterVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html" title="class in com.fluig.sdk.filter">FilterVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/class-use/FilterVO.html">com.fluig.sdk.service</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [FilterVO](https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html "class in com.fluig.sdk.filter") in [com.fluig.sdk.service](https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html">com.fluig.sdk.service</a> with parameters of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html" title="class in com.fluig.sdk.filter">FilterVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterResultVO.html" title="class in com.fluig.sdk.filter">FilterResultVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">FilterAPIService.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/FilterAPIService.html">createFilter</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html" title="class in com.fluig.sdk.filter">FilterVO</a>&nbsp;filterVO)</code></th><td class="colLast">&nbsp;</td></tr><tr class="rowColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterResultVO.html" title="class in com.fluig.sdk.filter">FilterResultVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">FilterAPIService.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/FilterAPIService.html">updateFilter</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/filter/FilterVO.html" title="class in com.fluig.sdk.filter">FilterVO</a>&nbsp;filterVO)</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>

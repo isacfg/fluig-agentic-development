@@ -1,0 +1,16 @@
+# Uses of Classcom.fluig.sdk.api.social.SociableVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SociableVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SociableVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.social.SociableVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html" title="class in com.fluig.sdk.api.social">SociableVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SociableVO.html">com.fluig.sdk.api.social</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [SociableVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html "class in com.fluig.sdk.api.social") in [com.fluig.sdk.api.social](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html">com.fluig.sdk.api.social</a> that return <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html" title="class in com.fluig.sdk.api.social">SociableVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html" title="class in com.fluig.sdk.api.social">SociableVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">ArticleVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleVO.html">getSociable</a></span>()</code></th><td class="colLast"><div class="block">Recupera o valor do field sociableVO</div></td></tr></tbody></table>
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/package-summary.html">com.fluig.sdk.api.social</a> with parameters of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html" title="class in com.fluig.sdk.api.social">SociableVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code>void</code></td><th class="colSecond" scope="row"><span class="typeNameLabel">ArticleVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/ArticleVO.html">setSociable</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SociableVO.html" title="class in com.fluig.sdk.api.social">SociableVO</a>&nbsp;sociable)</code></th><td class="colLast"><div class="block">Setado o valor do field sociableVO</div></td></tr></tbody></table>

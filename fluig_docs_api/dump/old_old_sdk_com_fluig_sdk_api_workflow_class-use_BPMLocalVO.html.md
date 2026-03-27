@@ -1,0 +1,16 @@
+# Uses of Classcom.fluig.sdk.api.workflow.BPMLocalVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMLocalVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMLocalVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.workflow.BPMLocalVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html" title="class in com.fluig.sdk.api.workflow">BPMLocalVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/BPMLocalVO.html">com.fluig.sdk.api.workflow</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [BPMLocalVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html "class in com.fluig.sdk.api.workflow") in [com.fluig.sdk.api.workflow](https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-summary.html">com.fluig.sdk.api.workflow</a> that return <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html" title="class in com.fluig.sdk.api.workflow">BPMLocalVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html" title="class in com.fluig.sdk.api.workflow">BPMLocalVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">BPMUserVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMUserVO.html">getLocal</a></span>()</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/package-summary.html">com.fluig.sdk.api.workflow</a> with parameters of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html" title="class in com.fluig.sdk.api.workflow">BPMLocalVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code>void</code></td><th class="colSecond" scope="row"><span class="typeNameLabel">BPMUserVO.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMUserVO.html">setLocal</a></span>​(<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/BPMLocalVO.html" title="class in com.fluig.sdk.api.workflow">BPMLocalVO</a>&nbsp;local)</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>

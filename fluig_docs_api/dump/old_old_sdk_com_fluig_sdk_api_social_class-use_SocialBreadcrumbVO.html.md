@@ -1,0 +1,14 @@
+# Uses of Classcom.fluig.sdk.api.social.SocialBreadcrumbVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.social.SocialBreadcrumbVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html" title="class in com.fluig.sdk.api.social">SocialBreadcrumbVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/class-use/SocialBreadcrumbVO.html">com.fluig.sdk.service</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [SocialBreadcrumbVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html "class in com.fluig.sdk.api.social") in [com.fluig.sdk.service](https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html">com.fluig.sdk.service</a> that return <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html" title="class in com.fluig.sdk.api.social">SocialBreadcrumbVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/social/SocialBreadcrumbVO.html" title="class in com.fluig.sdk.api.social">SocialBreadcrumbVO</a></code></td><th class="colSecond" scope="row"><span class="typeNameLabel">SocialBreadcrumbService.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/SocialBreadcrumbService.html">get</a></span>​(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink">String</a>&nbsp;alias, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Long.html?is-external=true" title="class or interface in java.lang" class="externalLink">Long</a>&nbsp;documentId, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink">String</a>&nbsp;folderType)</code></th><td class="colLast">&nbsp;</td></tr></tbody></table>

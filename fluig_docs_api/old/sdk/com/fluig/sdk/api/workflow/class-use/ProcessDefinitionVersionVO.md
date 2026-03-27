@@ -1,0 +1,14 @@
+# Uses of Classcom.fluig.sdk.api.workflow.ProcessDefinitionVersionVO
+
+> **Fonte:** [https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVersionVO.html](https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVersionVO.html)
+
+---
+
+## Uses of Class
+com.fluig.sdk.api.workflow.ProcessDefinitionVersionVO
+
+-   <table class="useSummary"><caption><span>Packages that use <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html" title="class in com.fluig.sdk.api.workflow">ProcessDefinitionVersionVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Package</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><th class="colFirst" scope="row"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/class-use/ProcessDefinitionVersionVO.html">com.fluig.sdk.service</a></th><td class="colLast">&nbsp;</td></tr></tbody></table>
+
+-   -   ### Uses of [ProcessDefinitionVersionVO](https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html "class in com.fluig.sdk.api.workflow") in [com.fluig.sdk.service](https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html)
+
+        <table class="useSummary"><caption><span>Methods in <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/package-summary.html">com.fluig.sdk.service</a> that return types with arguments of type <a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html" title="class in com.fluig.sdk.api.workflow">ProcessDefinitionVersionVO</a></span><span class="tabEnd">&nbsp;</span></caption><tbody><tr><th class="colFirst" scope="col">Modifier and Type</th><th class="colSecond" scope="col">Method</th><th class="colLast" scope="col">Description</th></tr></tbody><tbody><tr class="altColor"><td class="colFirst"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html?is-external=true" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="https://api.fluig.com/old/sdk/com/fluig/sdk/api/workflow/ProcessDefinitionVersionVO.html" title="class in com.fluig.sdk.api.workflow">ProcessDefinitionVersionVO</a>&gt;</code></td><th class="colSecond" scope="row"><span class="typeNameLabel">FavoritesService.</span><code><span class="memberNameLink"><a href="https://api.fluig.com/old/sdk/com/fluig/sdk/service/FavoritesService.html">findFavoritesProcess</a></span>​(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink">String</a>&nbsp;colleagueId)</code></th><td class="colLast"><div class="block">Busca os processos favoritos</div></td></tr></tbody></table>
