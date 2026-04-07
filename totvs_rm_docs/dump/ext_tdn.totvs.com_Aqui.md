@@ -1,143 +1,124 @@
-# Demonstração do processo de Industrialização (Retorno em 1 NF) - Remetente
+# DEV0002_Devolucao_de_Venda_de_Mercadoria_Emissão_da_Nota_pelo_Cliente
 
-> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=74646698](https://tdn.totvs.com/pages/releaseview.action?pageId=74646698)
+> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=315902787](https://tdn.totvs.com/pages/releaseview.action?pageId=315902787)
 > **Domínio:** TDN (TOTVS Developer Network)
 
 ---
 
-**Produto**
+# Assunto
 
-**:**
+**Produto:**
 
-TOTVS Gestão de Estoque Compras e Faturamento                       **Versão:** 11.52 e posteriores                                                              
+TOTVS Gestão de Estoque Compras e Faturamento
 
-**Processo**
+**Versões:**
 
-**:**
+11.80 e Superiores
 
-Estoque DE/COM Terceiros
+**Ocorrência:**
 
-**Subprocesso**
+Devolução de Venda de Mercadoria
 
-**:**
+**Ambiente:**
 
-Demonstração do processo de Industrialização (Retorno em 1 NF) - Remetente
+Devolução
 
-**Data da publicação**
+**Passo a passo:**
 
-**:**
+# Descrição
 
-13/09/2013
+A devolução de mercadoria se refere anulação de um procedimento de venda realizado junto á um cliente. A devolução pode ser feita considerando todos os itens do movimento ou parte deles, onde será afetado tanto o saldo financeiro quanto o saldo físico.
 
-### **Demonstração do processo:**
+A movimentação de devolução é inclusa através do processo de “cópia por referência” onde não é necessário redigitar os dados do item x movimento, visto que, será feito filtro do movimento a ser devolvido(movimento de origem) e será criado relacionamento entre eles.
 
-Estoque do produto antes do processo:
+Movimentos de devolução de venda devem ser inclusos em movimentos do tipo 1.2.XX ou 1.3.XX, visto que, terá o efeito inverso á movimentação de inclusão que foi feita no tipo de movimento 2.2.XX(diminui estoque).
 
-Saldo Atual: 10,00
+# Parametrização
 
-Saldo Disponível: 10,00
+Acessar o cadastro de Tipo de Documento e incluir um novo com a finalidade específica para este fim, onde deverá informar a classificação como Devolução e o campo Pagar ou Receber como A Pagar e A Receber.
 
-Saldo Financeiro: 1.000,00
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/1.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-#### **\--> Inclusão do movimento de Remessa Para Industrialização:**
+Feito o cadastro do documento, vamos parametrizar o movimento em Ambiente | Parâmetros | TOTVS Gestão de Estoque, Compras e Faturamento | Vendas | Devolução de Venda. Poderá criar ou editar um movimento já existente. No exemplo abaixo, utilizaremos um movimento do tipo 1.2.XX.
 
-**
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/19-1.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-**
 
-Informar o local de estoque que o produto vai sair e o fornecedor que está sendo enviado o produto para ser industrializado.
+**Etapa Mov – Emitente / Destinatário
+**\- Emitente: Cliente
+\- Edição da Filial de Emissão: informar “Edita” para permitir que o usuário preencha os dados da filial, ou “Mostra” se quiser deixar um default preenchido
+\- Edição do Local de Emissão: informar “Edita” para permitir que o usuário preencha os dados da filial, ou “Mostra” se quiser deixar um default preenchido
+\- Destinatário: Empresa
+\- Edição do Cliente \\ Fornecedor: Edita
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/2.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+**Etapa Mov – Outros Dados
+**\- Usar Cópia de Movimento por Referência: Habilitar
+\- Motivo de Referência: 5 – Devolução de Venda de Mercadorias
 
-Informar o Produto e a Quantidade do produto que será enviado para a Industrialização.
 
-Após o Movimento de Remessa para Industrialização incluído, a verificação do produto na consulta de saldos e custos.
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/3.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+**Etapa Fis- Escrituração 1/2
+**\- Gerar Escrituração: Habilitar
+\- Tipo de Documento Escrituração: informar o tipo de documento que deve ser apresentado no Totvs Gestão Fiscal
 
-Saldo Atual do produto: 10,00
 
-Saldo Disponível: 0,00
 
-#### **\--> Inclusão do movimento de Industrialização Realizada por Terceiros:**
+**Etapa Fis- Escrituração 2/2
+**\- Tipo do Lançamento Fiscal da Transferência: Entrada
+\*\* A parametrização acima é obrigatória para o tipo de movimento que vai gerar escrituração\*\*
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/4.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-Filtrar o movimento de Remessa Para Industrialização.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/5.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+****Etapa Fis – Natureza
+**\-** Natureza | Edição: Edita
+\- Seleção Automática da Natureza: Seleciona por Item
 
-Marcar o Item que foi industrializado.
+# Processo
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/6.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+O usuário deverá acessar movimento parametrizado para este fim e clicar no menu Processos | Assistente de Cópia por Referência. Será aberta a tela de Assistente de Cópia por Referência.
 
-O Movimento de Retorno Simbólico da Mercadoria irá ser aberto.
+Nesta tela, deverá avançar para a próxima e clicar em Incluir para poder selecionar o movimento a ser devolvido. Após selecionado, clique em OK e avance. Nesta próxima tela serão apresentados os dados dos itens de movimento. Neste momento o usuário deve marcar os itens que deseja devolver e deverá clicar em Avançar e logo em seguida Executar para dar fim ao assistente de cópia por referência.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/7.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
- 
+A seguir os dados serão apresentados no movimento de devolução podendo ser alterado pelo usuário se necessário. A devolução pode ser feita sobre a quantidade integral do item ou não.
 
-No Movimento de Retorno Simbólico da Mercadoria incluir o serviço de Industrialização e o preço do serviço.
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/8.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-Informar a quantidade do produto que foi industrializado.
+-   ***Informações Adicionais***
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/9.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+\- Para visualizar o relacionamento entre o movimento de origem e de destino deve acessar o movimento de devolução(destino) e clicar na pasta Consultas **| Cópia por Referência |** onde vai visualizar todas informações do movimento de origem. Para visualizar os dados de devolução através do movimento de origem, deve selecionar o mesmo e clicar no ícone **| [
+![clip_image004](https://lh5.ggpht.com/_G7KXZLoZDsY/TKtsTC85SkI/AAAAAAAABw4/D2HdNhaTcaE/clip_image004_thumb.jpg?imgmax=800)
+](https://lh3.ggpht.com/_G7KXZLoZDsY/TKtsSFMreII/AAAAAAAABw0/SOKuuYYRv0E/s1600-h/clip_image004%5B3%5D.jpg) - Rastreamento de Movimentos |**onde será apresentada aba **| Devolução |** com as informações do movimento de destino. 
 
-Ao salvar esse movimento de retorno simbólico da mercadoria, o sistema irá gerar automaticamente o movimento de entrada do produto acabado:
+\- O relacionamento entre os movimentos envolvidos ficam gravados na tabela **| TMOVRELAC |** onde o idmov do movimento de origem(venda) é apresentado como **| IDMOVDESTINO |**
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/10.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-O movimento será aberto sem nenhum item, dessa forma o usuário deve informar qual foi produto acabado.
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/11.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/12.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+-   ***Escrituração do Movimento***
 
-Após o movimento de Retorno da Mercadoria Simbólica (Parcial) e Entrada do Produto Acabado o Saldo do produto vai ficar da seguinte forma:
+O processo de escrituração será feita como de costume onde devem ser inclusos dois lotes com os tipos de movimentos de venda e devolução. Primeiro tem que ser escriturado movimento de Nota Fiscal para depois escriturar a devolução vinculada ao mesmo.
 
-Saldo Atual: 3,00 (Produtos que não foram industrializados)
 
-Saldo Disponível: 0,00 (Porque ainda não foi feito o movimento de retorno do produto não industrializado).
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/13.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-#### \--> Inclusão do movimento de Retorno do Produto não Industrializado.
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/14.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-Selecionar o movimento de Remessa Para Industrialização e executar o processo.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/15.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+**Observações:**
 
-O Movimento de Retorno da Mercadoria não Industrializada irá ser gerado com a quantidade do produto que ainda não foi devolvida.
+Para mais informações:
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/16.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-Após a Inclusão do Movimento vamos verificar o Saldo do Produto.
 
- 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/17.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
+ [Consulte o WikiHelp TOTVS](http://wikihelp.totvs.com.br/WikiHelp/FIS/FIS.ECF.aspx)
 
-Saldo Atual: 3,00
 
-Saldo Disponível: 3,00
 
-E a consulta do Saldo do Produto Acabado:
+   **![Imagem](https://tdn.totvs.com/download/thumbnails/63865769/Fluig.jpg?version=1&modificationDate=1407880160000&api=v2)
+   COMUNIDADE**  [R@Materiais e Suprimentos](https://fluig.totvs.com/portal/p/10097/subject/rmateriais)
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/74646698/18.JPG?version=1&modificationDate=1379091710000&api=v2&effects=drop-shadow)
 
-Saldo Atual: 2,00
 
-Saldo Disponível: 2,00
+**Canais de Atendimento:**
+
+**Abertura de Chamados** Através do Portal Totvs [www.suporte.totvs.com.br](http://www.suporte.totvs.com.br/)
+
+**Telefônico:** 4003-0015 Escolhendo as opções 2 – (Software), 2 – (Suporte Técnico), 3 – (RM), 5 – (Materiais)

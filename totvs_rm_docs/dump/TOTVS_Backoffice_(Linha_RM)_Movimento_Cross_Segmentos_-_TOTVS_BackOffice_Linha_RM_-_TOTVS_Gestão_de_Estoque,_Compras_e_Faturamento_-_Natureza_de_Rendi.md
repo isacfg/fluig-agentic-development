@@ -1,71 +1,51 @@
-# Cross Segmentos - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento - Natureza de Rendimento default para contribuições sociais retidas
+# Cross Segmentos - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento - Natureza de rendimento default no tributo IRRF para o lançamento financeiro
 
-> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/17185384164375-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-Natureza-de-Rendimento-default-para-contribui%C3%A7%C3%B5es-sociais-retidas](https://centraldeatendimento.totvs.com/hc/pt-br/articles/17185384164375-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-Natureza-de-Rendimento-default-para-contribui%C3%A7%C3%B5es-sociais-retidas)
+> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/17317866242327-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-Natureza-de-rendimento-default-no-tributo-IRRF-para-o-lan%C3%A7amento-financeiro](https://centraldeatendimento.totvs.com/hc/pt-br/articles/17317866242327-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-Natureza-de-rendimento-default-no-tributo-IRRF-para-o-lan%C3%A7amento-financeiro)
 > **Caminho:** Cross Segmentos > TOTVS Backoffice (Linha RM) > TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) > Movimento
-> **Data:** 22 de abril de 2025 às 16:30
+> **Data:** 26 de setembro de 2023 às 17:38
 
 ---
 
-![time.png](https://centraldeatendimento.totvs.com/hc/article_attachments/17185353414935)
- Tempo aproximado para leitura: **00:03:00 min****Dúvida**Como levar para o financeiro natureza de rendimento default dos tributos PISRF, COFINSRF, CSLLRF e CSRF ?
+![time.png](https://centraldeatendimento.totvs.com/hc/article_attachments/17317808587287)
+ Tempo aproximado para leitura: **00:03:00 min
+****
+Dúvida
+**Como levar a Natureza de Rendimento default no tributo IRRF para o lançamento financeiro?
+
+**Ambiente
+**Cross Segmento - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento\- A partir da biblioteca 12.1.2209**Solução
+**Na geração dos lançamentos financeiros a partir de um movimento inserido no TOTVS Gestão de Estoque, Compras e Faturamento, o campo **Natureza de Rendimento** será levado para o **lançamento financeiro** (aba Valores |Tributos), onde o lançamento financeiro tem o tipo de documento **Gerar IRRF**.
+
+Para solucionar essa dúvida, realize os seguintes passos:
+
+**1**. O tipo de movimento deverá estar parametrizado para [Geração de IRRF Automático para o Totvs Gestão Financeira.](https://tdn.totvs.com/pages/releaseview.action?pageId=4813078)
+
+**2**. Nos **parâmetros do tipo de movimento | etapa Fin-faturamento 3/6** deve ser informada a **fórmula para cálculo do valor de serviço**.
+![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17318366955543)
 
 
-**Ambiente**Cross Segmentos - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento a partir da biblioteca 12.1.2209
-
-
-**Solução**
-A Natureza de rendimento default é definida no movimento conforme a seguinte
-hierarquia de cadastros:
-
-**Cadastro do produto** \> Anexos > Dados fiscais do produto
-**Cliente Fornecedor** > Anexos > Tributos Default do Fornecedor
-**Tipo de Movimento** > Etapa Fis – Tributação – Item
-
-
-**1.** Acesse cadastro produto : **Anexos | Dados fiscais do produto:**
-
-Na aba identificação, informe o código da natureza de rendimento:
-
-**
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17720416198551)
-**
-
-**2**. Acesse cadastro do fornecedor **Anexos | Tributos default fornecedor:**
-
-Inclua o tributo desejado, alíquota, código de receita e natureza de rendimento:
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17445793864343)
-
-Para default no tipo de movimento acesse **Ambiente | Parâmetros | Gestão de Estoque, Compras e Faturamento |** selecione o tipo de movimento desejado, na **etapa Fis - Tributação** informe o tributo e natureza de rendimento .
+**3**. Deverá ser informado no **cadastro do Produto** em Anexos | **Dados Fiscais do Produto** a **Natureza de Rendimento** default, **Código da Receita** e **Percentual da Base IRRF**.
+![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17317188680599)
 
 **
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17184712024215)
+4**. No Movimento, em Tributos e Valores | Tributos será  preenchido os campos automaticamente.
+![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17317338379031)
+
+
+**5**. No lançamento financeiro gerado será preenchido as informações em Tributos | Valor do IRRF.
+![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17317483763479)
+
+
+**Importante:
+**\- Atualmente o sistema não leva a natureza de rendimentos default buscando do clif/for.
+\- Caso não seja informado default da natureza de rendimentos no cadastro  do produto, a mesma pode ser inserida manualmente na inclusão do movimento.
+
+**Saiba mais em:
 **
+[Regras para preenchimento do campo Natureza de Rendimento do Movimento para o Lançamento Financeiro](https://tdn.totvs.com/pages/releaseview.action?pageId=761017178)
 
-**3**. Ao incluir o movimento, o sistema verifica de acordo com a hierarquia citada e preenche 
-automaticamente o movimento.
+[Geração de IRRF Automático para o Totvs Gestão Financeira](https://tdn.totvs.com/pages/releaseview.action?pageId=4813078)
 
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17446159649815)
+Veja o passo a passo em vídeo: How to | Natureza de Rendimentos Default IRRF
 
-**4**. Ao salvar o movimento, será gerado o lançamento financeiro com a natureza informada no movimento.
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/17446299935895)
-
-**IMPORTANTE**: Para o lançamento financeiro, se o movimento possuir apenas 1 item, será levada a natureza de rendimento informada no tributo do item.
-
-Se o movimento possuir mais de 1 item, será levada a natureza de rendimento do primeiro item
-preenchido.
-
-Se não for definido nenhum default, o usuário terá a opção de informar a natureza de
-rendimento manualmente, no momento da inclusão do movimento.
-
-**Veja o passo a passo em vídeo: How to | Natureza de Rendimentos Default**
-
-[🎥 Vídeo](https://centraldeatendimento.totvs.com//www.youtube-nocookie.com/embed/54NX4QIU6x8)
-
-**Saiba mais em:** [https://tdn.totvs.com/pages/releaseview.action?pageId=761017178](https://tdn.totvs.com/pages/releaseview.action?pageId=761017178)
-
-Com o objetivo de aprimorar cada vez mais nossa **comunicação** com os nossos clientes, estamos promovendo nossas comunidades no **WhatsApp**. Através delas, você é informado em primeira mão sobre artigos publicados neste portal. Eventos, notícias, comunicados urgentes… **tudo na palma da sua mão!**
-Acesse via QR Code:
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/31591423737111)
+ [[🎥 Vídeo](https://centraldeatendimento.totvs.com//www.youtube-nocookie.com/embed/cd6ky0xbEYc)](https://www.youtube.com/watch?v=cd6ky0xbEYc)

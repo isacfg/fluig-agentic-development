@@ -1,187 +1,321 @@
-# Processo Produtivo Simples
+# INV0003_Acerto_de_Saldo_em_Estoque_através_de_Inventário
 
-> **Fonte:** [https://tdn.totvs.com/display/public/LRM/Processo+Produtivo+Simples](https://tdn.totvs.com/display/public/LRM/Processo+Produtivo+Simples)
+> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=4813647](https://tdn.totvs.com/pages/releaseview.action?pageId=4813647)
 > **Domínio:** TDN (TOTVS Developer Network)
 
 ---
 
+# Assunto
 
+**Produto:**
 
+TOTVS Gestão de Estoque, Compras e Faturamento
 
+**Versões:**
 
-FAQ: **Processo Produtivo Simples**
+12.1.4 e superiores
 
-Avaliação
+**Ocorrência:**
 
--   **Introdução**
+Acerto de Saldo em Estoque
 
-A criação do Processo Produtivo Simples, no RM Nucleus foi criado para ser um facilitador do controle de produção simples, sem a necessidade de utilizar o RM Factor. Para a utilização deste processo é necessário alguns cadastros e procedimentos como a criação da Estrutura, Atividade, Componentes, movimentos de Ordem de Produção, Baixa de Matéria Prima e a Entrada do Produto Acabado.
+**Ambiente:**
 
-Solução
+Manutenção de Inventário
 
--   ***Desenvolvimento/Procedimento***
+**Passo a passo:**
 
-*1\.* *Parametrização do Tipo de Movimento*
+Como parametrizar o sistema para acertar Saldo do Produto em Estoque através de Inventário?
 
-*1.1.* *Movimento de Ordem de Produção (Pedido de Venda)*
 
-As principais parametrizações deste tipo de movimento são:
 
--   Etapa Produção: Opção de “Gerar Ordem de Produção no RM Factor” marcado.
--   Etapa – Compra/Vendas – Características: Caso deseje faturar este tipo de movimento para o de Baixa de Matéria Prima e depois o faturamento o mesmo pedido para um de faturamento (Nota Fiscal de Venda), recomenda-se que seja definido no parâmetro *Baixar pedido de compra/venda após Geração de Movimento* diferente de “Baixar Sempre” e “Não Baixar”, pois assim o status do movimento de Pedido será baixado apenas no segundo faturamento, ou seja, faturamento da nota fiscal de venda, no qual teve seus itens já baixados de estoque no primeiro faturamento.
+-   ***Definição do Processo***
 
-OBS: Descrição das opções disponíveis no parâmetro *Baixar pedido de compra/venda após Geração de Movimento.*
+O inventário físico é a contagem de todos os estoques da empresa, para verificação se as quantidades correspondem aos controles do estoque. Tem por finalidade gerar movimentações de acerto do saldo em estoque, adequando assim, saldo do produto no aplicativo com o saldo do produto físico na empresa.
 
-\- Não Baixa: após a geração do movimento, o pedido não será baixado.
 
-\- Baixa sempre: após a geração do movimento, o pedido será baixado automaticamente.
 
-\- Baixa para movimento default: após a geração do movimento, o pedido só será baixado se o movimento gerado for o informado no campo “Movimento Gerado Default”.
+-   ***Parametrizações Necessárias***
 
-\- Baixa para grupo de movimento: o pedido só será baixado se o movimento gerado fizer parte do grupo do movimento default.
+Acessar o módulo de Serviços Globais menu **Administração | Fórmula | Inserir** e incluir fórmula que será considerada para composição do valor financeiro no acerto positivo de saldo.
 
-Exemplo:
+Ex.: (KQT \* KPU)
 
-\- O grupo de movimento está relacionado à classe do tipo de movimento.
 
-\- Movimento de Compras: Pedido de Compras, Movimento de Compras.
 
-\- Movimento de Vendas: 2.1 - Pedido de Venda, 2.2 - Movimento de Venda
+Acessar **Ambiente | Parâmetros | Gestão de Estoque, Compras e Faturamento** selecionar o processo que o tipo de movimento a ser utilizado para este fim foi configurado. Para este processo deverão ser parametrizados 02 tipos de movimentos do grupo 4.
 
-As demais parametrizações para o Tipo de Movimento não irão interferir no que se pretende explicar neste tópico e, portanto devem levar em consideração a necessidade de cada cliente.
 
-*1.2.* *Baixa de Matéria Prima*
 
-As principais parametrizações deste tipo de movimento são:
+***Tipo de Movimento 4.1.X1 – Aumenta Saldo 2 em Estoque***
 
--   Etapa Movimento – Emitente e Destinatário 1/2: Emitente como “Empresa”, destinatário como “Empresa”, edição do local de destino como “Não Edita”;
--   Etapa Estoque: Saldo Atual, como “Diminui”;
--   Etapa Produção: Opção de “Baixa de Matéria Prima à partir do no RM Factor” marcado.
+**Etapa Mov – Identificação**
 
-O movimento de Baixa de Matéria-Prima, pode ser apenas do Tipo de Movimento 2.2.XX. Este movimento será criado com os componentes da estrutura, criado durante o faturamento do movimento “Ordem de Produção (Pedido de Venda)” que contem a estrutura.
+\- Edita numeração: Mostra
 
-As demais parametrizações para o Tipo de Movimento não irão interferir no que se pretende explicar neste tópico e, portanto devem levar em consideração a necessidade de cada cliente.
 
-*1.3.* *Entrada do Produto Acabado*
 
-As principais parametrizações do Movimento são:
+**Etapa Item – Identificação 2/2**
 
--   Etapa Movimento – Emitente e Destinatário: Emitente como “Empresa”, destinatário como “Empresa”, edição do local de destino como “Não Edita”;
--   Etapa Movimentos – Outros Dados: “Usar Motivo por Referência” marcado e o “Motivo de Referência” igual a “Produção”.
--   Etapa Estoque – Estoque 1/2: Saldo Atual, como “Aumenta”;
+Unidade de Medida Padrão: Unidade de Controle
 
-As demais parametrizações para o Tipo de Movimento não irão interferir no que se pretende explicar neste tópico e, portanto devem levar em consideração a necessidade de cada cliente.
 
-*2\.* *Cadastro das Tabelas do processo Produtivo Simples*
 
-O acesso as Tabelas de Produção é feito pelo menu Cadastros / Tabelas de Produção.
+**Etapa Item – Preços**
 
-Tabelas
+\- Edição do Preço: Mostra
 
-*2.1.* *Produto*
+\- Buscar preço em: Custo médio (sugerido)
 
-Neste cadastro deverão ser criados os produtos que farão parte da Estrutura bem como seus componentes que posteriormente serão amarrados as tabelas de Atividade, Estrutura e Componentes. Exemplo: Montar Tampa de caneta, Caneta, Tampa da caneta, tinta da caneta.
 
-*2.2.* *Atividades*
 
-Neste cadastro deverão ser informados os campos necessários para o cadastramento de uma “Atividade” que deverá ser executada para a fabricação de uma estrutura.
+**Etapa Item – Lote/Grade/Num.Série**
 
-Exemplo: Montar Tampa de caneta, inserir tinta da caneta, colocar mesa de vidro, montar pés da mesa, contar madeira dos pés da cama, montar estrado da cama, etc.
+\- Consiste lote: Habilitado
 
-*2.3.* *Estrutura*
+Informar os status de lotes a serem movimentados
 
-É um conjunto de um ou mais componentes, alem de uma atividade que irão dar origem a um produto final que pode ser um produto acabado ou semi-acabado. Para melhor entendimento, podemos dizer que a estrutura seria a Receita de um Bolo de Chocolate, no qual seus componentes seriam o leite, o ovo, fermento, chocolate, e suas atividades seriam misturar os ingredientes, colocar no forno, fazer a cobertura.
 
-Exemplo: Caneta, Mesa de Vidro, Cama de Casal, etc.
 
-*2.4.* *Componentes*
+**Etapa Estoque - Estoque**
 
-Nesta janela deverão ser informados os campos necessários para o cadastro dos componentes.
+\- Saldo Atual: Aumenta
 
-Exemplo: Tampa da caneta, tinta da caneta, estrado da cama, parafusos da cama, vidro da mesa, suporte do pé da mesa.
+\- Saldo Financeiro: Aumenta
 
--   *Descrição do processo Produtivo Simples:*
+\- Fórmula do valor financeiro: referenciar fórmula inclusa anteriormente que será responsável pela composição do custo do produto em estoque
 
-\- Inserir um movimento do tipo 2.1.XX – Ordem de Produção (Pedido de Venda) e incluir com o produto cadastrado como Estrutura, exemplo: Caneta.
 
-\- Realize o faturamento do movimento do tipo 2.1.XX – Ordem de Produção (Pedido de Venda) para o movimento de Baixa de Matéria-Prima.
 
-OBS: Caso deseje faturar o movimento 2.1.XX – Ordem de Produção (Pedido de Venda) para Baixa de Matéria Prima e depois o faturamento o mesmo movimento para um de faturamento (Nota Fiscal de Venda), recomenda-se que parametrize o tipo de movimento no parâmetro *Baixar pedido de compra após Geração de Movimento* diferente de “Baixar Sempre” e “Não Baixar”, pois assim o status do movimento de Pedido será baixado apenas no segundo faturamento, ou seja, faturamento da nota fiscal de venda, no qual teve seus itens já baixados de estoque no primeiro faturamento.
+***Tipo de Movimento 4.1.X2 – Diminui Saldo 2 em Estoque***
 
-\- O movimento do tipo “Entrada de Produto Acabado” será gerado através de cópia por referência (menu “Movimentos | Gerar Mov. Por Referência”), terá como origem o movimento de “Ordem de Produção” e conterá o produto da Estrutura como item.
+**Etapa Mov – Identificação**
 
--   *Procedimento:*
+\- Edita numeração: Mostra
 
-[
-![clip_image002](https://lh5.ggpht.com/_G7KXZLoZDsY/TKoiHHpKkFI/AAAAAAAABjo/mL3onik7m8E/clip_image002_thumb.gif?imgmax=800)
-](https://lh6.ggpht.com/_G7KXZLoZDsY/TKoiGdsCN8I/AAAAAAAABjk/g1ZUvyMdIeQ/s1600-h/clip_image002%5B3%5D.gif)
 
-1\. Acesse o menu Movimentos / Vendas/Faturamentos;
 
-2\. Selecione o tipo de movimento de Ordem de Produção;
+**Etapa Item – Identificação**
 
-3\. Selecione a filial a ser utilizada
+Unidade de Medida Padrão: Unidade de Controle
 
-4\. Selecione ou cria um filtro, e em seguida execute o filtro;
 
-5\. Clique no botão “Novo”;
 
-6\. Inclua um item de movimento com produto amarrado a Estrutura do RM Factor;
+**Etapa Item – Preços**
 
-7\. As demais parametrizações para o movimento de Ordem de Produção não irão interferir no que se pretende explicar neste tópico e, portanto devem levar em consideração a necessidade de cada cliente.
+\- Edição do Preço: Mostra
 
-8\. Clique no botão “Salvar”;
+\- Buscar preço em: Custo médio (sugerido)
 
-9\. Na Grid de Movimento selecione o movimento e clique no botão “Faturar Descrição do tipo de movimento utilizado de Ordem de Produção” ou então no menu Movimentos / Faturar Pedido;
 
-10\. Será apresentada uma janela, para se escolher o tipo de movimento que será criado apartir da Ordem de Produção. Lembrando que esta janela poderá ser apresentada ou não dependendo da parametrização do tipo de movimento, menu Opções / Parâmetros / RM Nucleus / 04-06-04 – (Gestão de Compras – Ordem de Compra), Etapa – Compra/Vendas – Características;
 
-11\. Selecione o tipo de movimento de Baixa de Matéria-Prima, clique no botão “OK”;
+**Etapa Item – Lote/Grade/Num.Série**
 
-12\. Será apresentada a tela do movimento de Matéria-Prima com os itens de movimento dos componentes e das atividades da Estrutura informados no item de movimento de Ordem de Produção, ou seja, os produtos que compõem o produto Acabado do movimento de Ordem de Produção.
+\- Consiste lote: Habilitado
 
-13\. Preencha os dados do movimento conforme definição da parametrização e clique no botão “OK”.
+Informar os status de lotes a serem movimentados
 
-14\. Com o movimento de Ordem de Produção criado, agora se faz necessário dar entrada do Produto acabado, ou seja, o produto utilizado no movimento de Ordem de Produção;
 
-15\. Acesse o Menu / Movimentos / Compras/Entradas;
 
-16\. Selecione o tipo de movimento de Entrada de Produto Acabado;
+**Etapa Estoque - Estoque**
 
-17\. Selecione a filial a ser utilizada
+\- Saldo Atual: Diminui
 
-18\. Selecione ou cria um filtro, e em seguida execute o filtro;
+\- Saldo Financeiro: Diminui
 
-19\. Acesse o Menu Movimentos / Gerar Mov. Por Referência;
 
-20\. Será apresentado um assistente chamado “Assistente para Cópia de Movimentos”;
 
-21\. Clique no botão “Avançar”;
+Observação:
 
-22\. Será apresentada na janela do assistente a opção para filtrar os movimentos que serão devolvidos;
+Este exemplo específico está considerando acerto do “Saldo 2”. A rotina em questão permite inventariar os saldos **| 2 – 5 – 6 – 7 – 8 – 9 – 10 |**
 
-23\. Filtre o movimento que de Ordem de Produção;
 
-24\. Selecione o movimento na grid;
 
-25\. Clique no botão “Avançar”;
+Acessar **Ambiente | Parâmetros | Gestão de Estoque, Compras e Faturamento | 04.04.07 | Avançar** onde será definida parametrização do inventário.
 
-26\. Será apresentada na janela do assistente os itens dos movimentos selecionados;
 
-27\. Selecione os itens da Ordem de Produção que serão utilizados para dar entrada no estoque;
 
-28\. Clique no botão “Avançar” e depois em “Terminar”;
+**Etapa Definições de Inventário**
 
-29\. Será apresentada a tela do movimento de Entrada de Produto Acabado com os dados do movimento utilizado na copia, no caso o movimento de Ordem de Produção;
+\- Máscara do Código do Inventário: definir máscara pertinente inventário
 
-30\. Clique no botão “OK” para salvar o movimento;
+\- Tipo do Inventário: definir tipo de inventário a ser realizado, podendo escolher dentre as opções | Produto – Grade Numerada – Lote – Número de Série|
 
-31\. Será apresentada uma tela de confirmação de inclusão;
+\- Tipo de Movimento de Acerto de Entrada do Saldo 2: informar tipo de movimento parametrizado para “aumentar” saldo 2
 
-32\. Clique no botão “Sim”;
+\- Tipo de Movimento de Acerto de Saída do Saldo 2: informar tipo de movimento parametrizado para “diminuir” saldo 2
 
-33\. O movimento de Entrada de Produto Acabado estará criado.
 
--   **Informações Adicionais**
 
-Este é o processo se baseia em processo produto produtivo simples, no qual existe a necessidade de criar uma ordem de produção, fazer a baixa do estoque das matérias primas para posterior produção do produto acabado e conseqüentemente a emissão de nota de venda para baixa do produto produzido (produto acabado)
+Importante:
+
+Inventário por Produto: deve ser utilizado apenas quando o produto não possuir controle de lote, grade e/ou número de série. Tem por finalidade, acertar saldo do produto em estoque.
+
+Inventário por Lote: deve ser utilizado apenas quando o produto possuir controle de lote, onde o inventário vai acrescentar ou deduzir informações de lote e local de estoque x filial definidos no inventário. Esta rotina “não” fará validação entre saldo do produto em estoque e saldo do produto por lote. Este processo fica a cargo da rotina de “Acerto de Lote” realizado através de Plugin de Acerto, que pode ser solicitado junto ao suporte.
+
+Inventário por Grade Numerada: deve ser utilizado apenas quando o produto possuir controle de grade numerada (modelo antigo), onde o inventário vai acrescentar ou deduzir informações de grade por local de estoque x filial definidos no inventário.
+
+Número de Série: deve ser utilizado apenas quando o produto possuir controle por número de série, onde o inventário vai acrescentar ou deduzir informações de número de série e local de estoque x filial definidos no inventário. Esta rotina “não” fará validação entre saldo do produto em estoque e saldo do produto por número de série.
+
+
+
+Acessar o módulo de Serviços Globais menu **Segurança | Usuário | Anexos | Permissão por Tipo de Movimento** e selecionar os tipos de movimentos parametrizados. A seguir habilitar opções que o usuário terá acesso nos tipos de movimentos em questão.
+
+Na sequência, acessar aba **Segurança** e averiguar os perfis vinculados aos usuários. De posse desta informação, ainda no módulo de Serviços Globais acessar o menu **Segurança | Perfil** editar os perfis desejados e selecionar aba **Acesso a Menus** na qual o usuário deve “Permitir Acesso” a opção **\[02\] Estoque > \[02.01\] Gestão de Estoque > \[02.01.11\] Inventário**.
+
+
+
+-   ***Descrição do Processo***
+
+Montar ambiente de teste para validação do processo
+
+Acessar o menu **Estoque | Processos | Regerar Saldos e Custos** selecionar os produtos desejados e marcar opção **(x) Forçar Regeração Total** se a data de fechamento de estoque for “Geral”, ou a opção **(x) Regerar todos os Saldos** se a data de fechamento de estoque for por saldo.
+
+Acessar o menu **Estoque | Inventário | Manutenção de Inventário | Novo**, onde será aberto o assistente de inclusão de inventário, preencher informações abaixo e clicar em **<AVANÇAR>.**
+
+\- Código do Inventário: colocar código a ser considerado no inventário
+
+\- Saldo a ser Inventariado: informar saldo a ser considerado para inventário
+
+\- Bloqueia movimentação: esta opção deve ser marcada quando o produto não puder ser movimentado antes de concluir o processo de inventário.
+
+\- Tipo do Inventário: Informar o tipo de produto que será inventariado.
+
+
+
+Importante:
+
+\- Ao habilitar opção **| Bloqueia Movimentação |** e gerar inventário, a movimentação será inclusa com a data do sistema e o cálculo do campo “Diferença” vai considerar valor informado na “Contagem” subtraído pelo Saldo do Produto em estoque para filial e local de estoque selecionado.
+
+\- Ao desabilitar opção **| Bloqueia Movimentação |** a movimentação de inventário será inclusa com a “Data Base” preenchida no inventário, e o cálculo do campo “Diferença” vai considerar “Data Base do Inventário – 1”, ou seja, Saldo Anterior + Quantidade com Sinal da tabela TRELSLD da última movimentação do produto por filial e local de estoque selecionado, cuja data de movimentação seja igual ou menor que a data base do inventário. Desta forma, as movimentações inclusas com data de movimentação posterior à data base do inventário não serão consideradas para composição do campo “Diferença”.
+
+Para preenchimento da “Data Base” o usuário deverá acessar o inventário através da visão, selecionar código desejado, clicar no ícone |  
+![Imagem](https://centraldeatendimento.totvs.com/download/thumbnails/4813647/image2017-11-16_15-56-14.png?version=1&modificationDate=1510858575000&api=v2)
+\- Editar | e preencher o campo **| Data Base |**.
+
+
+
+**Exemplo de composição do valor com opção “Bloqueia Movimentação” desabilitado:**
+
+Dados da Ficha Física Financeira
+
+Data Movimento    Quantidade    Qtde Saldo
+
+10/08                                                15.000
+
+22/09  1.2.01             44.000           59.000
+
+22/09 2.2.01                9.000           50.000
+
+24/09 1.2.01                1.000           51.000
+
+
+
+Dados do Inventário | Qtde : 60.000 – Data Base : 22/09 |
+
+Data Movimento       Quantidade      Qtde Saldo
+
+10/08                                                    15.000
+
+22/09 1.2.01               44.000              59.000
+
+22/09 2.2.01                 9.000              50.000
+
+22/09 4.1.01               10.000              60.000 (movto originado por inventário)
+
+24/09 1.2.01                 1.000              61.000
+
+
+
+Para acerto de inventário foi considerado saldo do produto em estoque em 22/09, diminuída da informação do inventário onde foi apresentada diferença de 10.000 para chegar ao total informado no inventário, que neste exemplo específico foi | **60.000** |.
+
+O acerto em questão não considerou movimentação inclusão com data de **24/09**, apesar de já estar gravada na base no momento da inclusão do inventário.
+
+
+
+A seguir será solicitado as demais informações para que o acerto seja feito corretamente **Selecione as filiais e locais de Estoque que serão Inventariados |** onde o usuário deverá clicar no ícone 
+![Imagem](https://centraldeatendimento.totvs.com/download/thumbnails/4813647/image2017-11-16_15-57-26.png?version=1&modificationDate=1510858646000&api=v2)
+ preencher as informações abaixo e clicar em **<AVANÇAR>.**
+
+Filial: Selecionar o código de uma ou mais filiais a ser inventariada.
+
+Local de Estoque: Selecionar um ou mais locais de estoque a ser inventariado.
+
+Centro de Custo: Informar o centro de custo a ser considerado neste inventário. Este campo é de preenchimento “opcional” e será apresentado no movimento gerado.
+
+
+
+Na sequência será apresentada aba **| Assistente de Inventário | Informe os produtos que serão Inventariados |** onde deverá clicar no ícone |
+![Imagem](https://centraldeatendimento.totvs.com/download/thumbnails/4813647/image2017-11-16_15-57-38.png?version=1&modificationDate=1510858659000&api=v2)
+  - Incluir | Onde será possível filtrar os produtos a serem inventariados, ou clicar no ícone | 
+![Imagem](https://centraldeatendimento.totvs.com/download/thumbnails/4813647/image2017-11-16_15-57-55.png?version=1&modificationDate=1510858675000&api=v2)
+ - Adicionar sorteando | para seleção dos produtos. Depois de definidos itens, deverá clicar em **| Finalizar |** para salvar o inventário.
+
+
+
+Importante:
+
+\- O inventário pode ser feito por | Produto – Grade Numerada – Lote – Número de série |, para cada situação, serão apresentados ícones compatíveis com opção parametrizada no inventário. Neste exemplo específico será considerado “Inventário por Produto”
+
+\- Para a opção Adicionar sorteando são selecionados os produtos que não estão incluídos em inventário, ou seja, não inventariados. São selecionadas informações de produto como Coligada, Identificador do Produto, Código do Produto, Código Reduzido, Nome Fantasia, Unidade de Controle e Código de Grade antiga. O retorno dos dados realiza o filtro pela coligada, tipo do inventário e produtos que não estão incluídos em inventário até a data informada. Ao abrir a tela são exibidos a quantidade máxima de itens não inventariados e sugerido como sorteio a metade destes itens no campo "Nº de produtos a serem sorteados."
+
+
+
+Na visão do inventário deverá clicar na aba Itens onde serão exibidos todos os itens a serem inventariados mostrando todas as informações destes no grid de itens. A seguir clicar duplamente sobre o item desejado e preencher os dados do campo **| Contagem |** e marcar a opção **| (x) Gera Acerto |**.
+
+
+
+Importante:
+
+\- Os dados da 2ª Contagem sobrepõem informação da 1ª Contagem, e os dados da 3ª Contagem sobrepõem a informação da 2ª Contagem e da 1ª Contagem. Diante disto, não é necessário que preencha os 03 campos, apenas se for feita mais de uma contagem para o inventário.
+
+Depois de preenchida contagem deverá acessar o menu **Processos | Apurar Diferença do Inventário** | para que seja feita verificação entre os dados em estoque com a informação definida pelo usuário.
+
+
+
+Importante:
+
+\- O campo “**Diferença**” será visualizado ao editar o item de inventário, e vai considerar diferença entre o saldo do produto por local x filial apresentados no sistema com a informação preenchida pelo usuário na contagem do inventário. Esta informação será preenchida apenas quando for executado processo “Apurar Diferença do Inventário” na visão do inventário.
+
+\- Ao deixar contagem dos itens de inventário vazio e mandar “Apurar Diferença do inventário” a contagem será considerada como “ZERO”, ou seja, será inclusa movimentação zerando o saldo dos produtos em estoque.
+
+\- Para fazer inventário por “lote” é necessário que a informação do lote e do produto em estoque sejam as mesmas, caso contrário, deverá ser feito “acerto de lote” para igualar as informações antes de realizar inventário.
+
+Depois de apurada diferença deverá acessar o menu **Processos** | **Gerar Acertos e Encerrar o Inventário** de forma que serão inclusas movimentações de acerto a maior ou a menor, obedecendo diferença apresentada nos itens do inventário.
+
+
+
+-   ***Informações Adicionais***
+
+\- Depois de feito acerto dos saldos físicos deve-se regerar saldos e custos dos produtos para que o valor financeiro também seja ajustado.
+
+\- O saldo financeiro será ajustado apenas para o “Saldo 2” obedecendo parametrização do tipo de movimento utilizado para este fim.
+
+\- É sugerido que o processo seja realizado inicialmente em uma base teste para validação.
+
+
+
+[http://wikihelp.totvs.com.br/WikiHelp/EST/EST.Inventario.aspx](http://wikihelp.totvs.com.br/WikiHelp/EST/EST.Inventario.aspx)
+
+
+
+**Observações:**
+
+Para mais informações:
+
+
+
+ [Consulte o WikiHelp TOTVS](http://wikihelp.totvs.com.br/WikiHelp/FIS/FIS.ECF.aspx)
+
+
+
+   **![Imagem](https://tdn.totvs.com/download/thumbnails/63865769/Fluig.jpg?version=1&modificationDate=1407880160000&api=v2)
+   COMUNIDADE**  [R@Materiais e Suprimentos](https://fluig.totvs.com/portal/p/10097/subject/rmateriais)
+
+
+
+**Canais de Atendimento:**
+
+**Abertura de Chamados** Através do Portal Totvs [www.suporte.totvs.com.br](http://www.suporte.totvs.com.br/)
+
+**Telefônico:** 4003-0015 Escolhendo as opções 2 – (Software), 2 – (Suporte Técnico), 3 – (RM), 5 – (Materiais)

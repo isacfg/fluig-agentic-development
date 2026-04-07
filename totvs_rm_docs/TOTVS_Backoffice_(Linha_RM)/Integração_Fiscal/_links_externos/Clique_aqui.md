@@ -1,290 +1,226 @@
-# MOV0006_Bloco_K_Registro K220
+# RMPAT00003_Integração com o RM Nucleus
 
-> **Fonte:** [https://tdn.totvs.com/display/public/LRM/MOV0006_Bloco_K_Registro+K220](https://tdn.totvs.com/display/public/LRM/MOV0006_Bloco_K_Registro+K220)
+> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=144408904](https://tdn.totvs.com/pages/releaseview.action?pageId=144408904)
 > **Domínio:** TDN (TOTVS Developer Network)
 
 ---
 
- **Este documento é material de especificação dos requisitos de inovação, trata-se de conteúdo extremamente técnico.**                                                             
-
-## Informações Gerais
-
-**Especificação**
-
 **Produto**
 
-Totvs Gestão de Estoque, Compras e Faturamento
+:
 
-**Módulo**
+TOTVS Gestão Patrimonial – **Versão:** 11.52
 
-Estoque > Produção > Movimentação
+**Processo**
 
-**Segmento Executor**
+:
 
-Gestão de Obras & Projetos
+Integração com o RM Nucleus
 
-**Chamado**
+**Subprocesso**
 
-TTO575
+:
 
-**Release de Entrega Planejada**
+Integração com o RM Nucleus
 
-12.1.12
+**Data da publicação**
 
-**Réplica**
+:
 
-Sim
+07/05/2014
 
-**País**
 
-(x) Brasil
 
-## Objetivo
+**Introdução**
 
-Facilitar para o usuário a geração dos registros de movimentação interna e consequentemente possibilitar a geração do Registro K220 do Bloco K do SPED Fiscal.
+Para realizar a Integração entre o TOTVS Gestão de Estoques, Compras e Faturamento e o TOTVS Gestão Patrimonial é necessário que o TOTVS Gestão de Estoques esteja com seu movimento parametrizado para esta integração, dentre outros cadastrados. Assim o TOTVS Gestão Patrimonial, somente irá buscar estes dados para a criação de Patrimônios no mesmo.
 
 
 
-## Definição da Regra de Negócio
+**Procedimento (Parametrização “TOTVS Gestão de Estoques”)**
 
-O Registro K220 - Outras Movimentações Internas entre Mercadorias tem o objetivo de informar a movimentação interna entre produtos, ou seja, todas aquelas movimentações não informadas nos registros K230 – Itens Produzidos – Produção Acabada e K235 – Itens Consumidos – Consumo no Processo Produtivo.
+Deve ser realizado o preenchimento obrigatório dos Grupos de Contas e dos Grupos de Bens no cadastro do Produto.
 
-Devem ser consideradas as movimentações internas de mercadorias de tipos:
+Disponível em: **Cadastro / Produto / aba Integração**, preencher os campos **Grupo de Contas e Grupo de Bens** (este cadastro já deve ser sido previamente realizado no “TOTVS Gestão Patrimonial”).
 
--   00 – Mercadoria para Revenda;
--   01 – Matéria-Prima;
--   02 – Embalagem;
--   03 – Produtos em Processo;
--   04 – Produto Acabado;
--   05 – Subproduto e
--   10 – Outros Insumos.
 
-Movimentações internas de Produto Intermediário – tipo 06 e Material de Uso e Consumo – tipo 07 não devem ser escrituradas no Registro K220. Além disso, ajustes de estoque ou consumo interno não são movimentações internas entre mercadorias e, portanto, também não devem ser informados no Registro K220.
 
-São exemplos de movimentações internas a serem geradas no Registro K220 a reclassificação de um produto em outro código em função do cliente a que se destina, a reclassificação de um produto em função do controle de qualidade, o desmanche de uma mercadoria em partes e o sucateamento de matéria-prima ou de produto acabado (gerando o item sucata) entre outros, ou seja, são movimentações que normalmente resultam em novo(s) item(ns).
+A parametrização do movimento não exige que a Fórmula do Bem seja utilizada, porém no momento da Integração dos dados se o usuário marcar a opção “Fórmula no Bem” e a informação não tiver sido referenciado no “TOTVS Gestão de Estoques” o valor será apresentado zerado e a importação não será realizada.
 
-Assim, o Registro K220 se destina a prestar informações sobre a movimentação interna entre mercadorias, onde existe a saída do estoque da mercadoria de origem e a entrada no estoque da mercadoria de destino. 
+Disponível em: **Cadastro / Fórmula**, e incluir fórmula que será utilizada na composição do valor do bem. É necessário que a mesma possua variáveis de itens, visto que, seu conteúdo será preenchido na tabela **TITMMOV** na inclusão do item de movimento, podendo ser considerado na importação dos dados no TOTVS Gestão Patrimonial.
 
-A quantidade movimentada deve ser expressa, obrigatoriamente, na unidade de medida do item de origem.
 
-A chave deste registro são os campos: Data da Movimentação Interna (DT\_MOV), Código do Item de Origem (COD\_ITEM\_ORI) e Código do Item de Destino (COD\_ITEM\_DEST).
 
-O Registro K220 irá obedecer ao layout abaixo:
+Após estas configurações iniciais devemos parametrizar o Movimento.
 
- ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/k220%20layout.png?version=1&modificationDate=1484148547000&api=v2)
+Disponível em: **Opções / Parâmetros / RMNucleus / 04.09 / Avançar**, e editar o tipo de movimento de “entrada” a ser parametrizado para este fim, etapa ‘**Patrimônio**’.
 
-Onde serão efetuadas as seguintes validações:
 
--   Campo 01 (REG) - Valor Válido \[K220\];
 
--   Campo 02 (DT\_MOV) - A data deve estar compreendida no período informado nos campos DT\_INI e DT\_FIN do Registro K100;
+Integrar com RM Bonum: Compra de Imobilizado.
 
--   Campo 03 (COD\_ITEM\_ORI) - O código do item de origem deverá existir no campo COD\_ITEM do Registro 0200;
 
--   Campo 04 (COD\_ITEM\_DEST) - O código do item de destino deverá existir no campo COD\_ITEM do Registro 0200. O valor informado deve ser diferente do COD\_ITEM\_ORI;
 
--   Campo 05 (QTD) - Deve ser informada a quantidade movimentada do item de origem codificado no campo COD\_ITEM\_ORI.
+Localização (Compra Ativo Imobilizado): Se desejar informar a localização do Patrimônio deverá preencher com a opção “Edita”, caso contrário, o campo deve ser preenchido como “Não Edita” de forma que o campo não será apresentado na inclusão do item de movimento.
 
-Conforme pudemos verificar, as movimentações internas que irão compor o Registro K 220 basicamente são formadas de um registro de saída de determinado produto e da consequente entrada de outro(s) produto(s).
 
-Para facilitar a inclusão desse processo, foi efetuada no Totvs Gestão de Estoque, Compras e Faturamento a ampliação da rotina de "Cópia por Referência", que passou a atender ao processo de geração das movimentações internas relativas ao Registro K220, bem como a criação de um novo motivo de cópia de referência específico para esta situação. Assim, a partir da cópia por referência do movimento de baixa do produto de origem o sistema irá possibilitar a criação automática do movimento de entrada dos itens de destino, além de criar o vínculo entre estes movimentos.
 
-Na saída do item de origem poderá ser utilizado qualquer movimento de baixa (tipo 2.2) já atualmente em uso pela empresa, não sendo necessária nenhuma parametrização específica. Deverão ser informados nesta movimentação de baixa todos os itens que sairão do estoque da empresa (itens origem) devido a uma movimentação interna.
+Fórmula valor do bem: Esta informação deve ser preenchida quando o usuário optar em fazer a integração no “TOTVS Gestão Patrimonial” considerando que o valor do Patrimônio no Bonum deve ser o valor de retorno desta fórmula.
 
-Para utilizar o processo de movimentação interna através da cópia por referência, será necessário criar um novo tipo de movimento (1.2.XX) cuja movimentação será a responsável por efetuar a entrada dos novos itens (itens destino) gerados a partir da baixa do item de origem. Este tipo de movimento deverá ter algumas parametrizações específicas que iremos descrever a seguir:
 
--   Na Etapa 2 - *"Mov - Emitente/Destinatário"*, tanto o "Emitente" como o "Destinatário" deverão ser do tipo 'Empresa'.
 
-    ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/emitente.png?version=1&modificationDate=1484148547000&api=v2)
+**Procedimento (Inclusão do Movimento)**
 
+Inclusão do Movimento seguirá conforme a NF de entrada, entretanto o usuário deve estar atento, pois para que a integração seja realizada, a Data de Emissão da NF deverá compreender o período de Cálculo aberto no TOTVS Gestão Patrimonial.
 
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem1.jpg?version=1&modificationDate=1399475059000&api=v2&effects=drop-shadow)
 
 
--   Na Etapa 4 - *"Mov. - Datas 1/2"* a data que estiver informada como "Data do Movimento Default" deverá estar parametrizada como 'Edita' ou 'Mostra'. 
-    A "Data do Movimento Default" é a data que o sistema irá enviar para o Registro K220.
 
-    ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/03.png?version=1&modificationDate=1484148546000&api=v2)
+A quantidade também terá influência no momento da importação.
 
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem2.jpg?version=1&modificationDate=1399475075000&api=v2&effects=drop-shadow)
 
 
--   Na Etapa 6 - *"Mov - Outros Dados"* o campo "Usar Cópia de Movimentos por Referência" deve estar marcado e o campo "Motivo de Referência" deverá estar preenchido com o motivo '26 - Transformação de Itens - Movimentações Internas entre Produtos'. Esse novo motivo de referência foi criado especialmente para esse processo e é através dele que o sistema irá identificar quais são os movimentos cujos itens devem ser enviados para o Registro K220. 
 
-    Assim, o sistema localizará em determinado período quais foram os movimentos de entrada gerados por cópia por referência com o motivo 26, irá identificar os respectivos de baixa que os originaram e enviará todos os produtos de ambos os movimentos para o Registro K220.
+A Localização poderá ser preenchida na aba Integrações / Patrimonial. 
 
-    ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/copia%20por%20referencia.png?version=1&modificationDate=1484148547000&api=v2)
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem3.jpg?version=1&modificationDate=1399475090000&api=v2&effects=drop-shadow)
 
 
 
--   Na Etapa 40 - *"Estoque - Estoque 1/3"* deverá ser parametrizado o aumento do "Saldo Atual".
+**Procedimento (Bonum - Integração com o RM Nucleus)**
 
-     ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/aumenta%20estoque.png?version=1&modificationDate=1484148546000&api=v2)
+A integração é feita através do módulo TOTVS Gestão Patrimonial.
 
+Disponível no menu: **Utilitários / Integrações de sistemas / Integração com o RM Nucleus / Integrar aquisições Compras.**
 
--   Apesar da rotina do SPED Fiscal (da qual o Bloco K faz parte) ser gerada no Totvs Gestão Fiscal, os lançamentos relativos ao Registro K 220 serão enviados diretamente pelo Totvs Gestão de Estoque, Compras e Faturamento, portanto os movimentos que irão gerar esses registros não serão escriturados e não conterão Natureza Fiscal. Sendo assim, não será necessário o preenchimento do CFOP do movimento e na Etapa 60 - *"Fis - Natureza"* os campos "Natureza" e "Natureza 2" deverão estar preenchidos com 'Não Edita'.
+Deve – se atentar pois somente serão apresentadas as NF que estiverem com a data compreendida no mês/ano de Cálculo do Bonum.
 
-    ![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/natureza.png?version=1&modificationDate=1484148547000&api=v2)
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem4.jpg?version=1&modificationDate=1399475106000&api=v2&effects=drop-shadow)
 
 
 
--   Além disso, como este tipo de movimento é interno e consequentemente não será escriturado, o campo "Gera Escrituração" deverá estar desmarcado na Etapa 62 - *"Fis - Escrituração Fiscal 1/2"*.
+Caso a empresa tenha um volume grande de informações, poderá ser selecionado a(s) Filial (is), o Tipo de Movimento e o Cli/For.
 
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem5.jpg?version=1&modificationDate=1399475122000&api=v2&effects=drop-shadow)
 
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/escrituracao.png?version=1&modificationDate=1484148547000&api=v2)
 
-Fique atento também aos demais parâmetros desse tipo de movimento, que devem ser preenchidos conforme os procedimentos de movimentação interna realizados por sua empresa.
+Para selecionar a NF do RM Nucleus, o usuário deverá clicar no ícone “Incluir”, para o filtro, deverá aplicar a característica desejada, ou para retornar todos colocar o símbolo “%”, clicar em ‘Filtrar’. Selecione a NF, e clique em OK.
 
-Após o tipo de movimento de entrada por Movimentação Interna entre Produtos ter sido parametrizado e liberado para os devidos usuários (*"Serviços Globais > Segurança > Usuários > Sistema: Gestão de Estoque, Compras e Faturamento > Anexos > Permissões por Tipo de Movimento"*) as movimentações internas poderão efetivamente ser realizadas.
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem6.jpg?version=1&modificationDate=1399475139000&api=v2&effects=drop-shadow)
 
-Conforme dito anteriormente, no Totvs Gestão de Estoque, Compras e Faturamento, as movimentações internas que compõem o Registro K 220 do Bloco K do SPED Fiscal serão sempre compostas por um movimento de saída e outro de entrada que serão vinculados através do processo de cópia por referência com motivo 26 (Transformação de Itens - Movimentação Interna entre Produtos).
 
-Assim o primeiro passo do procedimento é criar o movimento com o(s) produto(s) que será(ão) baixado(s) e sua(s) respectiva(s) quantidade(s) de baixa. Para isso pode ser utilizado o tipo de movimento de baixa já comumente usado em sua empresa.
 
-Após a movimentação de saída do produto de origem ter sido criada, deve ser incluída a movimentação de entrada dos produtos destino, ou seja, produtos gerados a partir da baixa do item origem. Aconselhamos que tanto a saída do produto origem quanto a entrada dos produtos destino sejam efetuadas na mesma data visto que no Registro K 220 é gravada apenas uma data, e o sistema gravará a data da entrada.
+Ao avançar será apresentada a aba ‘Tipos de Campos’, onde será possível escolher a forma que a Descrição do Patrimônio será composta.
 
-Selecione o processo para o qual o tipo de movimento foi criado (*"Estoque > Produção",* *"Compras", "Outras Movimentações"*, etc.) vá à visão de movimentos e selecione o novo tipo de movimento criado.
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem7.jpg?version=1&modificationDate=1399475153000&api=v2&effects=drop-shadow)
 
-Clique em *"Processos > Assistente de Cópia por Referência"*. 
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/assistente.png?version=1&modificationDate=1484148546000&api=v2)
 
-O sistema abrirá a tela inicial do *"Assistente de Cópia de Movimento por Referência"*. Clique em "Avançar".
+**Preço unitário:** o sistema vai considerar o “preço unitário” preenchido no item de movimento da nota fiscal inclusa no RM Nucleus. Esta informação está disponível em: **Cadastro / Bens / Valor de Aquisição em R$.**
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/Avancar.png?version=1&modificationDate=1484148547000&api=v2)
 
-Será apresentada a tela do *"Filtro Inicial para Seleção de Movimentos"*.
 
-Clique no ícone "Incluir" para selecionar o movimento de baixa cuja cópia por referência será efetuada.
+**Valor unitário:** o sistema vai considerar o “valor unitário” do item de movimento da nota fiscal inclusa no RM Nucleus obtido através da fórmula de valor financeiro (Disponível nos Parâmetros / Estoque / Estoque 2|2: quantidade do item de movimento). Esta informação está disponível em: **Cadastro / Bens / Valor de Aquisição em R$.**
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/10.png?version=1&modificationDate=1484148546000&api=v2)
 
 
-O sistema automaticamente abrirá a tela de lookup onde será filtrado o movimento a ser copiado.
+**Valor Financeiro:** o sistema vai considerar o “valor financeiro” do item de movimento da nota fiscal inclusa no RM Nucleus obtido através do conteúdo da fórmula de valor financeiro
 
-Informe o campo a ser filtrado e o respectivo valor e o sistema preencherá a tela com os movimentos que atendem ao filtro informado.
+(Disponível nos Parâmetros / Estoque / Estoque 2|2: quantidade do item de movimento). Se o tipo de movimento não estiver parametrizado para utilizar “fórmula de valor financeiro” o campo não será preenchido. Esta informação está disponível em: **Cadastro / Bens / Valor de Aquisição em R$.**
 
-Marque o movimento a ser copiado e clique em OK.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/11.png?version=1&modificationDate=1484148546000&api=v2)
 
+**Fórmula de Valor do Bem:** o sistema vai considerar o conteúdo da “fórmula de valor do bem” parametrizada no tipo de movimento (Disponível em: **Patrimônio / Fórmula de Valor do Bem**).
 
-O sistema irá retornar à tela do *"Filtro Inicial para Seleção de Movimentos"* onde será apresentado o movimento selecionado.
+Se o parâmetro for habilitado depois de inclusa movimentação o item tem que ser regravado para que o cálculo seja feito.
 
-Clique em "Avançar".
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/12.png?version=1&modificationDate=1484148546000&api=v2)
 
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem8.jpg?version=1&modificationDate=1399475170000&api=v2&effects=drop-shadow)
 
-Para este tipo de Cópia por Referência poderá ser efetuada a cópia de apenas um movimento por vez, mas um mesmo movimento pode conter vários itens.
+**Incluir Patrimônio mantendo as quantidades informadas nos Itens da Nota:** Ativando esta opção ao realizar a integração com o RM Nucleus o sistema manterá os Patrimônios agrupados, e o campo ‘Quantidade’ será exatamente igual à quantidade informada para o item na NF.
 
-Caso seja selecionado mais de um movimento para ser copiado o sistema não permitirá, sendo exibida a seguinte mensagem:
+Não ativando esta opção o sistema desmembrará as quantidades dos itens da nota, criando um cadastro para cada unidade do item e, neste caso, o valor da quantidade de cada item será sempre arredondado, gerando sempre bens com quantidade inteira, observando a seguinte regra: para quantidades menores que 0,50 será gerado no mínimo 1 Patrimônio com quantidade igual a 1 unidade, de maneira que cada item da nota gere pelo menos 1 Patrimônio correspondente no RM Bonum.
 
 
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/13.png?version=1&modificationDate=1484148546000&api=v2)
+**Gerar código do Patrimônio e número do patrimônio automaticamente:** Marcando esta opção o sistema irá gerar o código de patrimônio e o número do patrimônio automaticamente respeitando sempre o grupo Default cadastrado no Grupo de Contas do bem, caso contrário os Patrimônios ficaram com a ‘Aquisição Pendente’ (ver manual de Aquisição Pendente).
 
-Após selecionar o movimento a ser copiado e clicar em Avançar o sistema exibirá a tela com os itens que foram baixados através do movimento selecionado.
+**Observação:**
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/14.png?version=1&modificationDate=1484148546000&api=v2)
+O sistema respeitará a preferência "Geração do código do patrimônio = código do bem", caso esta opção esteja marcada. Para que não haja problemas na geração do código do bem automático é aconselhável que os códigos dos bens estejam cadastrados sequencialmente e que esteja utilizando a preferência "Inclusão de código sequencial nos bens". Se ao final da integração, o arquivo de LOG apresentar a mensagem "Os códigos desse título já estão completos, é impossível gerar esse código sequencial" a integração deverá ser feita posteriormente através da opção ‘Aquisição Pendente’.
 
-Para cada item do movimento de origem escolha o(s) respectivos item(ns) do movimento de destino.
 
-Assim na parte superior da tela clique no item origem e na parte inferior clique no ícone "Incluir" para selecionar o(s) item(ns) destino do mesmo.
 
-O sistema entenderá que os itens que serão incluídos se referem ao item que está selecionado acima.
+**Considera a falta do grupo de Patrimônio como erro:** Esta opção funciona como uma segurança para realização da integração sem erros. Ao marcá-la o sistema irá conferir se todos os produtos da NF integrada estão com os grupos de contas cadastrados. Caso algum bem não esteja com o grupo de contas cadastrado o sistema NÃO integrará **NENHUM** bem desta nota.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/15.png?version=1&modificationDate=1484148546000&api=v2)
+Caso o usuário opte por não marcá-la o sistema fará a integração dos Patrimônios da NF que esteja com o Grupo preenchido, e os demais Patrimônios (que não possuírem o grupo preenchido) não serão integrados.
 
 
-O sistema automaticamente abrirá a tela de lookup onde será(ão) filtrado(s) o(s) item(ns) a ser(em) incluído(s).
 
-Informe o campo a ser filtrado e o respectivo valor e o sistema preencherá a tela com os itens que atendem ao critério de seleção informado.
+**Não integrar Patrimônios com valor mínimo exigido por lei (394,13 UFIR’s):** Ao marcar esta opção no momento da integração com o RM Nucleus, o sistema não irá integrar bens com valor inferior ao exigido por lei.
 
-Marque o(s) item(ns) a ser(em) incluído(s) no movimento destino e clique em 'OK'.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/18.png?version=1&modificationDate=1484148546000&api=v2)
 
+**Gerar o código do Patrimônio a partir do título do Patrimônio definido no produto:** Esta opção irá Gerar o código do Patrimônio a partir do grupo definido no produto na integração com o RM Nucleus.
 
-O sistema irá retornar à tela de *"Seleção dos Itens de Movimento"* onde serão apresentados na parte superior os itens de origem e na parte inferior os itens de destino, sendo que os itens de destino se referem sempre ao item origem selecionado.
+Com esta opção o RM Bonum vai pegar o default de Grupo de Patrimônios preenchido no RM Nucleus (Disponível em: **Cadastro / Produto / Integração / Grupo de Bens**).
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/19.png?version=1&modificationDate=1484148546000&api=v2)
 
-Clique no próximo item origem e novamente no ícone "Incluir" para selecionar os itens destino do mesmo.
 
-Esse processo deverá se repetir para todos os itens a serem "transformados", ou seja, os itens cuja baixa deu origem à entrada de outros itens.
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem9.jpg?version=1&modificationDate=1399475411000&api=v2&effects=drop-shadow)
 
-Para todos os itens destino selecionados o sistema automaticamente aplicará a quantidade 1 (um), permitindo que a mesma seja alterada na próxima fase da Cópia por Referência, ou seja, na tela dos *"Itens"* do novo movimento que será gerado.
+Marque as opções acima caso deseje transportar alguns destes itens preenchidos na NF do RM Nucleus para o cadastro do Patrimônio no Bonum. Executar.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/20.png?version=1&modificationDate=1484148546000&api=v2)
 
-É importante salientar que conforme descrito na tela de seleção, todos os itens a serem inseridos no movimento destino devem estar marcados.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/21.png?version=1&modificationDate=1484148546000&api=v2)
+Verifique o Log de Execução do processo:
 
-Assim, após marcar TODOS os itens que farão parte do movimento destino, clique em "Avançar".
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem10.jpg?version=1&modificationDate=1399475432000&api=v2&effects=drop-shadow)
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/22.png?version=1&modificationDate=1484148546000&api=v2)
 
 
-O sistema apresentará a tela de conclusão do Assistente para Cópia de Movimentos por Referência, contendo um resumo dos dados dos movimentos envolvidos na operação.
+Assim o Patrimônio será integrado corretamente:
 
-Verifique os dados apresentados e estando todos corretos clique em "Executar", para que o sistema inicie o processo de geração do movimento de entrada dos itens destino.
+![Imagem](https://centraldeatendimento.totvs.com/download/attachments/144408904/imagem11.jpg?version=1&modificationDate=1399475445000&api=v2&effects=drop-shadow)
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/23.png?version=1&modificationDate=1484148546000&api=v2)
 
 
-O sistema abrirá então a tela contendo os dados do *"Cabeçalho"* do movimento que será gerado.
 
-As informações serão automaticamente preenchidas conforme parametrizado no respectivo Tipo de Movimento.
 
-Para verificar e/ou alterar alguma informação dos produtos destino clique em *"Itens"*.
+**ATENÇÃO:**
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/24.png?version=1&modificationDate=1484148546000&api=v2)
+Todas as opções marcadas nesta manual são apenas em nível de demonstração do processo. Os dados corretos deverão ser informados pelo usuário.
 
-O sistema apresentará a tela com todos os produtos destino e se for necessário alterar alguma informação, você poderá fazê-lo na própria grid dos itens de movimento.
 
-Neste exemplo iremos alterar a quantidade do produto destino 07.24 para 2, já que o produto origem 07.52 - Cama Beliche foi transformado em 2 unidades do produto destino (07.24 - Cama de Solteiro Acabada).
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/25.png?version=1&modificationDate=1484148546000&api=v2)
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/26.png?version=1&modificationDate=1484148546000&api=v2)
 
-Após efetuar todas as alterações necessárias clique em 'OK'.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/27.png?version=1&modificationDate=1484148546000&api=v2)
 
-O sistema irá finalizar o processo, gravando o movimento de entrada com os dados gerados pela Cópia por Referência.
 
-![Imagem](https://centraldeatendimento.totvs.com/download/attachments/270918886/28.png?version=1&modificationDate=1484148546000&api=v2)
 
 
 
-Na geração do Registro K220 do Bloco K do SPED Fiscal, o sistema levará os dados relativos aos movimentos gerados com Motivo de Referência 26 no período de apuração do SPED, bem como dos movimentos que os originaram.
+**Data de produção do documento:** 01/11/2012
 
-Assim, após terem sido gravadas todas as movimentações internas do mês, o sistema estará apto a gerar o Registro K 220 do Bloco K do SPED Fiscal no Totvs Gestão Fiscal.
 
-**Rotina**
 
-**Tipo de Operação**
 
-**Opção de Menu**
 
-**Regras de Negócio**
 
-Cópia por Referência
 
-Alteração
+Para maiores informações:
 
-Movimentações > Processos > Assistente de Cópia por Referência
+[Consulte o WikiHelp TOTVS](http://wikihelp.totvs.com.br/WikiHelp/default.aspx)
 
-Conforme definições constantes deste documento
+ [**![Imagem](https://centraldeatendimento.totvs.com/download/thumbnails/144408904/by%20you.png?version=1&modificationDate=1399475986000&api=v2)**](https://www.byyou.com/static/resources/hotsite/index.html)**COMUNIDADE** [**R@Contábil**](https://totvs.byyou.com/?space=rcontabil)
 
-## Tabelas Utilizadas:
+**Canais** **de Atendimento:**
 
--   TMOTIVOREFMOV - Motivos de Cópia por Referência
+**Chamado:** Através do Portal Totvs [www.suporte.totvs.com.br](http://www.suporte.totvs.com.br/)
 
-
-
- **Este documento é material de especificação dos requisitos de inovação, trata-se de conteúdo extremamente técnico.**                                                             
-
-![Imagem](https://centraldeatendimento.totvs.com/plugins/servlet/confluence/placeholder/unknown-macro?name=rate&locale=en_US&version=2)
+**Telefônico:** 4003-0015 Escolhendo as opções 2 – (Software), 2 – (Suporte Técnico), 3 – (RM), 2 – (Controladoria e Finanças), 2 – (Ativo Fixo).

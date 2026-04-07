@@ -1,19 +1,32 @@
-# Cross Segmentos - TOTVS BackOffice (Linha RM) - TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) - MOV - Lote de produto não é exibido na inclusão do item de movimento
+# Cross Segmentos - TOTVS Backoffice (Linha RM) - TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) - MOV - Como habilitar o campo CEI no Movimento
 
-> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/360023999091-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-NUCLEUS-MOV-Lote-de-produto-n%C3%A3o-%C3%A9-exibido-na-inclus%C3%A3o-do-item-de-movimento](https://centraldeatendimento.totvs.com/hc/pt-br/articles/360023999091-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-NUCLEUS-MOV-Lote-de-produto-n%C3%A3o-%C3%A9-exibido-na-inclus%C3%A3o-do-item-de-movimento)
+> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/4403912616471-Cross-Segmentos-TOTVS-Backoffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-NUCLEUS-MOV-Como-habilitar-o-campo-CEI-no-Movimento](https://centraldeatendimento.totvs.com/hc/pt-br/articles/4403912616471-Cross-Segmentos-TOTVS-Backoffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-NUCLEUS-MOV-Como-habilitar-o-campo-CEI-no-Movimento)
 > **Caminho:** Cross Segmentos > TOTVS Backoffice (Linha RM) > TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) > Movimento
-> **Data:** 23 de setembro de 2021 às 14:19
+> **Data:** 14 de setembro de 2021 às 19:04
 
 ---
 
- **![time.png](https://centraldeatendimento.totvs.com/hc/article_attachments/360023589592/time.png)
- Tempo aproximado para leitura: 00:03:00 min**
+**Dúvida**
 
-**Dúvida**Ao incluir um movimento parametrizado para consistir lotes, os lotes do produto não são exibidos durante a inclusão de item de movimento.
+Qual parametrização realizar para habilitar o campo **CEI** (Cadastro Específico do INSS) no Movimento?
 
-**Ambiente
-**Cross Segmentos - TOTVS Backoffice (Linha RM) - TOTVS Gestão de Estoque Compras e Faturamento - A partir da versão 11.
+![mceclip0.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4403903420311/mceclip0.png)
 
-**Solução**1 - Ao incluir um movimento parametrizado para Baixar/Diminuir estoque dos produtos **etapa** **Estoque - Estoque 1/2**, o sistema irá apresentar apenas o(s) lote(s) do produto quando estes possuírem **saldo em estoque** para o Saldo que o movimento estiver parametrizado para afetar.
+**Ambiente**
 
-2-  Em situações em que o lote foi recém cadastrado ou não possui saldo em estoque, o movimento deve estar parametrizado para Aumentar estoque dos produtos **etapa Estoque - Estoque 1/2**.
+Cross Segmentos - TOTVS Backoffice (Linha RM) - TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) - A partir da 11.00
+
+**Solução**
+
+Para habilitar o campo CEI no Movimento, é preciso que o mesmo **gere Escrituração** e tenha o tributo **INSS** parametrizado por **Item de Movimento** ou **Movimento**. Caso encontre dificuldades para localizar o Tipo de Movimento, **[clique aqui](https://centraldeatendimento.totvs.com/hc/pt-br/articles/360003051691-RM-MOV-Como-descobrir-a-classifica%C3%A7%C3%A3o-e-menu-do-Tipo-de-Movimento?source=search)**.
+
+Para habilitar o campo CEI, siga os passos abaixo:
+
+1.  Acesse Menu **Ambiente | Parâmetros | Gestão de Estoque, Compras e Faturamento** | localize o Tipo de Movimento | etapa **Fis - Escrituração 1/2**.
+
+![mceclip0.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4408541953687/mceclip0.png)
+
+
+1.  Etapa **Fis - Tributação (Item ou Movimento)** | parametrizar um tributo onde seu tipo seja **INSS**. 
+
+![mceclip1.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4408535041943/mceclip1.png)

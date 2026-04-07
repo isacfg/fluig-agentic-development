@@ -1,112 +1,166 @@
-# Movimento de Importação
+# Definições dos Parâmetros de Ressuprimento
 
-> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=4813042](https://tdn.totvs.com/pages/releaseview.action?pageId=4813042)
+> **Fonte:** [https://tdn.totvs.com/pages/releaseview.action?pageId=64651723](https://tdn.totvs.com/pages/releaseview.action?pageId=64651723)
 > **Domínio:** TDN (TOTVS Developer Network)
 
 ---
 
+**Produto:** *TOTVS Gestão Estoque Compras e Faturamento*                            **Versão:** *11.52*  / 11.82                                                  
+
+**Processo de Negocio:** Ressuprimento
+
+**Subprocesso:** *Definições dos Parâmetros de Ressuprimento*
+
+***PARÂMETROS DE RESSUPRIMENTO***
+
+**\=> GERAL**
+
+**Custo Classe ABC:**
+
+Selecione o custo que será utilizado na formação da curva ABC dos produtos.
+
+As opções são Custo Médio (será buscado o preço médio informado na tabela de local de estoque do produto) ou um dos cinco preços parametrizados nos parâmetros gerais | produto | preços. A curva ABC será calculada com base no histórico de consumo dos produtos em um determinado período.
+
+O cálculo é feito da seguinte forma:
+
+1 - Para cada produto é obtido o somatório de ("X - parametrizado") meses de consumo anterior;
+
+2 - Esse somatório de consumo deverá ser multiplicado por um dos preços do produto (custo médio, preço1, preço2, preço3, preço4, preço5 ) parametrizado.
+
+3 - Esse montante deverá ser ordenado em ordem decrescente na forma que os produto de maior valor (consumo \*preço) permaneça no início da lista;
+
+4 - Será feito um estudo de acordo com os percentuais de classificação ABC cadastrados no grupo de classe ABC.
+
+
+
+**Tempo Consumo médio:**
+
+Diário: Marque esta opção se o cálculo do consumo médio do produto for feito levando em consideração o consumo diário do produto. Nesse caso, todos os campos que corresponde a um determinado tempo deverá ser informado um valor diário.
+
+Exemplo: Tempo de compra, tempo de fornecimento, tempo de reposição, consumo médio, consumo teórico, tempo de estoque mínimo, tempo de estoque máximo, etc.
+
+Mensal: Marque esta opção se o cálculo do consumo médio do produto for baseado no consumo mensal do produto. Nesse caso, todos campos que corresponde a um determinado tempo deverá ser informado um valor mensal.
+
+Exemplo:Tempo de compra, tempo de fornecimento, tempo de reposição, consumo médio, consumo teórico, tempo de estoque mínimo, tempo de estoque máximo, etc.
+
+**Usa Envio de E-mail para Sugestão de Compra:**
+
+Marcando esse parâmetro, ao disparar o processo de geração de sugestão de compra automático, o sistema poderá enviar e-mail para funcionários responsáveis de produtos que contém sugestões de compras não analisadas. Nesse e-mail é enviado os dados dos produtos e da sugestão gerada automaticamente. (código do produto, descrição, data entrega, quantidade solicitada e data sugestão).
+
+**Usa Envio de E-mail para Movimento de Análise de Sugestão:**
+
+Marcando esse parâmetro, ao incluir um movimento parametrizado como geração de movimento automático, o sistema poderá enviar e-mail para o comprador responsável por este movimento que acabou de ser gerado. Nesse e-mail é enviado os dados do movimento(tipo, número, data do movimento e data de entrega).
+
+**Usa Dias Trabalhados:**
+
+Marcando esta opção o cálculo do consumo médio diário será calculado considerando os dias trabalhados nos meses anteriores. Será habilitado o menu cadastro / ressuprimento / cadastro de dias trabalhados. Se essa opção estiver desmarcada, o cálculo do consumo médio diário será feito de acordo com os dias dos meses.
+
+*Observação: Essa opção estará disponível somente para consumo médio diário.*
+
+**Usa Contrato de Fornecimento:**
+
+Marcando esta opção, movimentos do tipo contrato de fornecimento poderão ser utilizados. Este tipo de movimento poderá ou não ser utilizado como uma espécie de contrato de fornecimento, evitando a utilização do processo de cotação no momento de gerar um movimento baseado em uma sugestão de compra. Nesse caso, se um determinado produto tem um contrato de fornecimento em aberto com um determinado fornecedor, então o assistente de análise de sugestão irá sugerir a geração de uma ordem de compra diretamente para aquele fornecedor baseado no contrato de fornecimento em aberto.
+
+**Nível de Contrato de Fornecimento:**
+
+Esta opção só estará disponível se o parâmetro "Usar Contrato de fornecimento" estiver marcado. Permitindo assim a utilização do movimento de contrato por coligada, filial ou local de estoque.
+
+Exemplo: Se a gestão for por coligada, então somente contratos pendentes da coligada corrente para um determinado produto será levado em consideração. Se a gestão for por filial, então poderá escolher entre usar somente os contratos da filial corrente ou usar todos os contratos da coligada para aquele produto em questão. Se for utilizada a gestão por local, então poderá escolher entre usar somente os contratos do local de estoque corrente, usar os contratos da filial corrente ou usar todos os contratos da coligada corrente para o produto em questão.
+
+
+
+**\=> CUSTO 1/2**
+
+**Número Meses de Consumo Médio:**
+
+Informe neste campo o número de meses que serão utilizados para o cálculo do consumo médio do produto. O número de meses para cálculo do consumo médio também poderá ser informado no tipo de aplicação do produto. Em caso de utilização no tipo de aplicação, o valor desse parâmetro será descartado. Exemplo: Se for informado o número nove nesse campo, então será utilizado os últimos nove meses para efetuar o cálculo do consumo médio.
+
+**Quantidade de Anos de Consumo:**
+
+Informe a quantidade de anos de consumo que será mostrado no gráfico de consumo na tela de análise de consumo real.
+
+**Tipo de Consumo Médio:**
+
+Informe se o cálculo do consumo médio do produto será feito levando em consideração o consumo normal , o consumo anormal ou os dois tipos de consumo.
+
+Consumo Normal: Marque esta opção se o consumo daquela quantidade diz respeito à saída de um determinado produto do estoque para vendas normais da empresa.
+
+Consumo Anormal: Esse tipo de consumo diz respeito à saída de um determinado produto do estoque dependendo da sazonalidade ou o consumo de produtos para projetos internos na empresa.
+
+
+
+**\=> CUSTO 2/2**
+
+**Tipo de Consumo Médio para Análise:**
+
+Informe se o cálculo do consumo médio do produto será feito levando em consideração o consumo normal , o consumo anormal ou os dois tipos de consumo.
+
+Consumo Normal: Marque esta opção se o consumo daquela quantidade diz respeito à saída de um determinado produto do estoque para vendas normais da empresa.
+
+Consumo Anormal: Esse tipo de consumo diz respeito à saída de um determinado produto do estoque dependendo da sazonalidade ou o consumo de produtos para projetos internos na empresa.
 
 
 
 
-FAQ: **Movimento de Importação**
 
 
 
-Avaliação
+**\=> SUGESTÃO DE COMPRA**
 
--   ***Como Fazer***
 
-Como parametrizar o sistema para incluir movimento de importação?
 
--   ***Definição do Processo***
+**Saldo de Sugestão de Compra:**
 
-Tem por finalidade incluir movimentações onde o emitente da mercadoria é de outro país. A validação será feita obedecendo código da natureza de operação referenciada no movimento.
+No RM Nucleus poderão ser parametrizados 10 tipos de saldos diferentes. Será permitido escolher alguns ou todos esses saldos para que o somatório desses em um produto em questão possa ser comparado com o Ponto de Reposição. Caso o somatório desses saldos for menor que o ponto de reposição para o produto, então uma sugestão de compra com uma "certa" quantidade será gerada.
 
-Solução
 
--   ***Parametrizações Necessárias - Totvs Gestão de Estoque, Compras e Faturamento***
 
-Acessar | **Opções | Parâmetros | RMNucleus |** e selecionar processo onde o tipo de movimento a ser utilizado para este fim foi configurado. A seguir editar o mesmo e informar:
+**Verifica existência de sugestão rejeitada para o produto:**
 
-**Etapa Mov – Emitente / Destinatário**
+Marcando este parâmetro o sistema irá verificar (antes de gerar uma sugestão de compra), se existe uma sugestão de compra anterior gerada e que foi rejeitada. Caso exista, então o sistema irá verificar se houve movimentações para esse produto no período posterior à data de rejeição da sugestão. Se existir movimentações para esse produto, a sugestão será registrada na base, se não existir nenhuma movimentação posterior a sugestão será descartada.
 
-\- Emitente: Empresa
+**Número de Meses Sugestão de Compra:**
 
-\- Edição da Filial de Emissão: informar “Edita” para permitir que o usuário preencha os dados da filial, ou “Mostra” se quiser deixar um default preenchido
+Corresponde ao número de meses de sugestão de compras que serão mostrados na tela de analise de sugestão de compra. Essa informação diz respeito ao histórico das sugestões de compra.
 
-\- Edição do Local de Emissão: informar “Edita” para permitir que o usuário preencha os dados da filial, ou “Mostra” se quiser deixar um default preenchido
 
-\- Destinatário: Empresa
 
-**Etapa Mov – Datas**
+**\=> Movimento de sugestão**
 
-\- Data do Movimento Default: informar qual será a data considerada para afetar estoque e apresentação dos dados da ficha física financeira.
+**Comprador Por:**
 
-Exemplo:
+Corresponde se o comprador do movimento a ser gerado pela sugestão será buscado no cadastro de comprador por coligada, da filial ou do local de estoque.
 
-Se for informado “Data Emissão” significa que as movimentações vão afetar estoque de acordo com a data de emissão apresentada na inclusão do movimento.
+**Lista de Comprador:**
 
-**Etapa Item – Preço**
+As opções para este campo são:
+Todos: Serão visualizados para a seleção todos os compradores compreendidos na opção ‘Comprador Por’. Se a opção coligada for marcada, aparecerão na seleção todos os compradores da coligada.
+Por Produto: Serão visualizados os compradores informados no cadastro do produto e que também esteja compreendida na faixa da opção ‘Comprador Por’.
 
-\- Edição do Preço: Edita
 
-\- Buscar preço em: marcar opção de onde o preço unitário deve ser buscado
 
-**Etapa Estoque**
+**\=> LOTE DE COMPRA**
 
-\- Efeito sobre os saldos Físico | Saldo Atual: Aumenta
+**Calcula Tempo de Reposição pela Classe:**
 
-\- Saldo Financeiro | Efeito sobre o saldo atual: Aumenta
+Marcando esse parâmetro, o campo Tempo de Reposição será atualizado automaticamente de acordo com a classificação ABC do produto. Se o módulo usar contrato de fornecimento, então o poderá ser configurado valores diferentes para produtos que tem um contrato de fornecimento em aberto com algum fornecedor. O valor do tempo de reposição será usado posteriormente para o cálculo automático do lote econômico de compras através da fórmula:
 
-\- Fórmula do Valor Financeiro: informa código da fórmula a ser considerada para composição dos valores em estoque
+*LC = CM \* TR, sendo:*
 
-\*\*Esta etapa deve der parametrizada apenas se o tipo de movimento tiver que afetar saldo2 em estoque\*\*
+*LC = Lote Econômico de compras;*
 
-**Etapa Fis- Escrituração**
+*CM = Consumo Medio Prático ou Consumo Médio Teórico (para produtos sem histórico de consumo);*
 
-\- Gerar Escrituração: Habilitar
+*TR = Tempo de Reposição;*
 
-\- Tipo de Documento Escrituração: informar o tipo de documento que deve ser apresentado no Totvs Gestão Fiscal
+**\=> ESTOQUE MÍNIMO**
 
-\- Tipo do Lançamento Fiscal da Transferência: Entrada
+**Calcula Tempo de Estoque Mínimo pela Classe ABC:**
 
-\*\*Esta etapa deve der parametrizada apenas se o tipo de movimento tiver que ser escriturado\*\*
+Marcando esse campo e informando os tempos em dias para o estoque mínimo da Classe ABC, após efetuar o processo de Ressuprimento, o sistema levará em consideração a classificação ABC do produto, criando uma carga para automatização do processo dos cálculos do tempo de estoque mínimo*.*
 
-**Etapa Fis – Natureza**
+**\=> ESTOQUE MÁXIMO**
 
-\- Edição: Edita
+**Calcula Tempo de Estoque Máximo pela Classe ABC:**
 
-\- Seleção Automática da Natureza: informar se a natureza de operação deve ser informada por item ou no movimento.
-
-\- Habilitar : ( x ) Edita Cliente / Fornecedor Origem /Destino
-
--   ***Parametrizações Necessárias - Totvs Gestão Fiscal***
-
-Acessar **| Utilitários | Selecionar Filial |** e escolher a filial onde a movimentação será inclusa.
-
-Acessar **| Cadastro | Natureza de Operação | Cadastro de Natureza de Operação |** onde deverá incluir natureza compatível com os dados da movimentação a ser inclusa.
-
-**Etapa Identificação**
-
-\- Tipo: Entrada
-
-\- Origem / Destino: Exterior
-
--   ***Descrição do Processo***
-
-A movimentação será inclusa como de costume, onde o código da natureza de operação será apresentado obedecendo informação do cliente\\fornecedor preenchido na aba | Transporte | Cli/For Origem/Destino |.
-
-A movimentação de “Importação” será identificada em função da natureza de operação **| 3.#### |** referenciada no movimento que será apresentada para seleção apenas quando cli\\for for do “exterior”. A partir daí, ao preencher o cli\\for e a natureza de operação será apresenta tela **| Importação |** no movimento e no item de movimento para preenchimento dos dados relacionados.
-
-Importante:
-
-\- As informações preenchidas na aba **| Importação |** serão consideradas para geração das rotinas **| DIF Bebidas, IN 63, IN 86 e PER/DCOMP |** no Totvs Gestão Fiscal
-
-\- Ao escriturar estes movimentos estas informações serão apresentadas na aba **| Exterior |** do lançamento fiscal no Totvs Gestão Fiscal.
-
--   ***Escrituração do Movimento***
-
-O processo de escrituração será feita como de costume onde deverá incluir lote referenciando movimento em questão.
-
-A seguir acessar o Totvs Gestão Fiscal em **| Lançamento | Manutenção Lançamento Entrada |** e editar o lançamento incluso. Ao acessar aba **| Exterior |** serão apresentadas informações preenchidas no movimento incluso no Totvs Gestão de Estoque, Compras e Faturamento.
+Marcando esse campo e informando os tempos em dias para o estoque máximo da Classe ABC, após efetuar o processo de Ressuprimento, o sistema levará em consideração a classificação ABC do produto, criando uma carga para automatização do processo dos cálculos do tempo de estoque mínimo.

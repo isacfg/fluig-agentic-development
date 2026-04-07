@@ -1,71 +1,47 @@
-# Cross Segmentos - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento - CMP - Como realizar Interferência por Produto
+# Cross Segmentos - TOTVS Backoffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento - CMP - Como utilizar a opção Usar Preço Total no Item, dentro da Cotação.
 
-> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/360017738751-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-CMP-Como-realizar-Interfer%C3%AAncia-por-Produto](https://centraldeatendimento.totvs.com/hc/pt-br/articles/360017738751-Cross-Segmentos-TOTVS-BackOffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-CMP-Como-realizar-Interfer%C3%AAncia-por-Produto)
+> **Fonte:** [https://centraldeatendimento.totvs.com/hc/pt-br/articles/4409391460119-Cross-Segmentos-TOTVS-Backoffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-CMP-Como-utilizar-a-op%C3%A7%C3%A3o-Usar-Pre%C3%A7o-Total-no-Item-dentro-da-Cota%C3%A7%C3%A3o](https://centraldeatendimento.totvs.com/hc/pt-br/articles/4409391460119-Cross-Segmentos-TOTVS-Backoffice-Linha-RM-TOTVS-Gest%C3%A3o-de-Estoque-Compras-e-Faturamento-CMP-Como-utilizar-a-op%C3%A7%C3%A3o-Usar-Pre%C3%A7o-Total-no-Item-dentro-da-Cota%C3%A7%C3%A3o)
 > **Caminho:** Cross Segmentos > TOTVS Backoffice (Linha RM) > TOTVS Gestão de Estoque, Compras e Faturamento (NUCLEUS) > Gestão De Compras
-> **Data:** 6 de outubro de 2025 às 17:06
+> **Data:** 9 de abril de 2025 às 15:34
 
 ---
 
- **![time.png](https://centraldeatendimento.totvs.com/hc/article_attachments/24157182383895)**Tempo aproximado para leitura: **00:03:00 min
+![time.png](https://centraldeatendimento.totvs.com/hc/article_attachments/360023589592/time.png)
+ Tempo aproximado para leitura: **00:03:00 min
+****Dúvida**
 
-Dúvida**Como realizar Interferência no Novo Quadro Comparativo.\]
+Como utilizar a opção Usar Preço Total no Item, dentro da Cotação.
 
+**Ambiente**Cross Segmento - TOTVS Backoffice (Linha RM) - TOTVS Gestão de Estoque, Compras e Faturamento - Todas as versões\]
 
-**Ambiente**Cross Segmentos - TOTVS BackOffice Linha RM - TOTVS Gestão de Estoque, Compras e Faturamento - A partir da versão 2406.
+**Solução**
 
-**Solução**A Interferência por Produto somente será possível quando utilizado o **Tipo de Julgamento de Melhor Oferta** como **Melhor Oferta por** **Produto**.
-
-Quando o sistema esta configurado para utilizar Tipo de Julgamento de Melhor Oferta, o Assistente de Cotação disponibiliza a opção de definir o tipo de julgamento a ser utilizado na cotação:
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447662888599)
-
-
-Quando selecionado a opção **Melhor Oferta Global,** o sistema irá permitir que a Interferência seja feita apenas por **Fornecedor**. Sendo assim ao dar um duplo clique sobre o item que deseja interferir via Quadro Comparativo o sistema apresentará a mensagem: **Não é permitido interferência nos itens da cotação quando o tipo de julgamento a Melhor Oferta é Global.**
-
-
-![screenshot_20181009_115125.png](https://centraldeatendimento.totvs.com/hc/article_attachments/360013021891)
-
-
-Para efetuar a Interferência por Produto, dê **Duplo Clique ( Clique 2x )** e cima do Fornecedor desejado para realizar a interferência.
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447662892823)
-
-
-Para realizar o procedimento, é necessário que informe a quantidade no campo **Quantidade A Ser Gerada**:
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447662894359)
-
-Caso a coluna não seja exibida, selecione o Configurador de Colunas e verifique se a coluna **Qtd. A ser Gerada** está habilitada:
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447662895895)
-​
-
-
-Será necessário verificar no Menu Ambiente > Parâmetros > Gestão de Estoque, Compras e Faturamento > Gestão de Compras > Cotação > Definições Gerais 2/6, se o campo **Permite Cotação Parcialmente Gerada** esta marcado:
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/24157182390295)
-
-Para realizar Interferência por Fornecedor, basta selecionar o Ícone do print abaixo:
-
-
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447631361815)
-
-
-Será aberto a tela da Interferência onde você selecionará o Fornecedor desejado.
-
-**OBS: Na Interferência por Fornecedor NÃO preenche Quantidade a Ser gerada (Apenas pro Produto).**
+Essa opção e recomendada quando o cliente tem a opção de compras por atacado.
+Para acessar o Parâmetro dessa opção, siga as seguintes instruções:
+Acesse ao menu, **Ambiente > Parâmetros > Gestão de Estoque, Compras e Faturamento > Gestão de Compras > Cotação > Definições Gerais 2/5**
 
 **
-Importante
+![img_01.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4409391091095/img_01.png)
 **
 
-Por padrão quando **não** utiliza-se a parametrização para **Usar tipo de Julgamento de Melhor Oferta** na cotação o sistema utiliza a melhor oferta como Global.
-A Melhor Oferta Global no entanto permite que o tipo de julgamento seja alterado para Melhor Oferta por Produto, através do ícone **Alterar Tipo de Julgamento**, mas o contrário não será possível onde este ícone ficará desabilitado.
+Marcando este parâmetro o sistema irá apresentar o campo **Total Cotação** na grid do produto ao registrar o orçamento.
 
+![img_02.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4409391173655/img_02.png)
 
-![Imagem](https://centraldeatendimento.totvs.com/hc/article_attachments/35447631364119)
+Também será apresentado o campo **Preço total Negociado**, na grid do produto ao registrar a negociação.
+
+![img_03.png](https://centraldeatendimento.totvs.com/hc/article_attachments/4409391173399/img_03.png)
+
+Ao informar o valor total, o sistema irá calcular o valor do preço **cotado/negociado** quando a quantidade de itens for maior que um.
+
+**Exemplo:**
+
+Foi feito uma solicitação de compras com as seguintes informações:
+
+Item 01, quantidade 02,
+
+Item 02, quantidade 05.
+
+Ao registrar Orçamento para o item 01 foi preenchido a coluna Total Cotação com o valor R$100, preenchendo essa coluna o preço cotado e calculado sendo exibido o valor R$50.
+
+Ao registar Orçamento para o item 02 foi preenchido a coluna Preço Cotado com o valor de R$100, onde e possível perceber que a coluna Total Cotação, permanece zerada.
