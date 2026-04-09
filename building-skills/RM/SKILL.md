@@ -1,14 +1,505 @@
 ---
-name: rm-development
+name: rm-fluig-integration
 description: >
-  Guia de desenvolvimento e troubleshooting para TOTVS RM com base nas fontes locais deste repositório.
-  Cobre com mais força o RM Nucleus, especialmente movimento, parametrização, compras, estoque,
-  contratos 2.0, workflow Fluig, TOTVS Colaboração, Fórmula Visual, IntelliTrace e o DataServer legado
-  MOVMOVIMENTOTBCDATA. Use quando o usuário mencionar "TOTVS RM", "RM Nucleus", "tipo de movimento",
-  "parametrização", "cotação", "estoque", "contrato 2.0", "workflow fluig", "Fórmula Visual",
-  "IntelliTrace", "MOVMOVIMENTOTBCDATA", "ReadRecord", "SaveRecord", "ReadView" ou troubleshooting
-  funcional e técnico sustentado pelas fontes locais.
+  Especialista em integracoes Fluig + TOTVS RM com base nas fontes locais deste repositório.
+  Cobre RM Nucleus, movimento, parametrização, compras, estoque, contratos 2.0, Workflow Fluig,
+  TOTVS Colaboração, Fórmula Visual, IntelliTrace, DataServer legado MOVMOVIMENTOTBCDATA e, em
+  paralelo, padroes praticos de datasets, consultaSQLServer, RM_REST, WSDATASERVER_REST, SOAP
+  WSDATASERVER, constraints, formulários e retorno consistente de integracao.
+  Use quando o usuário mencionar "RM", "Fluig RM", "WSDATASERVER_REST", "RM_REST",
+  "rmsrestdataserver", "consultaSQLServer", "saveRecord", "dataset de integracao", "coligada",
+  "filial", "idmov", "fornecedor", "reembolso", "cadastro fornecedor" ou "boletim de medicao".
 ---
+
+## RM + Fluig Integration Agent
+
+## Objetivo
+
+Este agente foi desenhado para implementar e manter integracoes Fluig + RM de forma segura,
+reutilizando os padroes reais deste projeto.
+
+Ele deve atuar principalmente em:
+
+- Datasets de consulta em RM via `consultaSQLServer`
+- Datasets transacionais via DataServer REST (`/rmsrestdataserver/rest/...`)
+- Integracoes legadas via SOAP (`ServiceManager.getService('WSDATASERVER')` + `saveRecord`)
+- Formularios que consomem datasets com `DatasetFactory.getDataset(...)`
+- Validacoes de contexto, constraints e campos do RM/Fluig (`coligada`, `filial`, `idmov`, `idprj`, `codcfo`)
+
+## Fontes de referencia no repositorio
+
+Use como base tecnica, sempre que possivel, os exemplos abaixo:
+
+- Reembolso (criacao/exclusao de movimento RM)
+- Cadastro fornecedor (integracao complexa com payload e dados contabeis)
+- Consultas RM para portal/aprovacao
+- Integracoes com Fluxos Fluig, TOTVS Colaboração, Fórmula Visual e objetos gerenciais
+
+As referencias locais mais fortes continuam sendo:
+
+- `references/movmovimentotbcdata.md`
+- `references/movimento-e-parametrizacao-detalhada.md`
+- `references/cadastros-compras-estoque-contratos.md`
+- `references/integracoes-e-objetos-gerenciais.md`
+- `references/integracoes-backoffice-detalhadas.md`
+- `references/orcamento-e-integracao-fiscal.md`
+
+## Cobertura RM no repositorio
+
+Em bases desta familia, a densidade de integracao com RM costuma se concentrar em:
+
+- Boletim de Medição
+- Aprovação de Movimentos
+- Pedido Extra
+- Cadastro Fornecedor
+- Aprovação Financeira
+- Processo de Reembolso
+- GlobalRM - SYNC
+
+## Tipos predominantes de integracao encontrados
+
+1. `RM_REST` para consultas e operacoes REST simples.
+2. `consultaSQLServer` para leitura parametrizada.
+3. `WSDATASERVER_REST` para DataServer REST transacional.
+4. `ServiceManager.getService('WSDATASERVER')` + `saveRecord` para cenarios SOAP/legado.
+
+## Regra de priorizacao de referencia
+
+Ao implementar ou ajustar integracoes, consulte primeiro arquivos da mesma familia funcional do requisito:
+
+- Se for `movimento`/`idmov`/`aprovacao`: priorizar aprovacao de movimentos e processo de reembolso.
+- Se for `fornecedor`/`dados bancarios`/`anexo GED`: priorizar cadastro fornecedor.
+- Se for `boletim`/`medicao`/`contrato`: priorizar boletim de medição e aprovação de boletim de medição.
+- Se for `listas globais` (`coligada`/`filial`/`centro de custo`/`tipo movimento`): priorizar sincronizadores globais.
+
+## Arquivos ancora de padrao
+
+Quando existirem no acervo funcional do projeto, os casos abaixo costumam ser a melhor referencia de padrao:
+
+- Reembolso: criacao de movimento e exclusao de movimento
+- Cadastro Fornecedor: integracao principal e dados contabil/financeiro
+- Aprovação Financeira: atualizacao de status
+- Pedido Extra: criacao de movimento e itens
+- Boletim de Medição: alteracao de observacao e consulta de dados RM
+- GlobalRM - SYNC: consultas de listas como centro de custo
+
+## Regras tecnicas obrigatorias
+
+### 1) Contexto Fluig server-side (Rhino)
+
+- Priorize compatibilidade ES5 em scripts server-side.
+- Em datasets e eventos server-side, prefira `var` e `function` tradicional.
+- Evite depender de recursos modernos quando o codigo roda no motor Rhino.
+
+### 2) Contrato de retorno de dataset
+
+- Datasets de integracao devem retornar padrao claro de status:
+  - `status`: `success` ou `error`
+  - `message`: detalhe funcional ou tecnico
+- Em erros, nunca retornar objeto de excecao bruto na linha do dataset.
+- Sempre converter erro para string com `'' + e`.
+
+### 3) Constraints e filtros
+
+- Tratar constraints manualmente em `createDataset(fields, constraints, sortFields)`.
+- Permitir aliases de parametros quando houver historico de variacao de nomes, como `CGCCFO` vs `PAR_CGCCFO`.
+- Em consultas SQL REST, montar query string com padrao `?parameters=CAMPO=VALOR;CAMPO2=VALOR2;`.
+
+### 4) Casing de campos
+
+- Respeitar exatamente nomes de campos do formulario e do RM, como `idPrj` vs `idprj` e `idMov` vs `idmov`.
+- Nao normalizar nomes sem necessidade, para evitar quebra de integracao.
+
+### 5) Robustez minima
+
+- Validar entradas obrigatorias antes de chamar RM, como coligada, filial, codcfo e itens.
+- Tratar retorno HTTP e mensagens detalhadas do RM.
+- Evitar duplicidade de movimento quando aplicavel, usando estrategia de exclusao previa e recriacao.
+
+## Padroes de integracao RM
+
+### A) Consulta SQL Server
+
+Padrao encontrado no projeto:
+
+- Endpoint: `/api/framework/v1/consultaSQLServer/RealizaConsulta/<CODIGO_SQL>/<CODCOLIGADA>/<CODSISTEMA>`
+- Service: `fluigAPI.getAuthorizeClientService()`
+- `serviceCode`: normalmente `RM_REST`
+- `method`: `get`
+- `result`: `JSON.parse(result.getResult())`
+
+Use para listagens de coligadas, filiais, centros de custo, projetos, contratos, fornecedores e tarefas.
+
+### B) DataServer REST
+
+Padrao encontrado no projeto:
+
+- Endpoint base: `/rmsrestdataserver/rest/<DataServerName>`
+- Operacoes comuns:
+  - `POST` para criar
+  - `PUT` para atualizar quando necessario
+  - `DELETE` para excluir com `.../<coligada>$_$<id>`
+- `serviceCode`: `WSDATASERVER_REST` com fallback de ambiente quando necessario
+- Headers tipicos:
+  - `Content-Type: application/json;charset=UTF-8`
+  - `CODCOLIGADA: <valor>`
+  - `CODSISTEMA: F` quando exigido
+
+### C) SOAP WSDATASERVER
+
+Padrao encontrado no projeto:
+
+- `ServiceManager.getService('WSDATASERVER')`
+- Cliente autenticado via `serviceHelper.getBasicAuthenticatedClient(...)`
+- Operacao `saveRecord(dataServerName, xml, context)`
+
+Use quando o caso exigir XML ou contexto especifico, ou quando ja existir fluxo legado consolidado.
+
+## Integracao com formularios
+
+### 1) Cadeia de selects dependentes
+
+No front-end, seguir padrao de formulario com selects dependentes por constraints:
+
+- Coligada -> Filial / CentroCusto / Projeto / Produto
+- Projeto -> Tarefa
+
+Exemplo de chamada:
+
+```javascript
+var c1 = DatasetFactory.createConstraint('CODCOLIGADA', codColigada, codColigada, ConstraintType.MUST);
+var ds = DatasetFactory.getDataset('dsConsultaProjetosRM', null, [c1], null);
+```
+
+### 2) Separacao codigo x descricao
+
+Quando o campo usa formato `"CODIGO - DESCRICAO"`, extrair codigo antes de integrar com RM e preservar a descricao para exibicao no formulario.
+
+### 3) Contexto para scripts client-side
+
+Quando necessario, em `displayFields(form, customHTML)`, injetar funcoes de contexto como usuario, atividade, modo, processo, documentId e proxima atividade.
+
+## Checklist obrigatorio antes de concluir alteracoes
+
+1. O dataset retorna sempre em formato consistente (`status/message` ou colunas de consulta definidas)?
+2. Todos os campos obrigatorios foram validados antes da chamada RM?
+3. Constraints foram lidas com tolerancia a nomes alternativos quando necessario?
+4. Tratamento de erro preserva mensagem do RM e nao retorna exception bruta?
+5. Casing de campos esta alinhado com formulario ou dataset existente?
+6. O fluxo de formulario que consome o dataset continua funcional, principalmente selects dependentes?
+7. Em integracao transacional, existe prevencao de duplicidade ou reatribuicao quando aplicavel?
+
+## Como este agente deve responder ao usuario
+
+Sempre responder de forma didatica e orientada a execucao:
+
+- Explicar rapidamente o que sera feito.
+- Implementar a alteracao completa, nao ficar apenas em teoria.
+- Mostrar o motivo das decisoes de integracao: endpoint, serviceCode, payload e constraints.
+- Destacar riscos de regressao e como validar.
+
+## Exemplos prontos para geracao de codigo
+
+### Exemplo 1: Helpers base para constraints e mensagens
+
+```javascript
+function getConstraintValue(constraints, fieldName) {
+  if (constraints == null) return '';
+
+  for (var i = 0; i < constraints.length; i++) {
+    var currentName = (constraints[i].fieldName + '').toLowerCase();
+    if (currentName == (fieldName + '').toLowerCase()) {
+      return constraints[i].initialValue + '';
+    }
+  }
+
+  return '';
+}
+
+function isEmpty(value) {
+  return value == null || value == '' || value == undefined || value == 'undefined' || value == 'null';
+}
+
+function formatMessage(type, message) {
+  return "<ul style='list-style-type: disc; padding-left:90px' class='alert alert-" + type + "'>" + message + "</ul>";
+}
+```
+
+### Exemplo 2: Dataset de consulta RM_REST com consultaSQLServer
+
+```javascript
+function createDataset(fields, constraints, sortFields) {
+  var dataset = DatasetBuilder.newDataset();
+  dataset.addColumn('CODCOLIGADA');
+  dataset.addColumn('CODFILIAL');
+  dataset.addColumn('DESCRICAO');
+
+  try {
+    var codColigada = getConstraintValue(constraints, 'CODCOLIGADA');
+    var endpoint = '/api/framework/v1/consultaSQLServer/RealizaConsulta/STG.GLOBAL.00004/0/T';
+
+    if (!isEmpty(codColigada)) {
+      endpoint += '?parameters=CODCOLIGADA=' + codColigada + ';';
+    }
+
+    var response = callRMREST(endpoint, 'get', null, null, 'RM_REST');
+    var data = JSON.parse(response.getResult());
+
+    for (var i = 0; i < data.length; i++) {
+      dataset.addRow([
+        (data[i].CODCOLIGADA || '') + '',
+        (data[i].CODFILIAL || '') + '',
+        (data[i].NOMEFANTASIA || '') + ''
+      ]);
+    }
+
+    return dataset;
+  } catch (e) {
+    dataset = DatasetBuilder.newDataset();
+    dataset.addColumn('status');
+    dataset.addColumn('message');
+    dataset.addRow(['error', '' + e]);
+    return dataset;
+  }
+}
+```
+
+### Exemplo 3: Cliente unico para chamadas REST RM
+
+```javascript
+function callRMREST(endpoint, method, params, codColigada, serviceCode) {
+  var clientService = fluigAPI.getAuthorizeClientService();
+  var payload = {
+    companyId: getValue('WKCompany') + '',
+    serviceCode: serviceCode ? serviceCode : 'WSDATASERVER_REST',
+    endpoint: endpoint,
+    method: method,
+    timeoutService: '400',
+    options: {
+      encoding: 'UTF-8',
+      mediaType: 'application/json'
+    },
+    headers: {
+      'Content-Type': 'application/json;charset=UTF-8'
+    },
+    params: params ? params : {}
+  };
+
+  if (!isEmpty(codColigada)) {
+    payload.headers.CODCOLIGADA = codColigada + '';
+  }
+
+  return clientService.invoke(JSON.stringify(payload));
+}
+```
+
+### Exemplo 4: Criacao de movimento no DataServer REST
+
+```javascript
+function criarMovimentoRM(codColigada, codFilial, codCfo, itens) {
+  var endpoint = '/rmsrestdataserver/rest/MOVMOVIMENTOTBCDATA';
+
+  var body = {
+    CODCOLIGADA: parseInt(codColigada, 10),
+    CODFILIAL: parseInt(codFilial, 10),
+    CODCFO: codCfo + '',
+    CODTMV: '1.1.19',
+    TMOV: {
+      CODCOLIGADA: parseInt(codColigada, 10),
+      CODFILIAL: parseInt(codFilial, 10),
+      CODTMV: '1.1.19'
+    },
+    TITMMOV: itens
+  };
+
+  var vo = callRMREST(endpoint, 'post', body, codColigada, 'WSDATASERVER_REST');
+  return vo;
+}
+```
+
+### Exemplo 5: Exclusao de movimento no DataServer REST
+
+```javascript
+function excluirMovimentoRM(codColigada, idMov) {
+  if (isEmpty(codColigada) || isEmpty(idMov)) {
+    throw 'CODCOLIGADA e IDMOV sao obrigatorios para exclusao.';
+  }
+
+  var endpoint = '/rmsrestdataserver/rest/MOVMOVIMENTOTBCDATA/' + codColigada + '$_$' + idMov;
+  var vo = callRMREST(endpoint, 'delete', null, codColigada, 'WSDATASERVER_REST');
+
+  if (vo.getHttpStatusResult() < 200 || vo.getHttpStatusResult() >= 300) {
+    throw 'Falha ao excluir movimento no RM: ' + (vo.getResult() + '');
+  }
+
+  return vo;
+}
+```
+
+### Exemplo 6: SOAP saveRecord com WSDATASERVER
+
+```javascript
+function saveRecordRM(dataServerName, xmlPayload, context) {
+  var credenciais = DatasetFactory.getDataset('dsCredenciais', null, null, null);
+  var usuario = credenciais.getValue(0, 'USERNAME_RM') + '';
+  var senha = credenciais.getValue(0, 'PASSWORD_RM') + '';
+
+  var servico = ServiceManager.getService('WSDATASERVER');
+  var serviceHelper = servico.getBean();
+  var instancia = servico.instantiate('com.totvs.WsDataServer');
+  var ws = instancia.getRMIwsDataServer();
+  var serviceAuth = serviceHelper.getBasicAuthenticatedClient(ws, 'com.totvs.IwsDataServer', usuario, senha);
+
+  return serviceAuth.saveRecord(dataServerName, xmlPayload, context).toString();
+}
+```
+
+### Exemplo 7: Montagem de XML para fornecedor
+
+```javascript
+function buildFornecedorContabilXML(codCfo) {
+  var xml = '';
+  xml += '<FinCFOCont>';
+  xml += '  <FCFO>';
+  xml += '    <CODCOLIGADA>0</CODCOLIGADA>';
+  xml += '    <CODCFO>' + codCfo + '</CODCFO>';
+  xml += '  </FCFO>';
+  xml += '  <FCFOCONT>';
+  xml += '    <CODCOLIGADA>1</CODCOLIGADA>';
+  xml += '    <IDCFOCONT>-1</IDCFOCONT>';
+  xml += '    <CODCFO>' + codCfo + '</CODCFO>';
+  xml += '    <TIPO>2</TIPO>';
+  xml += '    <PAGREC>2</PAGREC>';
+  xml += '    <CODCONTA>2.1.01.01.01</CODCONTA>';
+  xml += '    <CLASSCONTA>FORN</CLASSCONTA>';
+  xml += '  </FCFOCONT>';
+  xml += '</FinCFOCont>';
+  return xml;
+}
+```
+
+### Exemplo 8: Leitura de tabela filho para montar itens
+
+```javascript
+function getFormChildren(datasetId, documentId, tableName) {
+  var c1 = DatasetFactory.createConstraint('documentid', documentId, documentId, ConstraintType.MUST);
+  var c2 = DatasetFactory.createConstraint('tablename', tableName, tableName, ConstraintType.MUST);
+  var c3 = DatasetFactory.createConstraint('metadata#active', 'true', 'true', ConstraintType.MUST);
+  return DatasetFactory.getDataset(datasetId, null, [c1, c2, c3], null);
+}
+
+function mapItensReembolso(childrenDataset) {
+  var itens = [];
+
+  for (var i = 0; i < childrenDataset.rowsCount; i++) {
+    var valor = (childrenDataset.getValue(i, 'valorItem') + '').replace('.', '').replace(',', '.');
+    var quantidade = (childrenDataset.getValue(i, 'quantidadeItem') + '').replace(',', '.');
+
+    itens.push({
+      CODIGOPRD: childrenDataset.getValue(i, 'codigoprd') + '',
+      QUANTIDADE: parseFloat(quantidade || '0'),
+      PRECOUNITARIO: parseFloat(valor || '0')
+    });
+  }
+
+  return itens;
+}
+```
+
+### Exemplo 9: Consumo do dataset no formulario
+
+```javascript
+function preencherProjetosPorColigada() {
+  var valorColigada = $('#coligada').val();
+  if (!valorColigada) return;
+
+  var codColigada = valorColigada.split(' - ')[0];
+  var c1 = DatasetFactory.createConstraint('CODCOLIGADA', codColigada, codColigada, ConstraintType.MUST);
+  var ds = DatasetFactory.getDataset('dsConsultaProjetosRM', null, [c1], null);
+
+  $('#projeto').empty();
+  $('#projeto').append('<option value="">Selecione um projeto</option>');
+
+  for (var i = 0; i < ds.values.length; i++) {
+    var texto = ds.values[i].CODPRJ + ' - ' + ds.values[i].PROJETO;
+    $('#projeto').append('<option value="' + texto + '">' + texto + '</option>');
+  }
+}
+```
+
+### Exemplo 10: Tratamento padrao de erro de retorno RM
+
+```javascript
+function parseRMError(rawResult) {
+  var msg = 'Erro nao identificado na integracao RM.';
+
+  if (isEmpty(rawResult)) return msg;
+
+  try {
+    var json = JSON.parse(rawResult + '');
+    if (json.messages && json.messages.length > 0 && json.messages[0].detail) {
+      msg = json.messages[0].detail + '';
+    } else {
+      msg = rawResult + '';
+    }
+  } catch (e) {
+    msg = rawResult + '';
+  }
+
+  return msg;
+}
+```
+
+## Templates de referencia rapida
+
+### Template 1: Consulta RM
+
+```javascript
+function createDataset(fields, constraints, sortFields) {
+  var dataset = DatasetBuilder.newDataset();
+  dataset.addColumn('status');
+  dataset.addColumn('message');
+
+  try {
+    var dados = consultaRM(constraints);
+    return dataset;
+  } catch (e) {
+    dataset.addRow(['error', '' + e]);
+    return dataset;
+  }
+}
+```
+
+### Template 2: Operacao RM DataServer REST
+
+```javascript
+function chamarRM(endpoint, method, params, codColigada) {
+  var clientService = fluigAPI.getAuthorizeClientService();
+  var data = {
+    companyId: getValue('WKCompany') + '',
+    serviceCode: 'WSDATASERVER_REST',
+    endpoint: endpoint,
+    method: method,
+    timeoutService: '400',
+    options: { encoding: 'UTF-8', mediaType: 'application/json' },
+    headers: {
+      'Content-Type': 'application/json;charset=UTF-8',
+      CODCOLIGADA: codColigada + ''
+    },
+    params: params || {}
+  };
+
+  var vo = clientService.invoke(JSON.stringify(data));
+  return vo;
+}
+```
+
+## Nao fazer
+
+- Nao inventar contratos de retorno diferentes entre datasets equivalentes.
+- Nao ignorar `rowsCount == 0` em datasets consumidos por scripts ou processos.
+- Nao assumir que todo valor vem no formato ideal; normalizar e validar antes de integrar.
+- Nao mudar nomenclatura de campos existentes sem necessidade funcional real.
 
 # Diretrizes de Desenvolvimento RM
 
