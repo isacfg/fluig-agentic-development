@@ -1,0 +1,4 @@
+.DS_Store
+mcp/fluig-api/fluig-mcp.config.json
+mcp/fluig-api/fluig-mcp.*.config.json
+mcp/fluig-api/*.local.json

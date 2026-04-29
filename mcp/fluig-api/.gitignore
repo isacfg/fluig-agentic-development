@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-tests/
+fluig-mcp.config.json
+fluig-mcp.*.config.json
+*.local.json

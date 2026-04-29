@@ -1,0 +1,30 @@
+{
+  "instances": [
+    {
+      "alias": "cliente-a-hml",
+      "companyName": "Cliente A",
+      "environment": "hml",
+      "baseUrl": "https://cliente-a-hml.fluig.com",
+      "auth": {
+        "type": "oauth1",
+        "consumerKey": "replace-with-consumer-key",
+        "consumerSecret": "replace-with-consumer-secret",
+        "token": "replace-with-access-token",
+        "tokenSecret": "replace-with-token-secret"
+      }
+    },
+    {
+      "alias": "cliente-a-prod",
+      "companyName": "Cliente A",
+      "environment": "prod",
+      "baseUrl": "https://cliente-a.fluig.com",
+      "auth": {
+        "type": "oauth1",
+        "consumerKey": "replace-with-consumer-key",
+        "consumerSecret": "replace-with-consumer-secret",
+        "token": "replace-with-access-token",
+        "tokenSecret": "replace-with-token-secret"
+      }
+    }
+  ]
+}

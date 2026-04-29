@@ -9,7 +9,44 @@ Repositório de **skills** para desenvolvimento na plataforma TOTVS Fluig e TOTV
 | `fluig-development` | `building-skills/Fluig/fluig-developemnt/` | Desenvolvimento na plataforma TOTVS Fluig (datasets, eventos, workflows, formulários, widgets) |
 | `edit-existing-process-diagram` | `building-skills/Fluig/edit-existing-process-diagram/` | Edição de diagramas de processo existentes no Fluig |
 | `read-process-for-display-validate-fields` | `building-skills/Fluig/read-process-for-display-validate-fields/` | Leitura de processos para exibição e validação de campos |
+| `fluig-mcp` | `mcp/fluig-api/skill/` | Uso do MCP readonly para consultar APIs Fluig, começando por Dataset Handle `/ecm/dataset/search` |
 | `rm-development` | `building-skills/RM/` | Desenvolvimento e troubleshooting para TOTVS RM (Nucleus, Fórmula Visual, IntelliTrace) |
+
+---
+
+## Rodando o MCP Fluig pela raiz do repositório
+
+Crie o config real a partir do exemplo:
+
+```bash
+cp mcp/fluig-api/fluig-mcp.config.example.json mcp/fluig-api/fluig-mcp.config.json
+```
+
+Edite `mcp/fluig-api/fluig-mcp.config.json` com as credenciais OAuth 1.0a de cada Fluig. Esse arquivo é ignorado pelo Git.
+
+Instale, compile e rode a partir da pasta principal do repositório:
+
+```bash
+npm run mcp:install
+npm run mcp:build
+npm run mcp:start
+```
+
+O servidor MCP usa `stdio`, então é normal ele ficar aguardando um cliente. Para conectar um cliente MCP, use:
+
+```json
+{
+  "command": "npm",
+  "args": ["run", "mcp:start"],
+  "cwd": "/Users/isaac/Documents/Coding/repos/fluig-agentic-developemnt"
+}
+```
+
+Para testar com o MCP Inspector:
+
+```bash
+npm run mcp:inspect
+```
 
 ---
 

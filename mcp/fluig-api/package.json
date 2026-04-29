@@ -1,0 +1,39 @@
+{
+  "name": "fluig-readonly-mcp",
+  "version": "0.1.0",
+  "description": "Readonly MCP server for TOTVS Fluig APIs",
+  "type": "module",
+  "bin": {
+    "fluig-readonly-mcp": "./dist/index.cjs"
+  },
+  "files": [
+    "dist",
+    "skill",
+    "fluig-mcp.config.example.json"
+  ],
+  "scripts": {
+    "make-executable": "node -e \"require('fs').chmodSync('dist/index.cjs', '755')\"",
+    "build": "esbuild src/index.ts --outfile=dist/index.cjs --bundle --platform=node --format=cjs --banner:js='#!/usr/bin/env node' && npm run make-executable",
+    "test:build": "esbuild tests/*.test.ts --outdir=dist-tests --bundle --platform=node --format=cjs --out-extension:.js=.cjs",
+    "test": "npm run build && npm run test:build && node --test dist-tests/*.cjs",
+    "watch": "esbuild src/index.ts --outfile=dist/index.cjs --bundle --platform=node --format=cjs --banner:js='#!/usr/bin/env node' --watch",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.cjs",
+    "dev": "concurrently \"npm run watch\" \"npm run inspect\"",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "axios": "^1.13.5",
+    "oauth-1.0a": "^2.2.6",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

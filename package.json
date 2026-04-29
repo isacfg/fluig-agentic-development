@@ -1,4 +1,13 @@
 {
+  "name": "fluig-agentic-development",
+  "private": true,
+  "scripts": {
+    "mcp:install": "npm install --prefix mcp/fluig-api",
+    "mcp:build": "npm run build --prefix mcp/fluig-api",
+    "mcp:test": "npm test --prefix mcp/fluig-api",
+    "mcp:start": "FLUIG_MCP_CONFIG=$PWD/mcp/fluig-api/fluig-mcp.config.json node mcp/fluig-api/dist/index.cjs",
+    "mcp:inspect": "FLUIG_MCP_CONFIG=$PWD/mcp/fluig-api/fluig-mcp.config.json npm run inspect --prefix mcp/fluig-api"
+  },
   "dependencies": {
     "axios": "^1.13.5",
     "cheerio": "^1.2.0",
